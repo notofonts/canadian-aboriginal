@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✔️ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>48</td>
+                <td>84</td>
+                <td>1246</td>
+                <td>82</td>
+                <td>975</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>2%</td>
+                <td>4%</td>
+                <td>59%</td>
+                <td>4%</td>
+                <td>46%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
+<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Check Google Fonts glyph coverage.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<h3>Check copyright namerecords match license file.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/license&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<h3>Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gasp&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
+If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
+GFTools is available at https://pypi.org/project/gftools/ [code: lacks-gasp]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
+If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
+GFTools is available at https://pypi.org/project/gftools/ [code: lacks-gasp]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
+If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
+GFTools is available at https://pypi.org/project/gftools/ [code: lacks-gasp]</p>
+</span></li></ul></div></details>
+<h3>Glyphs are similiar to Google Fonts version?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/production_glyphs_similarity&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* uni1600
+* uni162D
+* uni1653
+* uni1630
+* uni167C
+* uni15A7
+* uni1602
+* uni161D
+* uni1614
+* uni1654 and 207 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* uni1600
+* uni162D
+* uni1653
+* uni1630
+* uni1666
+* uni167C
+* uni15A7
+* uni1602
+* uni161D
+* uni1614 and 182 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* uni1600
+* uni162D
+* uni1653
+* uni1630
+* uni1666
+* uni167C
+* uni15A7
+* uni1602
+* uni161D
+* uni1614 and 197 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* uni1600
+* uni162D
+* uni1653
+* uni1630
+* uni1666
+* uni161D
+* uni1614
+* uni18DB
+* uni1660
+* uni15EC and 100 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* uni1600
+* uni162D
+* uni1653
+* uni1630
+* uni1666
+* uni161D
+* uni1614
+* uni1654
+* uni18DB
+* uni1660 and 107 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* uni1600
+* uni162D
+* uni1653
+* uni1630
+* uni1666
+* uni167C
+* uni15A7
+* uni1602
+* uni161D
+* uni1614 and 157 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* uni1600
+* uni162D
+* uni1653
+* uni1630
+* uni1666
+* uni161D
+* uni1614
+* uni1654
+* uni1648
+* uni18DB and 129 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* uni1600
+* uni162D
+* uni1653
+* uni1630
+* uni1666
+* uni167C
+* uni15A7
+* uni1602
+* uni161D
+* uni1614 and 166 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* uni162D
+* uni1653
+* uni1630
+* uni1666
+* uni161D
+* uni1614
+* uni18DB
+* uni1660
+* uni15EC
+* uni1624 and 93 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+</span></li></ul></div></details>
+<h3>Check name table: FONT_FAMILY_NAME entries.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/familyname&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the &quot;name&quot; table: Expected &quot;Noto Sans Canadian Aboriginal&quot; but got &quot;Noto Sans CanAborig&quot;. [code: mismatch]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the &quot;name&quot; table: Expected &quot;Noto Sans Canadian Aboriginal&quot; but got &quot;Noto Sans CanAborig&quot;. [code: mismatch]</p>
+</span></li></ul></div></details>
+<h3>Check name table: TYPOGRAPHIC_FAMILY_NAME entries.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/typographicfamilyname&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font style is &quot;Bold&quot; and, for that reason, it is not expected to have a [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)] entry! [code: ribbi]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font style is &quot;Regular&quot; and, for that reason, it is not expected to have a [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)] entry! [code: ribbi]</p>
+</span></li></ul></div></details>
+<h3>Font enables smart dropout control in "prep" table instructions?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/smart_dropout&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the <code>gftools fix-nonhinting</code> script. [code: lacks-smart-dropout]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the <code>gftools fix-nonhinting</code> script. [code: lacks-smart-dropout]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the <code>gftools fix-nonhinting</code> script. [code: lacks-smart-dropout]</p>
+</span></li></ul></div></details>
+<h3>Combined length of family and style must not exceed 27 characters.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/family_and_style_max_length&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Canadian Aboriginal' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Canadian Aboriginal Black' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Canadian Aboriginal ExtraBold' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Canadian Aboriginal ExtraLight' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Canadian Aboriginal Light' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Canadian Aboriginal Medium' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Canadian Aboriginal SemiBold' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Canadian Aboriginal Thin' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Sans Canadian Aboriginal' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<h3>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/os2/use_typo_metrics&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; 🔥⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Checking all files are in the same directory.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/single_directory&gt;</div>
+
+<details><summary>🔥 <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf'] [code: single-directory]</p>
+</span></li></ul></div></details>
+<h3>Check font contains no unreachable glyphs</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni00A0.1
+
+- uni0307.1 
+
+- And g726
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni00A0.1 
+
+- And uni0307.1
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni00A0.1 
+
+- And uni0307.1
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni00A0.1 
+
+- And uni0307.1
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni00A0.1 
+
+- And uni0307.1
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni00A0.1 
+
+- And uni0307.1
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni00A0.1 
+
+- And uni0307.1
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni00A0.1 
+
+- And uni0307.1
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni00A0.1 
+
+- And uni0307.1
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni00A0.1 
+
+- And uni0307.1
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni00A0.1
+
+- uni0307.1 
+
+- And g726
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<h3>Check if each glyph has the recommended amount of contours.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/contour_count&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.name&gt; 🔥🔥⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Does full font name begin with the font family name?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/match_familyname_fullfont&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name 'Noto Sans Canadian Aboriginal Bold' does not begin with the font family name 'Noto Sans CanAborig' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On the 'name' table, the full font name 'Noto Sans Canadian Aboriginal Regular' does not begin with the font family name 'Noto Sans CanAborig' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.gdef&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️</h2>
+<h3>Check mark characters are in GDEF mark glyph class.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_mark_chars&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.fvar&gt; 🔥🔥⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩</h2>
+<h3>Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/varfont/valid_default_instance_nameids&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 260. [code: invalid-default-instance-subfamily-nameid:260]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>'Regular' instance has the same coordinates as the default instance; its postScriptNameID should be 6, instead of 269. [code: invalid-default-instance-postscript-nameid:269]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 278. [code: invalid-default-instance-subfamily-nameid:278]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩</h2>
+<h3>Do any segments have colinear vectors?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_colinear_vectors&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* uni166A (U+166A): L&lt;&lt;415.0,305.0&gt;--&lt;412.0,305.0&gt;&gt; -&gt; L&lt;&lt;412.0,305.0&gt;--&lt;367.0,305.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* uni165E (U+165E): L&lt;&lt;325.0,408.0&gt;--&lt;407.0,408.0&gt;&gt; -&gt; L&lt;&lt;407.0,408.0&gt;--&lt;408.0,408.0&gt;&gt; 
+
+* And uni165E (U+165E): L&lt;&lt;408.0,307.0&gt;--&lt;407.0,307.0&gt;&gt; -&gt; L&lt;&lt;407.0,307.0&gt;--&lt;325.0,307.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* uni11AB6 (U+11AB6): L&lt;&lt;446.0,714.0&gt;--&lt;478.0,714.0&gt;&gt; -&gt; L&lt;&lt;478.0,714.0&gt;--&lt;478.0,714.0&gt;&gt; 
+
+* And uni11AB7 (U+11AB7): L&lt;&lt;446.0,714.0&gt;--&lt;478.0,714.0&gt;&gt; -&gt; L&lt;&lt;478.0,714.0&gt;--&lt;478.0,714.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* uni1564 (U+1564): L&lt;&lt;351.0,629.0&gt;--&lt;346.0,629.0&gt;&gt; -&gt; L&lt;&lt;346.0,629.0&gt;--&lt;317.0,629.0&gt;&gt; 
+
+* And uni1565 (U+1565): L&lt;&lt;351.0,629.0&gt;--&lt;346.0,629.0&gt;&gt; -&gt; L&lt;&lt;346.0,629.0&gt;--&lt;317.0,629.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* uni11AB6 (U+11AB6): L&lt;&lt;436.0,714.0&gt;--&lt;545.0,714.0&gt;&gt; -&gt; L&lt;&lt;545.0,714.0&gt;--&lt;545.0,714.0&gt;&gt;
+
+* uni11AB7 (U+11AB7): L&lt;&lt;436.0,714.0&gt;--&lt;545.0,714.0&gt;&gt; -&gt; L&lt;&lt;545.0,714.0&gt;--&lt;545.0,714.0&gt;&gt;
+
+* uni11AB8 (U+11AB8): L&lt;&lt;333.0,0.0&gt;--&lt;225.0,0.0&gt;&gt; -&gt; L&lt;&lt;225.0,0.0&gt;--&lt;224.0,0.0&gt;&gt;
+
+* uni11AB9 (U+11AB9): L&lt;&lt;333.0,0.0&gt;--&lt;225.0,0.0&gt;&gt; -&gt; L&lt;&lt;225.0,0.0&gt;--&lt;224.0,0.0&gt;&gt; 
+
+* And uni166A (U+166A): L&lt;&lt;422.0,313.0&gt;--&lt;415.0,313.0&gt;&gt; -&gt; L&lt;&lt;415.0,313.0&gt;--&lt;361.0,313.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* uni155D (U+155D): L&lt;&lt;266.0,659.0&gt;--&lt;263.0,657.0&gt;&gt; -&gt; L&lt;&lt;263.0,657.0&gt;--&lt;80.0,530.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<h3>Do outlines contain any jaggy segments?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* V (U+0056): B&lt;&lt;339.5,236.0&gt;-&lt;346.0,204.0&gt;-&lt;347.0,184.0&gt;&gt;/B&lt;&lt;347.0,184.0&gt;-&lt;349.0,204.0&gt;-&lt;354.5,235.5&gt;&gt; = 8.57299836361137
+
+* W (U+0057): B&lt;&lt;308.0,211.5&gt;-&lt;313.0,185.0&gt;-&lt;315.0,167.0&gt;&gt;/B&lt;&lt;315.0,167.0&gt;-&lt;319.0,197.0&gt;-&lt;325.5,236.0&gt;&gt; = 13.934835114501363
+
+* W (U+0057): B&lt;&lt;527.0,442.0&gt;-&lt;523.0,468.0&gt;-&lt;521.0,486.0&gt;&gt;/B&lt;&lt;521.0,486.0&gt;-&lt;519.0,468.0&gt;-&lt;514.5,442.0&gt;&gt; = 12.680383491819825
+
+* W (U+0057): B&lt;&lt;714.0,235.0&gt;-&lt;721.0,196.0&gt;-&lt;724.0,167.0&gt;&gt;/B&lt;&lt;724.0,167.0&gt;-&lt;727.0,192.0&gt;-&lt;734.0,229.0&gt;&gt; = 12.748914526401432
+
+* Wacute (U+1E82): B&lt;&lt;308.0,211.5&gt;-&lt;313.0,185.0&gt;-&lt;315.0,167.0&gt;&gt;/B&lt;&lt;315.0,167.0&gt;-&lt;319.0,197.0&gt;-&lt;325.5,236.0&gt;&gt; = 13.934835114501363
+
+* Wacute (U+1E82): B&lt;&lt;527.0,442.0&gt;-&lt;523.0,468.0&gt;-&lt;521.0,486.0&gt;&gt;/B&lt;&lt;521.0,486.0&gt;-&lt;519.0,468.0&gt;-&lt;514.5,442.0&gt;&gt; = 12.680383491819825
+
+* Wacute (U+1E82): B&lt;&lt;714.0,235.0&gt;-&lt;721.0,196.0&gt;-&lt;724.0,167.0&gt;&gt;/B&lt;&lt;724.0,167.0&gt;-&lt;727.0,192.0&gt;-&lt;734.0,229.0&gt;&gt; = 12.748914526401432
+
+* Wcircumflex (U+0174): B&lt;&lt;308.0,211.5&gt;-&lt;313.0,185.0&gt;-&lt;315.0,167.0&gt;&gt;/B&lt;&lt;315.0,167.0&gt;-&lt;319.0,197.0&gt;-&lt;325.5,236.0&gt;&gt; = 13.934835114501363
+
+* Wcircumflex (U+0174): B&lt;&lt;527.0,442.0&gt;-&lt;523.0,468.0&gt;-&lt;521.0,486.0&gt;&gt;/B&lt;&lt;521.0,486.0&gt;-&lt;519.0,468.0&gt;-&lt;514.5,442.0&gt;&gt; = 12.680383491819825
+
+* Wcircumflex (U+0174): B&lt;&lt;714.0,235.0&gt;-&lt;721.0,196.0&gt;-&lt;724.0,167.0&gt;&gt;/B&lt;&lt;724.0,167.0&gt;-&lt;727.0,192.0&gt;-&lt;734.0,229.0&gt;&gt; = 12.748914526401432 
+
+* And 6 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* W (U+0057): B&lt;&lt;266.0,196.0&gt;-&lt;272.0,161.0&gt;-&lt;275.0,137.0&gt;&gt;/B&lt;&lt;275.0,137.0&gt;-&lt;278.0,162.0&gt;-&lt;284.0,196.5&gt;&gt; = 13.967789761532726
+
+* W (U+0057): B&lt;&lt;489.0,505.5&gt;-&lt;485.0,529.0&gt;-&lt;483.0,542.0&gt;&gt;/B&lt;&lt;483.0,542.0&gt;-&lt;482.0,529.0&gt;-&lt;477.5,505.5&gt;&gt; = 13.144867617550734
+
+* W (U+0057): B&lt;&lt;683.0,196.0&gt;-&lt;689.0,161.0&gt;-&lt;692.0,137.0&gt;&gt;/B&lt;&lt;692.0,137.0&gt;-&lt;695.0,162.0&gt;-&lt;701.0,196.5&gt;&gt; = 13.967789761532726
+
+* Wacute (U+1E82): B&lt;&lt;266.0,196.0&gt;-&lt;272.0,161.0&gt;-&lt;275.0,137.0&gt;&gt;/B&lt;&lt;275.0,137.0&gt;-&lt;278.0,162.0&gt;-&lt;284.0,196.5&gt;&gt; = 13.967789761532726
+
+* Wacute (U+1E82): B&lt;&lt;489.0,505.5&gt;-&lt;485.0,529.0&gt;-&lt;483.0,542.0&gt;&gt;/B&lt;&lt;483.0,542.0&gt;-&lt;482.0,529.0&gt;-&lt;477.5,505.5&gt;&gt; = 13.144867617550734
+
+* Wacute (U+1E82): B&lt;&lt;683.0,196.0&gt;-&lt;689.0,161.0&gt;-&lt;692.0,137.0&gt;&gt;/B&lt;&lt;692.0,137.0&gt;-&lt;695.0,162.0&gt;-&lt;701.0,196.5&gt;&gt; = 13.967789761532726
+
+* Wcircumflex (U+0174): B&lt;&lt;266.0,196.0&gt;-&lt;272.0,161.0&gt;-&lt;275.0,137.0&gt;&gt;/B&lt;&lt;275.0,137.0&gt;-&lt;278.0,162.0&gt;-&lt;284.0,196.5&gt;&gt; = 13.967789761532726
+
+* Wcircumflex (U+0174): B&lt;&lt;489.0,505.5&gt;-&lt;485.0,529.0&gt;-&lt;483.0,542.0&gt;&gt;/B&lt;&lt;483.0,542.0&gt;-&lt;482.0,529.0&gt;-&lt;477.5,505.5&gt;&gt; = 13.144867617550734
+
+* Wcircumflex (U+0174): B&lt;&lt;683.0,196.0&gt;-&lt;689.0,161.0&gt;-&lt;692.0,137.0&gt;&gt;/B&lt;&lt;692.0,137.0&gt;-&lt;695.0,162.0&gt;-&lt;701.0,196.5&gt;&gt; = 13.967789761532726
+
+* Wdieresis (U+1E84): B&lt;&lt;266.0,196.0&gt;-&lt;272.0,161.0&gt;-&lt;275.0,137.0&gt;&gt;/B&lt;&lt;275.0,137.0&gt;-&lt;278.0,162.0&gt;-&lt;284.0,196.5&gt;&gt; = 13.967789761532726 
+
+* And 10 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* V (U+0056): B&lt;&lt;326.0,209.5&gt;-&lt;333.0,177.0&gt;-&lt;335.0,156.0&gt;&gt;/B&lt;&lt;335.0,156.0&gt;-&lt;338.0,177.0&gt;-&lt;344.5,209.0&gt;&gt; = 13.570434385161475
+
+* W (U+0057): B&lt;&lt;283.5,211.5&gt;-&lt;290.0,175.0&gt;-&lt;293.0,151.0&gt;&gt;/B&lt;&lt;293.0,151.0&gt;-&lt;297.0,183.0&gt;-&lt;305.0,226.5&gt;&gt; = 14.25003269780357
+
+* W (U+0057): B&lt;&lt;506.5,475.5&gt;-&lt;502.0,500.0&gt;-&lt;501.0,516.0&gt;&gt;/B&lt;&lt;501.0,516.0&gt;-&lt;499.0,500.0&gt;-&lt;494.5,475.5&gt;&gt; = 10.701350723899111
+
+* Wacute (U+1E82): B&lt;&lt;283.5,211.5&gt;-&lt;290.0,175.0&gt;-&lt;293.0,151.0&gt;&gt;/B&lt;&lt;293.0,151.0&gt;-&lt;297.0,183.0&gt;-&lt;305.0,226.5&gt;&gt; = 14.25003269780357
+
+* Wacute (U+1E82): B&lt;&lt;506.5,475.5&gt;-&lt;502.0,500.0&gt;-&lt;501.0,516.0&gt;&gt;/B&lt;&lt;501.0,516.0&gt;-&lt;499.0,500.0&gt;-&lt;494.5,475.5&gt;&gt; = 10.701350723899111
+
+* Wcircumflex (U+0174): B&lt;&lt;283.5,211.5&gt;-&lt;290.0,175.0&gt;-&lt;293.0,151.0&gt;&gt;/B&lt;&lt;293.0,151.0&gt;-&lt;297.0,183.0&gt;-&lt;305.0,226.5&gt;&gt; = 14.25003269780357
+
+* Wcircumflex (U+0174): B&lt;&lt;506.5,475.5&gt;-&lt;502.0,500.0&gt;-&lt;501.0,516.0&gt;&gt;/B&lt;&lt;501.0,516.0&gt;-&lt;499.0,500.0&gt;-&lt;494.5,475.5&gt;&gt; = 10.701350723899111
+
+* Wdieresis (U+1E84): B&lt;&lt;283.5,211.5&gt;-&lt;290.0,175.0&gt;-&lt;293.0,151.0&gt;&gt;/B&lt;&lt;293.0,151.0&gt;-&lt;297.0,183.0&gt;-&lt;305.0,226.5&gt;&gt; = 14.25003269780357
+
+* Wdieresis (U+1E84): B&lt;&lt;506.5,475.5&gt;-&lt;502.0,500.0&gt;-&lt;501.0,516.0&gt;&gt;/B&lt;&lt;501.0,516.0&gt;-&lt;499.0,500.0&gt;-&lt;494.5,475.5&gt;&gt; = 10.701350723899111
+
+* Wgrave (U+1E80): B&lt;&lt;283.5,211.5&gt;-&lt;290.0,175.0&gt;-&lt;293.0,151.0&gt;&gt;/B&lt;&lt;293.0,151.0&gt;-&lt;297.0,183.0&gt;-&lt;305.0,226.5&gt;&gt; = 14.25003269780357 
+
+* And Wgrave (U+1E80): B&lt;&lt;506.5,475.5&gt;-&lt;502.0,500.0&gt;-&lt;501.0,516.0&gt;&gt;/B&lt;&lt;501.0,516.0&gt;-&lt;499.0,500.0&gt;-&lt;494.5,475.5&gt;&gt; = 10.701350723899111 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* uni1614 (U+1614): B&lt;&lt;166.5,556.0&gt;-&lt;256.0,646.0&gt;-&lt;443.0,682.0&gt;&gt;/L&lt;&lt;443.0,682.0&gt;--&lt;80.0,682.0&gt;&gt; = 10.896890755325513
+
+* uni1615 (U+1615): L&lt;&lt;728.0,682.0&gt;--&lt;365.0,682.0&gt;&gt;/B&lt;&lt;365.0,682.0&gt;-&lt;551.0,646.0&gt;-&lt;641.0,556.0&gt;&gt; = 10.954062643398332
+
+* uni1616 (U+1616): B&lt;&lt;641.0,158.0&gt;-&lt;551.0,68.0&gt;-&lt;365.0,32.0&gt;&gt;/L&lt;&lt;365.0,32.0&gt;--&lt;728.0,32.0&gt;&gt; = 10.954062643398332
+
+* uni1617 (U+1617): L&lt;&lt;113.0,714.0&gt;--&lt;113.0,352.0&gt;&gt;/B&lt;&lt;113.0,352.0&gt;-&lt;151.0,550.0&gt;-&lt;243.5,638.0&gt;&gt; = 10.864059922087714
+
+* uni1618 (U+1618): L&lt;&lt;113.0,714.0&gt;--&lt;113.0,352.0&gt;&gt;/B&lt;&lt;113.0,352.0&gt;-&lt;151.0,550.0&gt;-&lt;243.5,638.0&gt;&gt; = 10.864059922087714
+
+* uni1619 (U+1619): L&lt;&lt;113.0,714.0&gt;--&lt;113.0,352.0&gt;&gt;/B&lt;&lt;113.0,352.0&gt;-&lt;151.0,550.0&gt;-&lt;243.5,638.0&gt;&gt; = 10.864059922087714
+
+* uni161A (U+161A): B&lt;&lt;243.5,78.0&gt;-&lt;151.0,166.0&gt;-&lt;113.0,363.0&gt;&gt;/L&lt;&lt;113.0,363.0&gt;--&lt;113.0,0.0&gt;&gt; = 10.917885360431406
+
+* uni161B (U+161B): L&lt;&lt;790.0,0.0&gt;--&lt;790.0,363.0&gt;&gt;/B&lt;&lt;790.0,363.0&gt;-&lt;752.0,166.0&gt;-&lt;659.5,78.0&gt;&gt; = 10.917885360431406
+
+* uni18F1 (U+18F1): L&lt;&lt;728.0,682.0&gt;--&lt;365.0,682.0&gt;&gt;/B&lt;&lt;365.0,682.0&gt;-&lt;551.0,646.0&gt;-&lt;641.0,556.0&gt;&gt; = 10.954062643398332 
+
+* And uni18F2 (U+18F2): L&lt;&lt;790.0,0.0&gt;--&lt;790.0,363.0&gt;&gt;/B&lt;&lt;790.0,363.0&gt;-&lt;752.0,166.0&gt;-&lt;659.5,78.0&gt;&gt; = 10.917885360431406 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* uni1614 (U+1614): B&lt;&lt;74.0,312.0&gt;-&lt;74.0,591.0&gt;-&lt;401.0,668.0&gt;&gt;/L&lt;&lt;401.0,668.0&gt;--&lt;77.0,668.0&gt;&gt; = 13.250285686272614
+
+* uni1615 (U+1615): L&lt;&lt;737.0,668.0&gt;--&lt;412.0,668.0&gt;&gt;/B&lt;&lt;412.0,668.0&gt;-&lt;740.0,591.0&gt;-&lt;740.0,312.0&gt;&gt; = 13.21130724971388
+
+* uni1616 (U+1616): B&lt;&lt;740.0,402.0&gt;-&lt;740.0,123.0&gt;-&lt;412.0,46.0&gt;&gt;/L&lt;&lt;412.0,46.0&gt;--&lt;737.0,46.0&gt;&gt; = 13.21130724971388
+
+* uni1617 (U+1617): L&lt;&lt;126.0,714.0&gt;--&lt;126.0,396.0&gt;&gt;/B&lt;&lt;126.0,396.0&gt;-&lt;167.0,570.0&gt;-&lt;257.5,648.0&gt;&gt; = 13.258872182180678
+
+* uni1618 (U+1618): L&lt;&lt;126.0,714.0&gt;--&lt;126.0,396.0&gt;&gt;/B&lt;&lt;126.0,396.0&gt;-&lt;167.0,570.0&gt;-&lt;257.5,648.0&gt;&gt; = 13.258872182180678
+
+* uni1619 (U+1619): L&lt;&lt;126.0,714.0&gt;--&lt;126.0,396.0&gt;&gt;/B&lt;&lt;126.0,396.0&gt;-&lt;167.0,570.0&gt;-&lt;257.5,648.0&gt;&gt; = 13.258872182180678
+
+* uni161A (U+161A): B&lt;&lt;257.5,67.0&gt;-&lt;167.0,145.0&gt;-&lt;126.0,319.0&gt;&gt;/L&lt;&lt;126.0,319.0&gt;--&lt;126.0,0.0&gt;&gt; = 13.258872182180678
+
+* uni161B (U+161B): L&lt;&lt;783.0,0.0&gt;--&lt;783.0,319.0&gt;&gt;/B&lt;&lt;783.0,319.0&gt;-&lt;742.0,145.0&gt;-&lt;651.5,67.0&gt;&gt; = 13.258872182180678
+
+* uni18F1 (U+18F1): L&lt;&lt;737.0,668.0&gt;--&lt;412.0,668.0&gt;&gt;/B&lt;&lt;412.0,668.0&gt;-&lt;740.0,591.0&gt;-&lt;740.0,312.0&gt;&gt; = 13.21130724971388 
+
+* And uni18F2 (U+18F2): L&lt;&lt;783.0,0.0&gt;--&lt;783.0,319.0&gt;&gt;/B&lt;&lt;783.0,319.0&gt;-&lt;742.0,145.0&gt;-&lt;651.5,67.0&gt;&gt; = 13.258872182180678 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* uni15C0 (U+15C0): L&lt;&lt;569.0,374.0&gt;--&lt;607.0,220.0&gt;&gt;/L&lt;&lt;607.0,220.0&gt;--&lt;607.0,714.0&gt;&gt; = 13.861027563021148
+
+* uni15C1 (U+15C1): L&lt;&lt;166.0,714.0&gt;--&lt;166.0,220.0&gt;&gt;/L&lt;&lt;166.0,220.0&gt;--&lt;204.0,374.0&gt;&gt; = 13.861027563021148
+
+* uni15C2 (U+15C2): L&lt;&lt;607.0,0.0&gt;--&lt;607.0,494.0&gt;&gt;/L&lt;&lt;607.0,494.0&gt;--&lt;569.0,340.0&gt;&gt; = 13.861027563021148
+
+* uni15C3 (U+15C3): L&lt;&lt;204.0,340.0&gt;--&lt;166.0,494.0&gt;&gt;/L&lt;&lt;166.0,494.0&gt;--&lt;166.0,0.0&gt;&gt; = 13.861027563021148 
+
+* And uni18EC (U+18EC): L&lt;&lt;607.0,0.0&gt;--&lt;607.0,494.0&gt;&gt;/L&lt;&lt;607.0,494.0&gt;--&lt;569.0,340.0&gt;&gt; = 13.861027563021148 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* uni15C0 (U+15C0): L&lt;&lt;563.0,360.0&gt;--&lt;615.0,149.0&gt;&gt;/L&lt;&lt;615.0,149.0&gt;--&lt;615.0,714.0&gt;&gt; = 13.84440563731597
+
+* uni15C1 (U+15C1): L&lt;&lt;146.0,714.0&gt;--&lt;146.0,149.0&gt;&gt;/L&lt;&lt;146.0,149.0&gt;--&lt;198.0,360.0&gt;&gt; = 13.84440563731597
+
+* uni15C2 (U+15C2): L&lt;&lt;615.0,0.0&gt;--&lt;615.0,565.0&gt;&gt;/L&lt;&lt;615.0,565.0&gt;--&lt;563.0,354.0&gt;&gt; = 13.84440563731597
+
+* uni15C3 (U+15C3): L&lt;&lt;198.0,354.0&gt;--&lt;146.0,565.0&gt;&gt;/L&lt;&lt;146.0,565.0&gt;--&lt;146.0,0.0&gt;&gt; = 13.84440563731597 
+
+* And uni18EC (U+18EC): L&lt;&lt;615.0,0.0&gt;--&lt;615.0,565.0&gt;&gt;/L&lt;&lt;615.0,565.0&gt;--&lt;563.0,354.0&gt;&gt; = 13.84440563731597 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* W (U+0057): B&lt;&lt;257.0,182.5&gt;-&lt;263.0,150.0&gt;-&lt;266.0,126.0&gt;&gt;/B&lt;&lt;266.0,126.0&gt;-&lt;269.0,151.0&gt;-&lt;275.0,184.0&gt;&gt; = 13.967789761532726
+
+* W (U+0057): B&lt;&lt;678.0,182.0&gt;-&lt;684.0,150.0&gt;-&lt;687.0,126.0&gt;&gt;/B&lt;&lt;687.0,126.0&gt;-&lt;690.0,151.0&gt;-&lt;695.5,183.0&gt;&gt; = 13.967789761532726
+
+* Wacute (U+1E82): B&lt;&lt;257.0,182.5&gt;-&lt;263.0,150.0&gt;-&lt;266.0,126.0&gt;&gt;/B&lt;&lt;266.0,126.0&gt;-&lt;269.0,151.0&gt;-&lt;275.0,184.0&gt;&gt; = 13.967789761532726
+
+* Wacute (U+1E82): B&lt;&lt;678.0,182.0&gt;-&lt;684.0,150.0&gt;-&lt;687.0,126.0&gt;&gt;/B&lt;&lt;687.0,126.0&gt;-&lt;690.0,151.0&gt;-&lt;695.5,183.0&gt;&gt; = 13.967789761532726
+
+* Wcircumflex (U+0174): B&lt;&lt;257.0,182.5&gt;-&lt;263.0,150.0&gt;-&lt;266.0,126.0&gt;&gt;/B&lt;&lt;266.0,126.0&gt;-&lt;269.0,151.0&gt;-&lt;275.0,184.0&gt;&gt; = 13.967789761532726
+
+* Wcircumflex (U+0174): B&lt;&lt;678.0,182.0&gt;-&lt;684.0,150.0&gt;-&lt;687.0,126.0&gt;&gt;/B&lt;&lt;687.0,126.0&gt;-&lt;690.0,151.0&gt;-&lt;695.5,183.0&gt;&gt; = 13.967789761532726
+
+* Wdieresis (U+1E84): B&lt;&lt;257.0,182.5&gt;-&lt;263.0,150.0&gt;-&lt;266.0,126.0&gt;&gt;/B&lt;&lt;266.0,126.0&gt;-&lt;269.0,151.0&gt;-&lt;275.0,184.0&gt;&gt; = 13.967789761532726
+
+* Wdieresis (U+1E84): B&lt;&lt;678.0,182.0&gt;-&lt;684.0,150.0&gt;-&lt;687.0,126.0&gt;&gt;/B&lt;&lt;687.0,126.0&gt;-&lt;690.0,151.0&gt;-&lt;695.5,183.0&gt;&gt; = 13.967789761532726
+
+* Wgrave (U+1E80): B&lt;&lt;257.0,182.5&gt;-&lt;263.0,150.0&gt;-&lt;266.0,126.0&gt;&gt;/B&lt;&lt;266.0,126.0&gt;-&lt;269.0,151.0&gt;-&lt;275.0,184.0&gt;&gt; = 13.967789761532726
+
+* Wgrave (U+1E80): B&lt;&lt;678.0,182.0&gt;-&lt;684.0,150.0&gt;-&lt;687.0,126.0&gt;&gt;/B&lt;&lt;687.0,126.0&gt;-&lt;690.0,151.0&gt;-&lt;695.5,183.0&gt;&gt; = 13.967789761532726 
+
+* And 5 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* uni1614 (U+1614): B&lt;&lt;175.0,566.5&gt;-&lt;271.0,657.0&gt;-&lt;476.0,691.0&gt;&gt;/L&lt;&lt;476.0,691.0&gt;--&lt;82.0,691.0&gt;&gt; = 9.416993277994541
+
+* uni1615 (U+1615): L&lt;&lt;722.0,691.0&gt;--&lt;328.0,691.0&gt;&gt;/B&lt;&lt;328.0,691.0&gt;-&lt;533.0,657.0&gt;-&lt;629.0,566.5&gt;&gt; = 9.416993277994541
+
+* uni1616 (U+1616): B&lt;&lt;629.0,147.5&gt;-&lt;533.0,57.0&gt;-&lt;328.0,23.0&gt;&gt;/L&lt;&lt;328.0,23.0&gt;--&lt;722.0,23.0&gt;&gt; = 9.416993277994541
+
+* uni1617 (U+1617): L&lt;&lt;105.0,714.0&gt;--&lt;105.0,315.0&gt;&gt;/B&lt;&lt;105.0,315.0&gt;-&lt;128.0,460.0&gt;-&lt;177.0,551.0&gt;&gt; = 9.01320435564271
+
+* uni1618 (U+1618): L&lt;&lt;105.0,714.0&gt;--&lt;105.0,315.0&gt;&gt;/B&lt;&lt;105.0,315.0&gt;-&lt;128.0,460.0&gt;-&lt;177.0,551.0&gt;&gt; = 9.01320435564271
+
+* uni1619 (U+1619): L&lt;&lt;105.0,714.0&gt;--&lt;105.0,315.0&gt;&gt;/B&lt;&lt;105.0,315.0&gt;-&lt;128.0,460.0&gt;-&lt;177.0,551.0&gt;&gt; = 9.01320435564271
+
+* uni161A (U+161A): B&lt;&lt;177.0,165.0&gt;-&lt;128.0,256.0&gt;-&lt;105.0,401.0&gt;&gt;/L&lt;&lt;105.0,401.0&gt;--&lt;105.0,0.0&gt;&gt; = 9.01320435564271
+
+* uni161B (U+161B): L&lt;&lt;794.0,0.0&gt;--&lt;794.0,401.0&gt;&gt;/B&lt;&lt;794.0,401.0&gt;-&lt;771.0,256.0&gt;-&lt;722.0,165.0&gt;&gt; = 9.01320435564271
+
+* uni18F1 (U+18F1): L&lt;&lt;722.0,691.0&gt;--&lt;328.0,691.0&gt;&gt;/B&lt;&lt;328.0,691.0&gt;-&lt;533.0,657.0&gt;-&lt;629.0,566.5&gt;&gt; = 9.416993277994541 
+
+* And uni18F2 (U+18F2): L&lt;&lt;794.0,0.0&gt;--&lt;794.0,401.0&gt;&gt;/B&lt;&lt;794.0,401.0&gt;-&lt;771.0,256.0&gt;-&lt;722.0,165.0&gt;&gt; = 9.01320435564271 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* uni15D6 (U+15D6): L&lt;&lt;380.0,562.0&gt;--&lt;379.0,714.0&gt;&gt;
+
+* uni15D6 (U+15D6): L&lt;&lt;382.0,335.0&gt;--&lt;381.0,481.0&gt;&gt;
+
+* uni15D6 (U+15D6): L&lt;&lt;476.0,481.0&gt;--&lt;475.0,337.0&gt;&gt;
+
+* uni15D6 (U+15D6): L&lt;&lt;478.0,714.0&gt;--&lt;477.0,562.0&gt;&gt;
+
+* uni15D7 (U+15D7): L&lt;&lt;379.0,0.0&gt;--&lt;380.0,152.0&gt;&gt;
+
+* uni15D7 (U+15D7): L&lt;&lt;381.0,233.0&gt;--&lt;382.0,379.0&gt;&gt;
+
+* uni15D7 (U+15D7): L&lt;&lt;475.0,377.0&gt;--&lt;476.0,233.0&gt;&gt; 
+
+* And uni15D7 (U+15D7): L&lt;&lt;477.0,152.0&gt;--&lt;478.0,0.0&gt;&gt; [code: found-semi-vertical]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* uni15D0 (U+15D0): L&lt;&lt;374.0,324.0&gt;--&lt;371.0,714.0&gt;&gt;
+
+* uni15D0 (U+15D0): L&lt;&lt;489.0,714.0&gt;--&lt;486.0,324.0&gt;&gt;
+
+* uni15D1 (U+15D1): L&lt;&lt;371.0,0.0&gt;--&lt;374.0,390.0&gt;&gt;
+
+* uni15D1 (U+15D1): L&lt;&lt;486.0,390.0&gt;--&lt;489.0,0.0&gt;&gt;
+
+* uni15D6 (U+15D6): L&lt;&lt;379.0,539.0&gt;--&lt;378.0,714.0&gt;&gt;
+
+* uni15D6 (U+15D6): L&lt;&lt;381.0,309.0&gt;--&lt;380.0,454.0&gt;&gt;
+
+* uni15D6 (U+15D6): L&lt;&lt;480.0,454.0&gt;--&lt;479.0,309.0&gt;&gt;
+
+* uni15D6 (U+15D6): L&lt;&lt;482.0,714.0&gt;--&lt;481.0,539.0&gt;&gt;
+
+* uni15D7 (U+15D7): L&lt;&lt;378.0,0.0&gt;--&lt;379.0,175.0&gt;&gt;
+
+* uni15D7 (U+15D7): L&lt;&lt;380.0,260.0&gt;--&lt;381.0,405.0&gt;&gt;
+
+* uni15D7 (U+15D7): L&lt;&lt;479.0,405.0&gt;--&lt;480.0,260.0&gt;&gt; 
+
+* And uni15D7 (U+15D7): L&lt;&lt;481.0,175.0&gt;--&lt;482.0,0.0&gt;&gt; [code: found-semi-vertical]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* uni15D0 (U+15D0): L&lt;&lt;375.0,349.0&gt;--&lt;372.0,714.0&gt;&gt;
+
+* uni15D0 (U+15D0): L&lt;&lt;488.0,714.0&gt;--&lt;485.0,352.0&gt;&gt;
+
+* uni15D1 (U+15D1): L&lt;&lt;372.0,0.0&gt;--&lt;375.0,365.0&gt;&gt;
+
+* uni15D1 (U+15D1): L&lt;&lt;485.0,362.0&gt;--&lt;488.0,0.0&gt;&gt;
+
+* uni15D6 (U+15D6): L&lt;&lt;478.0,466.0&gt;--&lt;477.0,322.0&gt;&gt;
+
+* uni15D6 (U+15D6): L&lt;&lt;480.0,714.0&gt;--&lt;479.0,550.0&gt;&gt;
+
+* uni15D7 (U+15D7): L&lt;&lt;477.0,392.0&gt;--&lt;478.0,248.0&gt;&gt; 
+
+* And uni15D7 (U+15D7): L&lt;&lt;479.0,164.0&gt;--&lt;480.0,0.0&gt;&gt; [code: found-semi-vertical]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* uni15D0 (U+15D0): L&lt;&lt;392.0,74.0&gt;--&lt;390.0,714.0&gt;&gt;
+
+* uni15D0 (U+15D0): L&lt;&lt;426.0,714.0&gt;--&lt;424.0,74.0&gt;&gt;
+
+* uni15D1 (U+15D1): L&lt;&lt;390.0,0.0&gt;--&lt;392.0,640.0&gt;&gt;
+
+* uni15D1 (U+15D1): L&lt;&lt;424.0,640.0&gt;--&lt;426.0,0.0&gt;&gt;
+
+* uni15D2 (U+15D2): L&lt;&lt;57.0,375.0&gt;--&lt;608.0,373.0&gt;&gt;
+
+* uni15D2 (U+15D2): L&lt;&lt;610.0,342.0&gt;--&lt;57.0,341.0&gt;&gt;
+
+* uni15D3 (U+15D3): L&lt;&lt;238.0,374.0&gt;--&lt;608.0,373.0&gt;&gt;
+
+* uni15D3 (U+15D3): L&lt;&lt;57.0,375.0&gt;--&lt;203.0,374.0&gt;&gt;
+
+* uni15D3 (U+15D3): L&lt;&lt;610.0,342.0&gt;--&lt;238.0,341.0&gt;&gt;
+
+* uni15D4 (U+15D4): L&lt;&lt;320.0,374.0&gt;--&lt;615.0,373.0&gt;&gt; 
+
+* And 22 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* uni15D0 (U+15D0): L&lt;&lt;386.0,123.0&gt;--&lt;383.0,714.0&gt;&gt;
+
+* uni15D0 (U+15D0): L&lt;&lt;435.0,714.0&gt;--&lt;431.0,123.0&gt;&gt;
+
+* uni15D1 (U+15D1): L&lt;&lt;383.0,0.0&gt;--&lt;386.0,591.0&gt;&gt;
+
+* uni15D1 (U+15D1): L&lt;&lt;431.0,591.0&gt;--&lt;435.0,0.0&gt;&gt;
+
+* uni15D2 (U+15D2): L&lt;&lt;54.0,382.0&gt;--&lt;578.0,379.0&gt;&gt;
+
+* uni15D2 (U+15D2): L&lt;&lt;580.0,337.0&gt;--&lt;54.0,334.0&gt;&gt;
+
+* uni15D3 (U+15D3): L&lt;&lt;191.0,335.0&gt;--&lt;54.0,334.0&gt;&gt;
+
+* uni15D3 (U+15D3): L&lt;&lt;239.0,381.0&gt;--&lt;578.0,379.0&gt;&gt;
+
+* uni15D3 (U+15D3): L&lt;&lt;54.0,382.0&gt;--&lt;191.0,381.0&gt;&gt;
+
+* uni15D3 (U+15D3): L&lt;&lt;580.0,337.0&gt;--&lt;239.0,335.0&gt;&gt; 
+
+* And 26 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* uni15D0 (U+15D0): L&lt;&lt;374.0,242.0&gt;--&lt;370.0,714.0&gt;&gt;
+
+* uni15D0 (U+15D0): L&lt;&lt;460.0,714.0&gt;--&lt;456.0,242.0&gt;&gt;
+
+* uni15D1 (U+15D1): L&lt;&lt;370.0,0.0&gt;--&lt;374.0,472.0&gt;&gt;
+
+* uni15D1 (U+15D1): L&lt;&lt;456.0,472.0&gt;--&lt;460.0,0.0&gt;&gt;
+
+* uni15D6 (U+15D6): L&lt;&lt;369.0,237.0&gt;--&lt;368.0,427.0&gt;&gt; 
+
+* And uni15D7 (U+15D7): L&lt;&lt;375.0,287.0&gt;--&lt;376.0,477.0&gt;&gt; [code: found-semi-vertical]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* uni15D0 (U+15D0): L&lt;&lt;374.0,207.0&gt;--&lt;370.0,714.0&gt;&gt;
+
+* uni15D0 (U+15D0): L&lt;&lt;448.0,714.0&gt;--&lt;444.0,207.0&gt;&gt;
+
+* uni15D1 (U+15D1): L&lt;&lt;370.0,0.0&gt;--&lt;374.0,507.0&gt;&gt;
+
+* uni15D1 (U+15D1): L&lt;&lt;444.0,507.0&gt;--&lt;448.0,0.0&gt;&gt;
+
+* uni15D2 (U+15D2): L&lt;&lt;49.0,394.0&gt;--&lt;525.0,390.0&gt;&gt;
+
+* uni15D2 (U+15D2): L&lt;&lt;527.0,327.0&gt;--&lt;49.0,323.0&gt;&gt;
+
+* uni15D3 (U+15D3): L&lt;&lt;170.0,324.0&gt;--&lt;49.0,323.0&gt;&gt;
+
+* uni15D3 (U+15D3): L&lt;&lt;240.0,392.0&gt;--&lt;525.0,390.0&gt;&gt;
+
+* uni15D3 (U+15D3): L&lt;&lt;49.0,394.0&gt;--&lt;170.0,393.0&gt;&gt;
+
+* uni15D3 (U+15D3): L&lt;&lt;527.0,327.0&gt;--&lt;240.0,325.0&gt;&gt; 
+
+* And 10 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* uni15D0 (U+15D0): L&lt;&lt;374.0,280.0&gt;--&lt;371.0,714.0&gt;&gt;
+
+* uni15D1 (U+15D1): L&lt;&lt;371.0,0.0&gt;--&lt;374.0,434.0&gt;&gt;
+
+* uni15D6 (U+15D6): L&lt;&lt;463.0,440.0&gt;--&lt;462.0,271.0&gt;&gt;
+
+* uni15D6 (U+15D6): L&lt;&lt;465.0,714.0&gt;--&lt;464.0,519.0&gt;&gt;
+
+* uni15D7 (U+15D7): L&lt;&lt;466.0,443.0&gt;--&lt;467.0,274.0&gt;&gt; 
+
+* And uni15D7 (U+15D7): L&lt;&lt;468.0,195.0&gt;--&lt;469.0,0.0&gt;&gt; [code: found-semi-vertical]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* exclam (U+0021): L&lt;&lt;100.0,174.0&gt;--&lt;98.0,714.0&gt;&gt;
+
+* exclam (U+0021): L&lt;&lt;127.0,714.0&gt;--&lt;125.0,174.0&gt;&gt;
+
+* exclamdown (U+00A1): L&lt;&lt;122.0,354.0&gt;--&lt;124.0,-186.0&gt;&gt;
+
+* exclamdown (U+00A1): L&lt;&lt;96.0,-186.0&gt;--&lt;98.0,354.0&gt;&gt;
+
+* uni15D0 (U+15D0): L&lt;&lt;397.0,40.0&gt;--&lt;395.0,714.0&gt;&gt;
+
+* uni15D0 (U+15D0): L&lt;&lt;421.0,714.0&gt;--&lt;419.0,40.0&gt;&gt;
+
+* uni15D1 (U+15D1): L&lt;&lt;395.0,0.0&gt;--&lt;397.0,674.0&gt;&gt;
+
+* uni15D1 (U+15D1): L&lt;&lt;419.0,674.0&gt;--&lt;421.0,0.0&gt;&gt;
+
+* uni15D2 (U+15D2): L&lt;&lt;59.0,370.0&gt;--&lt;629.0,369.0&gt;&gt;
+
+* uni15D2 (U+15D2): L&lt;&lt;631.0,346.0&gt;--&lt;59.0,345.0&gt;&gt; 
+
+* And 22 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]</p>
+</span></li></ul></div></details>
+                    </body>
+                </html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni11ABE" format="2">
+	<advance width="765"/>
+	<unicode hex="11ABE"/>
+	<outline>
+		<contour>
+			<point x="687" y="0" type="line"/>
+			<point x="687" y="716" type="line"/>
+			<point x="661" y="716" type="line"/>
+			<point x="661" y="35" type="line"/>
+			<point x="664" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="78" y="716" type="line"/>
+			<point x="78" y="0" type="line"/>
+			<point x="104" y="0" type="line"/>
+			<point x="104" y="678" type="line"/>
+			<point x="101" y="716" type="line"/>
+		</contour>
+		<contour>
+			<point x="670" y="32" type="line"/>
+			<point x="101" y="716" type="line"/>
+			<point x="90" y="689" type="line"/>
+			<point x="664" y="0" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2021-12-06 03:01:31 +0000</string>
+		</dict>
+	</lib>
+</glyph>

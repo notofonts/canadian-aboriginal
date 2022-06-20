@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni15CA" format="2">
+	<advance width="859"/>
+	<unicode hex="15CA"/>
+	<note>
+		uni15CA
+	</note>
+	<outline>
+		<contour>
+			<point x="430" y="225" type="line"/>
+			<point x="183" y="714" type="line"/>
+			<point x="49" y="714" type="line"/>
+			<point x="49" y="683" type="line"/>
+			<point x="412" y="-12" type="line"/>
+			<point x="447" y="-12" type="line"/>
+			<point x="811" y="683" type="line"/>
+			<point x="811" y="714" type="line"/>
+			<point x="677" y="714" type="line"/>
+		</contour>
+		<contour>
+			<point x="669" y="529" type="line"/>
+			<point x="693" y="625" type="line"/>
+			<point x="171" y="625" type="line"/>
+			<point x="201" y="529" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2021-12-06 03:18:17 +0000</string>
+			<key>public.markColor</key>
+			<string>0.98,0.36,0.67,1</string>
+		</dict>
+	</lib>
+</glyph>

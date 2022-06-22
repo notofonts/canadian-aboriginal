@@ -84,9 +84,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- uni00A0.1
 
-	- uni0307.1 
+	- g726 
 
-	- And g726
+	- And uni0307.1
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
@@ -95,9 +95,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- uni00A0.1
 
-	- uni0307.1 
+	- g726 
 
-	- And g726
+	- And uni0307.1
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -132,16 +132,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1600
-	* uni162D
-	* uni1653
-	* uni1630
-	* uni167C
-	* uni15A7
-	* uni1602
-	* uni161D
-	* uni1614
-	* uni1654 and 207 more.
+	* uni166B
+	* uni1601
+	* uni1659
+	* uni18F0
+	* uni18E8
+	* uni157D
+	* uni15E9
+	* uni15C1
+	* uni1633
+	* uni162D and 207 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -240,7 +240,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* uni15D7 (U+15D7): L<<475.0,377.0>--<476.0,233.0>> 
 
 	* And uni15D7 (U+15D7): L<<477.0,152.0>--<478.0,0.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[16] NotoSansCanadianAboriginal-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansCanadianAboriginal-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -251,48 +251,33 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp">com.google.fonts/check/gasp</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
-If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
-GFTools is available at https://pypi.org/project/gftools/ [code: lacks-gasp]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Noto Sans Canadian Aboriginal" but got "Noto Sans CanAborig". [code: mismatch]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font style is "Bold" and, for that reason, it is not expected to have a [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)] entry! [code: ribbi]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
-
-
-* 🔥 **FAIL** The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the `gftools fix-nonhinting` script. [code: lacks-smart-dropout]
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
-
-
-* 🔥 **FAIL** On the 'name' table, the full font name 'Noto Sans Canadian Aboriginal Bold' does not begin with the font family name 'Noto Sans CanAborig' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1600
-	* uni162D
-	* uni1653
-	* uni1630
-	* uni1666
-	* uni167C
-	* uni15A7
-	* uni1602
-	* uni161D
-	* uni1614 and 182 more.
+	* uni166B
+	* uni1601
+	* uni1659
+	* uni18F0
+	* uni157D
+	* uni15E9
+	* uni15C1
+	* uni164C
+	* uni1633
+	* uni162D and 182 more.
 
 Use -F or --full-lists to disable shortening of long lists.
+</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
+
+
+* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+ FONT_FAMILY_NAME = 'Noto Sans Canadian Aboriginal' / SUBFAMILY_NAME = 'Bold'
+
+Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -411,16 +396,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1600
-	* uni162D
-	* uni1653
-	* uni1630
-	* uni1666
-	* uni167C
-	* uni15A7
-	* uni1602
-	* uni161D
-	* uni1614 and 197 more.
+	* uni166B
+	* uni1601
+	* uni1659
+	* uni18F0
+	* uni18E8
+	* uni157D
+	* uni15E9
+	* uni15C1
+	* uni1633
+	* uni162D and 197 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -530,16 +515,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1600
+	* uni166B
+	* uni1659
+	* uni18F0
+	* uni15C1
+	* uni164C
+	* uni1633
 	* uni162D
-	* uni1653
-	* uni1630
-	* uni1666
-	* uni161D
-	* uni1614
-	* uni18DB
-	* uni1660
-	* uni15EC and 100 more.
+	* uni1650
+	* uni1647
+	* uni165A and 100 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -663,16 +648,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1600
+	* uni166B
+	* uni1659
+	* uni18F0
+	* uni15C1
+	* uni164C
+	* uni1633
 	* uni162D
-	* uni1653
-	* uni1630
-	* uni1666
-	* uni161D
-	* uni1614
-	* uni1654
-	* uni18DB
-	* uni1660 and 107 more.
+	* uni1650
+	* uni1647
+	* uni165A and 107 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -788,16 +773,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1600
+	* uni166B
+	* uni1659
+	* uni18F0
+	* uni15C1
+	* uni164C
+	* uni1633
 	* uni162D
-	* uni1653
-	* uni1630
-	* uni1666
-	* uni167C
-	* uni15A7
-	* uni1602
-	* uni161D
-	* uni1614 and 157 more.
+	* uni1650
+	* uni15DF
+	* uni1647 and 157 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -880,7 +865,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* uni15D6 (U+15D6): L<<369.0,237.0>--<368.0,427.0>> 
 
 	* And uni15D7 (U+15D7): L<<375.0,287.0>--<376.0,477.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[15] NotoSansCanadianAboriginal-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansCanadianAboriginal-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -891,48 +876,33 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp">com.google.fonts/check/gasp</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
-If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
-GFTools is available at https://pypi.org/project/gftools/ [code: lacks-gasp]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Noto Sans Canadian Aboriginal" but got "Noto Sans CanAborig". [code: mismatch]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font style is "Regular" and, for that reason, it is not expected to have a [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)] entry! [code: ribbi]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
-
-
-* 🔥 **FAIL** The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the `gftools fix-nonhinting` script. [code: lacks-smart-dropout]
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
-
-
-* 🔥 **FAIL** On the 'name' table, the full font name 'Noto Sans Canadian Aboriginal Regular' does not begin with the font family name 'Noto Sans CanAborig' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1600
+	* uni166B
+	* uni1659
+	* uni18F0
+	* uni15C1
+	* uni164C
+	* uni1633
 	* uni162D
-	* uni1653
-	* uni1630
-	* uni1666
-	* uni161D
-	* uni1614
-	* uni1654
-	* uni1648
-	* uni18DB and 129 more.
+	* uni1650
+	* uni15DF
+	* uni1647 and 129 more.
 
 Use -F or --full-lists to disable shortening of long lists.
+</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
+
+
+* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+ FONT_FAMILY_NAME = 'Noto Sans Canadian Aboriginal' / SUBFAMILY_NAME = 'Regular'
+
+Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1029,16 +999,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1600
+	* uni1601
+	* uni1659
+	* uni18F0
+	* uni15E9
+	* uni15C1
+	* uni164C
+	* uni1633
 	* uni162D
-	* uni1653
-	* uni1630
-	* uni1666
-	* uni167C
-	* uni15A7
-	* uni1602
-	* uni161D
-	* uni1614 and 166 more.
+	* uni1650
+	* uni15DF and 166 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1160,16 +1130,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni166B
+	* uni1659
+	* uni18F0
+	* uni15C1
+	* uni164C
+	* uni1633
 	* uni162D
-	* uni1653
-	* uni1630
-	* uni1666
-	* uni161D
-	* uni1614
-	* uni18DB
-	* uni1660
-	* uni15EC
-	* uni1624 and 93 more.
+	* uni1650
+	* uni1647
+	* uni165A and 93 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1277,8 +1247,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 48 | 84 | 1246 | 82 | 975 | 0 |
-| 0% | 2% | 3% | 51% | 3% | 40% | 0% |
+| 0 | 38 | 86 | 1246 | 84 | 981 | 0 |
+| 0% | 2% | 4% | 51% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

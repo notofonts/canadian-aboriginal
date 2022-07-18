@@ -5,143 +5,25 @@ Fontbakery version: 0.8.9
 <details><summary><b>[1] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
 
-* 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf'] [code: single-directory]
-</div></details><br></div></details><details><summary><b>[18] NotoSansCanadianAboriginal[wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+* 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSansCanadianAboriginal/googlefonts/ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf'] [code: single-directory]
+</div></details><br></div></details><details><summary><b>[10] NotoSansCanadianAboriginal-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp">com.google.fonts/check/gasp</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
-If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
-GFTools is available at https://pypi.org/project/gftools/ [code: lacks-gasp]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
-
-
-* 🔥 **FAIL** The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the `gftools fix-nonhinting` script. [code: lacks-smart-dropout]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
-
-
-* 🔥 **FAIL** 'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 260. [code: invalid-default-instance-subfamily-nameid:260]
-* 🔥 **FAIL** 'Regular' instance has the same coordinates as the default instance; its postScriptNameID should be 6, instead of 269. [code: invalid-default-instance-postscript-nameid:269]
-</div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
-
-
-* 🔥 **FAIL** 'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 278. [code: invalid-default-instance-subfamily-nameid:278]
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Noto Sans Canadian Aboriginal' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Noto Sans Canadian Aboriginal' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- uni00A0.1
-
-	- g726 
-
-	- And uni0307.1
- [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- uni00A0.1
-
-	- g726 
-
-	- And uni0307.1
- [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><br></div></details><details><summary><b>[12] NotoSansCanadianAboriginal-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni166B
-	* uni1601
-	* uni1659
-	* uni18F0
-	* uni18E8
-	* uni157D
-	* uni15E9
-	* uni15C1
-	* uni1633
-	* uni162D and 207 more.
+	* uni1652
+	* uni15C8
+	* uni15FF
+	* uni166D
+	* uni157A
+	* uni165B
+	* uni15CC
+	* uni1557
+	* uni1642
+	* uni155B and 207 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -160,9 +42,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni00A0.1 
+	- uni0307.1 
 
-	- And uni0307.1
+	- And uni00A0.1
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -240,35 +122,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* uni15D7 (U+15D7): L<<475.0,377.0>--<476.0,233.0>> 
 
 	* And uni15D7 (U+15D7): L<<477.0,152.0>--<478.0,0.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSansCanadianAboriginal-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSansCanadianAboriginal-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni166B
-	* uni1601
-	* uni1659
-	* uni18F0
-	* uni157D
-	* uni15E9
-	* uni15C1
-	* uni164C
-	* uni1633
-	* uni162D and 182 more.
+	* uni1652
+	* uni15C8
+	* uni15D2
+	* uni166D
+	* uni165B
+	* uni15CC
+	* uni1557
+	* uni1642
+	* uni155B
+	* uni15F2 and 182 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -287,9 +158,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni00A0.1 
+	- uni0307.1 
 
-	- And uni0307.1
+	- And uni00A0.1
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -377,35 +248,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* uni15D7 (U+15D7): L<<479.0,405.0>--<480.0,260.0>> 
 
 	* And uni15D7 (U+15D7): L<<481.0,175.0>--<482.0,0.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSansCanadianAboriginal-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSansCanadianAboriginal-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni166B
-	* uni1601
-	* uni1659
-	* uni18F0
-	* uni18E8
-	* uni157D
-	* uni15E9
-	* uni15C1
-	* uni1633
-	* uni162D and 197 more.
+	* uni1652
+	* uni15C8
+	* uni15FF
+	* uni15D2
+	* uni166D
+	* uni165B
+	* uni15CC
+	* uni1557
+	* uni1642
+	* uni155B and 197 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -424,9 +284,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni00A0.1 
+	- uni0307.1 
 
-	- And uni0307.1
+	- And uni00A0.1
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -496,35 +356,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* uni15D7 (U+15D7): L<<477.0,392.0>--<478.0,248.0>> 
 
 	* And uni15D7 (U+15D7): L<<479.0,164.0>--<480.0,0.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSansCanadianAboriginal-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSansCanadianAboriginal-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni166B
-	* uni1659
-	* uni18F0
-	* uni15C1
-	* uni164C
-	* uni1633
-	* uni162D
-	* uni1650
-	* uni1647
-	* uni165A and 100 more.
+	* uni1652
+	* uni1642
+	* uni15F2
+	* uni18EE
+	* uni1611
+	* uni1635
+	* uni15F9
+	* uni1618
+	* uni1663
+	* uni1644 and 100 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -543,9 +392,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni00A0.1 
+	- uni0307.1 
 
-	- And uni0307.1
+	- And uni00A0.1
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -629,35 +478,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* And 22 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSansCanadianAboriginal-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSansCanadianAboriginal-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni166B
-	* uni1659
-	* uni18F0
-	* uni15C1
-	* uni164C
-	* uni1633
-	* uni162D
-	* uni1650
-	* uni1647
-	* uni165A and 107 more.
+	* uni1652
+	* uni165B
+	* uni1642
+	* uni15F2
+	* uni18EE
+	* uni1611
+	* uni1635
+	* uni1618
+	* uni1663
+	* uni1644 and 107 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -676,9 +514,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni00A0.1 
+	- uni0307.1 
 
-	- And uni0307.1
+	- And uni00A0.1
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -754,35 +592,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* And 26 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSansCanadianAboriginal-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSansCanadianAboriginal-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni166B
-	* uni1659
-	* uni18F0
-	* uni15C1
-	* uni164C
-	* uni1633
-	* uni162D
-	* uni1650
-	* uni15DF
-	* uni1647 and 157 more.
+	* uni1652
+	* uni15C8
+	* uni15D2
+	* uni166D
+	* uni165B
+	* uni15CC
+	* uni1642
+	* uni15F2
+	* uni163A
+	* uni18EE and 157 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -801,9 +628,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni00A0.1 
+	- uni0307.1 
 
-	- And uni0307.1
+	- And uni00A0.1
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -865,35 +692,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* uni15D6 (U+15D6): L<<369.0,237.0>--<368.0,427.0>> 
 
 	* And uni15D7 (U+15D7): L<<375.0,287.0>--<376.0,477.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSansCanadianAboriginal-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSansCanadianAboriginal-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni166B
-	* uni1659
-	* uni18F0
-	* uni15C1
-	* uni164C
-	* uni1633
-	* uni162D
-	* uni1650
-	* uni15DF
-	* uni1647 and 129 more.
+	* uni1652
+	* uni15C8
+	* uni165B
+	* uni1642
+	* uni15F2
+	* uni18EE
+	* uni15E7
+	* uni1611
+	* uni15E4
+	* uni1635 and 129 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -912,9 +728,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni00A0.1 
+	- uni0307.1 
 
-	- And uni0307.1
+	- And uni00A0.1
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -980,35 +796,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSansCanadianAboriginal-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSansCanadianAboriginal-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1601
-	* uni1659
-	* uni18F0
-	* uni15E9
-	* uni15C1
-	* uni164C
-	* uni1633
-	* uni162D
-	* uni1650
-	* uni15DF and 166 more.
+	* uni1652
+	* uni15C8
+	* uni15D2
+	* uni166D
+	* uni165B
+	* uni15CC
+	* uni1642
+	* uni155B
+	* uni15F2
+	* uni163A and 166 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1027,9 +832,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni00A0.1 
+	- uni0307.1 
 
-	- And uni0307.1
+	- And uni00A0.1
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1111,35 +916,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* uni15D7 (U+15D7): L<<466.0,443.0>--<467.0,274.0>> 
 
 	* And uni15D7 (U+15D7): L<<468.0,195.0>--<469.0,0.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSansCanadianAboriginal-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSansCanadianAboriginal-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansCanadianAboriginal/googlefonts/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf', 'fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni166B
-	* uni1659
-	* uni18F0
-	* uni15C1
-	* uni164C
-	* uni1633
-	* uni162D
-	* uni1650
-	* uni1647
-	* uni165A and 93 more.
+	* uni1652
+	* uni1642
+	* uni15F2
+	* uni18EE
+	* uni1611
+	* uni1635
+	* uni1618
+	* uni1663
+	* uni1644
+	* uni1645 and 93 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1158,9 +952,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni00A0.1 
+	- uni0307.1 
 
-	- And uni0307.1
+	- And uni00A0.1
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1242,13 +1036,50 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* And 22 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[6] NotoSansCanadianAboriginal[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
+
+
+* 🔥 **FAIL** 'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 269. [code: invalid-default-instance-subfamily-nameid:269]
+</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
+
+
+* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+ FONT_FAMILY_NAME = 'Noto Sans Canadian Aboriginal' / SUBFAMILY_NAME = 'Regular'
+
+Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- uni0307.1
+
+	- uni00A0.1 
+
+	- And g726
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+
+
+* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
+	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 38 | 86 | 1246 | 84 | 981 | 0 |
-| 0% | 2% | 4% | 51% | 3% | 40% | 0% |
+| 10 | 2 | 82 | 1122 | 69 | 930 | 0 |
+| 0% | 0% | 4% | 51% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

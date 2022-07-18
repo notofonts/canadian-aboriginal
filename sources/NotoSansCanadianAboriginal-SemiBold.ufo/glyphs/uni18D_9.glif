@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni18D9" format="2">
-	<advance width="602"/>
 	<unicode hex="18D9"/>
-	<note>
-		uni18D9
-	</note>
+	<advance width="602"/>
 	<outline>
 		<contour>
 			<point x="210" y="375" type="curve" smooth="yes"/>
@@ -44,4 +41,7 @@
 			<string>2018/03/08 14:01:59</string>
 		</dict>
 	</lib>
+	<note>
+uni18D9
+</note>
 </glyph>

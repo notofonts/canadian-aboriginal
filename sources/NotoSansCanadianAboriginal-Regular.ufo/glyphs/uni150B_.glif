@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni150B" format="2">
-	<advance width="347"/>
 	<unicode hex="150B"/>
-	<note>
-		uni150B
-	</note>
+	<advance width="347"/>
 	<outline>
 		<contour>
 			<point x="211" y="349" type="line"/>
@@ -57,4 +54,7 @@
 			<string>2018/03/08 14:01:59</string>
 		</dict>
 	</lib>
+	<note>
+uni150B
+</note>
 </glyph>

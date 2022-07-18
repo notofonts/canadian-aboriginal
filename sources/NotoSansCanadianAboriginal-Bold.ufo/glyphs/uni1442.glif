@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1442" format="2">
-	<advance width="846"/>
 	<unicode hex="1442"/>
-	<note>
-		uni1442
-	</note>
+	<advance width="846"/>
 	<outline>
 		<component base="uni1433" xOffset="138"/>
 		<component base="g724" xOffset="28"/>
@@ -20,4 +17,7 @@
 			<string>2018/03/08 14:01:59</string>
 		</dict>
 	</lib>
+	<note>
+uni1442
+</note>
 </glyph>

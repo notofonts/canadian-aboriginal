@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="g741" format="2">
 	<advance width="712"/>
-	<note>
-		g741
-	</note>
 	<outline>
 		<component base="g729"/>
 		<component base="g720" xOffset="108" yOffset="-15"/>
@@ -19,4 +16,7 @@
 			</array>
 		</dict>
 	</lib>
+	<note>
+g741
+</note>
 </glyph>

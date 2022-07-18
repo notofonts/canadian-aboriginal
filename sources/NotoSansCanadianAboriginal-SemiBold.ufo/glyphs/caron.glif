@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="caron" format="2">
-	<advance width="480"/>
 	<unicode hex="02C7"/>
-	<note>
-		caron
-	</note>
+	<advance width="480"/>
 	<outline>
 		<contour>
 			<point x="165" y="606" type="curve"/>
@@ -32,4 +29,7 @@
 			<string>2018/03/08 14:01:59</string>
 		</dict>
 	</lib>
+	<note>
+caron
+</note>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni11ABF" format="2">
-	<advance width="787"/>
 	<unicode hex="11ABF"/>
+	<advance width="787"/>
 	<outline>
 		<component base="uni11ABE" xScale="-1" xOffset="787"/>
 	</outline>

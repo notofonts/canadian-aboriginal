@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1607" format="2">
-	<advance width="813"/>
 	<unicode hex="1607"/>
-	<note>
-		uni1607
-	</note>
+	<advance width="813"/>
 	<outline>
 		<contour>
 			<point x="523" y="714" type="line"/>
@@ -35,4 +32,7 @@
 			<string>0.98,0.36,0.67,1</string>
 		</dict>
 	</lib>
+	<note>
+uni1607
+</note>
 </glyph>

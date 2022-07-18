@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="breve" format="2">
-	<advance width="441"/>
 	<unicode hex="02D8"/>
-	<note>
-		breve
-	</note>
+	<advance width="441"/>
 	<outline>
 		<contour>
 			<point x="218" y="606" type="curve" smooth="yes"/>
@@ -29,4 +26,7 @@
 			<string>2018/03/08 14:01:59</string>
 		</dict>
 	</lib>
+	<note>
+breve
+</note>
 </glyph>

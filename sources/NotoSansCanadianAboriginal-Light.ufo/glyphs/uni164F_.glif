@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni164F" format="2">
-	<advance width="912"/>
 	<unicode hex="164F"/>
-	<note>
-		uni164F
-	</note>
+	<advance width="912"/>
 	<outline>
 		<contour>
 			<point x="735" y="138" type="curve" smooth="yes"/>
@@ -71,4 +68,7 @@
 			<string>0.98,0.36,0.67,1</string>
 		</dict>
 	</lib>
+	<note>
+uni164F
+</note>
 </glyph>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="g738" format="2">
 	<advance width="748"/>
-	<note>
-		g738
-	</note>
 	<outline>
 		<component base="g729"/>
 		<component base="g725" xOffset="453" yOffset="-1"/>
@@ -15,4 +12,7 @@
 			<string>2018/03/08 14:01:59</string>
 		</dict>
 	</lib>
+	<note>
+g738
+</note>
 </glyph>

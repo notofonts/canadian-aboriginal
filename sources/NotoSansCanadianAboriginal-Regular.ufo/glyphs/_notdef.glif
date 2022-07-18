@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name=".notdef" format="2">
 	<advance width="600"/>
-	<note>
-		.notdef
-	</note>
 	<outline>
 		<contour>
 			<point x="94" y="0" type="line"/>
@@ -24,4 +21,7 @@
 			<string>2018/03/08 14:01:59</string>
 		</dict>
 	</lib>
+	<note>
+.notdef
+</note>
 </glyph>

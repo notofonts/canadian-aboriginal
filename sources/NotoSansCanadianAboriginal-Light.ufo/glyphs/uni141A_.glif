@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni141A" format="2">
-	<advance width="879"/>
 	<unicode hex="141A"/>
-	<note>
-		uni141A
-	</note>
+	<advance width="879"/>
 	<outline>
 		<component base="uni140A"/>
 		<component base="g724" xOffset="437"/>
@@ -26,4 +23,7 @@
 			</array>
 		</dict>
 	</lib>
+	<note>
+uni141A
+</note>
 </glyph>

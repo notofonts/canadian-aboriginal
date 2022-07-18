@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="g722" format="2">
 	<advance width="446"/>
-	<note>
-		g722
-	</note>
 	<outline>
 		<contour>
 			<point x="223" y="416" type="curve" smooth="yes"/>
@@ -42,4 +39,7 @@
 			<string>2018/03/08 14:01:59</string>
 		</dict>
 	</lib>
+	<note>
+g722
+</note>
 </glyph>

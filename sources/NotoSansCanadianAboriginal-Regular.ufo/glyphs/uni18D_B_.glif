@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni18DB" format="2">
-	<advance width="498"/>
 	<unicode hex="18DB"/>
-	<note>
-		uni18DB
-	</note>
+	<advance width="498"/>
 	<outline>
 		<contour>
 			<point x="334" y="721" type="curve" smooth="yes"/>
@@ -49,4 +46,7 @@
 			<string>0.98,0.36,0.67,1</string>
 		</dict>
 	</lib>
+	<note>
+uni18DB
+</note>
 </glyph>

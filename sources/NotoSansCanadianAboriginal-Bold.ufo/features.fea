@@ -20,8 +20,9 @@ lookup gsub_0_single {
 	sub uni18C2 by g742 ;
     } gsub_0_single ;
 
+
 feature salt {
-	script DFLT ;
+script DFLT ;
 		language dflt ;
 			lookup gsub_0_single;
 	script cans ;
@@ -29,4 +30,3 @@ feature salt {
 			lookup gsub_0_single;
 		
 } salt;
-

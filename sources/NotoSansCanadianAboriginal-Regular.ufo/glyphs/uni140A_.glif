@@ -19,8 +19,8 @@
 	</outline>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2018/03/08 15:40:10</string>
+			<key>public.verticalOrigin</key>
+			<integer>1069</integer>
 		</dict>
 	</lib>
 	<note>

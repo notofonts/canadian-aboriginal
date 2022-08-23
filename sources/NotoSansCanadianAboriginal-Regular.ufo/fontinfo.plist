@@ -12,6 +12,8 @@
 		<integer>-293</integer>
 		<key>familyName</key>
 		<string>Noto Sans Canadian Aboriginal</string>
+		<key>italicAngle</key>
+		<integer>0</integer>
 		<key>openTypeHeadCreated</key>
 		<string>2017/11/19 13:14:29</string>
 		<key>openTypeHheaAscender</key>
@@ -34,6 +36,8 @@
 		<string>Monotype Imaging Inc.</string>
 		<key>openTypeNameManufacturerURL</key>
 		<string>http://www.google.com/get/noto/</string>
+		<key>openTypeNamePreferredSubfamilyName</key>
+		<string>Light</string>
 		<key>openTypeNameVersion</key>
 		<string>Version 2.002</string>
 		<key>openTypeOS2CodePageRanges</key>
@@ -87,6 +91,12 @@
 		<integer>1069</integer>
 		<key>openTypeOS2WinDescent</key>
 		<integer>293</integer>
+		<key>openTypeVheaVertTypoAscender</key>
+		<integer>500</integer>
+		<key>openTypeVheaVertTypoDescender</key>
+		<integer>-500</integer>
+		<key>openTypeVheaVertTypoLineGap</key>
+		<integer>1000</integer>
 		<key>postscriptBlueValues</key>
 		<array>
 			<integer>-15</integer>

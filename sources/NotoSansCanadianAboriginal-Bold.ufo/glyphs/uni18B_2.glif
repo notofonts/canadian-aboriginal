@@ -13,11 +13,11 @@
 			<string>=uni18B1</string>
 			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
 			<string>=uni18B1</string>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2018/03/08 14:01:59</string>
+			<key>public.verticalOrigin</key>
+			<integer>1069</integer>
 		</dict>
 	</lib>
 	<note>
-uni18B2
-</note>
+		uni18B2
+	</note>
 </glyph>

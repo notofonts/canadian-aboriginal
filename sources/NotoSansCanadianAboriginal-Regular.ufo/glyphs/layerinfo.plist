@@ -12,14 +12,6 @@
 			<integer>1</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.NULL</key>
 			<integer>1</integer>
-			<key>com.schriftgestaltung.layerOrderInGlyph.breve</key>
-			<integer>1</integer>
-			<key>com.schriftgestaltung.layerOrderInGlyph.caron</key>
-			<integer>1</integer>
-			<key>com.schriftgestaltung.layerOrderInGlyph.dotaccent</key>
-			<integer>1</integer>
-			<key>com.schriftgestaltung.layerOrderInGlyph.dotlessi</key>
-			<integer>1</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.g720</key>
 			<integer>1</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.g721</key>

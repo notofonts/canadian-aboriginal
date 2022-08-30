@@ -10,11 +10,11 @@
 				<key>namespace</key>
 				<string>glyphsLib.filters</string>
 				<key>pre</key>
-				<true/>
+				<integer>1</integer>
 			</dict>
 		</array>
 		<key>com.schriftgestaltung.appVersion</key>
-		<string>3134</string>
+		<string>3109</string>
 		<key>com.schriftgestaltung.customParameter.GSFont.Axes</key>
 		<array>
 			<dict>

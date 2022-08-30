@@ -14,11 +14,11 @@
 				<key>namespace</key>
 				<string>glyphsLib.filters</string>
 				<key>pre</key>
-				<true/>
+				<integer>1</integer>
 			</dict>
 		</array>
 		<key>com.schriftgestaltung.appVersion</key>
-		<string>3134</string>
+		<string>3109</string>
 		<key>com.schriftgestaltung.customParameter.GSFont.Axes</key>
 		<array>
 			<dict>
@@ -86,6 +86,8 @@
 		<integer>3</integer>
 		<key>com.schriftgestaltung.keyboardIncrement</key>
 		<integer>1</integer>
+		<key>com.schriftgestaltung.weight</key>
+		<string>Bold</string>
 		<key>com.schriftgestaltung.weightValue</key>
 		<integer>190</integer>
 		<key>com.schriftgestaltung.width</key>

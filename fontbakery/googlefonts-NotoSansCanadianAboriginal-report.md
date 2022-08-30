@@ -11,10 +11,7 @@ Fontbakery version: 0.8.10
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x0131 (LATIN SMALL LETTER DOTLESS I)
- 
-
-	- And 0x0307 (COMBINING DOT ABOVE)
+	- 0x0307 (COMBINING DOT ABOVE)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
@@ -126,10 +123,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x0131 (LATIN SMALL LETTER DOTLESS I)
- 
-
-	- And 0x0307 (COMBINING DOT ABOVE)
+	- 0x0307 (COMBINING DOT ABOVE)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
@@ -251,10 +245,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x0131 (LATIN SMALL LETTER DOTLESS I)
- 
-
-	- And 0x0307 (COMBINING DOT ABOVE)
+	- 0x0307 (COMBINING DOT ABOVE)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
@@ -358,10 +349,7 @@ The following glyphs do not have the recommended number of contours:
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x0131 (LATIN SMALL LETTER DOTLESS I)
- 
-
-	- And 0x0307 (COMBINING DOT ABOVE)
+	- 0x0307 (COMBINING DOT ABOVE)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
@@ -479,10 +467,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x0131 (LATIN SMALL LETTER DOTLESS I)
- 
-
-	- And 0x0307 (COMBINING DOT ABOVE)
+	- 0x0307 (COMBINING DOT ABOVE)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
@@ -592,10 +577,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x0131 (LATIN SMALL LETTER DOTLESS I)
- 
-
-	- And 0x0307 (COMBINING DOT ABOVE)
+	- 0x0307 (COMBINING DOT ABOVE)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
@@ -691,10 +673,7 @@ The following glyphs do not have the recommended number of contours:
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x0131 (LATIN SMALL LETTER DOTLESS I)
- 
-
-	- And 0x0307 (COMBINING DOT ABOVE)
+	- 0x0307 (COMBINING DOT ABOVE)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
@@ -794,10 +773,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x0131 (LATIN SMALL LETTER DOTLESS I)
- 
-
-	- And 0x0307 (COMBINING DOT ABOVE)
+	- 0x0307 (COMBINING DOT ABOVE)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
@@ -913,10 +889,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x0131 (LATIN SMALL LETTER DOTLESS I)
- 
-
-	- And 0x0307 (COMBINING DOT ABOVE)
+	- 0x0307 (COMBINING DOT ABOVE)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 

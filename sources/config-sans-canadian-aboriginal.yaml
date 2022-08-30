@@ -7,6 +7,6 @@ includeSubsets:
 - from: Noto Sans
   ranges:
     - start: 0x25cc
-    - end: 0x25cc
+      end: 0x25cc
 sources:
 - NotoSansCanadianAboriginal.designspace

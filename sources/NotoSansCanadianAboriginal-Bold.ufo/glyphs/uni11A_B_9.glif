@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni11AB9" format="2">
-	<advance width="819"/>
 	<unicode hex="11AB9"/>
+	<advance width="819"/>
 	<outline>
 		<component base="uni11AB8"/>
 		<component base="g724" xOffset="442"/>
 	</outline>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2023-01-27 16:38:51 +0000</string>
 			<key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-			<string>==uni11AB8</string>
+			<string>=uni11AB8</string>
 			<key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-			<string>==uni11AB8</string>
+			<string>=uni11AB8</string>
+			<key>public.markColor</key>
+			<string>0.98,0.36,0.67,1</string>
 			<key>public.verticalOrigin</key>
 			<integer>1069</integer>
 		</dict>

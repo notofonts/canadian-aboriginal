@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni146D" format="2">
-	<advance width="583"/>
 	<unicode hex="146D"/>
-	<note>
-		uni146D
-	</note>
+	<advance width="583"/>
 	<outline>
 		<contour>
 			<point x="79" y="0" type="line"/>
@@ -41,10 +38,11 @@
 	</outline>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2023-01-27 16:37:02 +0000</string>
 			<key>public.verticalOrigin</key>
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+uni146D
+</note>
 </glyph>

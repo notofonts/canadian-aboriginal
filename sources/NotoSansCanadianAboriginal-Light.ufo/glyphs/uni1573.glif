@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1573" format="2">
-	<advance width="657"/>
 	<unicode hex="1573"/>
-	<note>
-		uni1573
-	</note>
+	<advance width="657"/>
 	<outline>
 		<contour>
 			<point x="429" y="1" type="curve" smooth="yes"/>
@@ -53,10 +50,11 @@
 			<string>=uni156E</string>
 			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
 			<string>=uni156E</string>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2023-01-27 16:37:02 +0000</string>
 			<key>public.verticalOrigin</key>
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+uni1573
+</note>
 </glyph>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni15F3" format="2">
-	<advance width="702"/>
 	<unicode hex="15F3"/>
-	<note>
-		uni15F3
-	</note>
+	<advance width="702"/>
 	<outline>
 		<contour>
 			<point x="337" y="306" type="curve" smooth="yes"/>
@@ -59,10 +56,13 @@
 	</outline>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2023-01-27 16:37:02 +0000</string>
+			<key>public.markColor</key>
+			<string>0.98,0.36,0.67,1</string>
 			<key>public.verticalOrigin</key>
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+uni15F3
+</note>
 </glyph>

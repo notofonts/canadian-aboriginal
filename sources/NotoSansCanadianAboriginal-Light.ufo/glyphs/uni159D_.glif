@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni159D" format="2">
-	<advance width="897"/>
 	<unicode hex="159D"/>
-	<note>
-		uni159D
-	</note>
+	<advance width="897"/>
 	<outline>
 		<contour>
 			<point x="59" y="0" type="line"/>
@@ -50,10 +47,11 @@
 			<string>=uni159B</string>
 			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
 			<string>=uni159B</string>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2023-01-27 16:37:02 +0000</string>
 			<key>public.verticalOrigin</key>
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+uni159D
+</note>
 </glyph>

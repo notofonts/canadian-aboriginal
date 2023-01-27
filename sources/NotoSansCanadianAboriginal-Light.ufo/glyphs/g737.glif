@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="g737" format="2">
 	<advance width="748"/>
-	<note>
-		g737
-	</note>
 	<outline>
 		<component base="g729" xOffset="97"/>
 		<component base="g725" xOffset="-130" yOffset="-1"/>
@@ -11,10 +8,11 @@
 	</outline>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2023-01-27 16:37:02 +0000</string>
 			<key>public.verticalOrigin</key>
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+g737
+</note>
 </glyph>

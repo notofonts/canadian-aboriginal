@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="g736" format="2">
 	<advance width="890"/>
-	<note>
-		g736
-	</note>
 	<outline>
 		<component base="g729"/>
 		<component base="g725" xOffset="557" yOffset="-7"/>
@@ -21,10 +18,11 @@
 					<string>g729</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2023-01-27 16:35:20 +0000</string>
 			<key>public.verticalOrigin</key>
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+g736
+</note>
 </glyph>

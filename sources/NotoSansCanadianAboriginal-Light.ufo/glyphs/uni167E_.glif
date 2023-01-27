@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni167E" format="2">
-	<advance width="420"/>
 	<unicode hex="167E"/>
-	<note>
-		uni167E
-	</note>
+	<advance width="420"/>
 	<outline>
 		<contour>
 			<point x="197" y="377" type="line"/>
@@ -27,10 +24,11 @@
 	</outline>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2023-01-27 16:37:02 +0000</string>
 			<key>public.verticalOrigin</key>
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+uni167E
+</note>
 </glyph>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1663" format="2">
-	<advance width="779"/>
 	<unicode hex="1663"/>
-	<note>
-		uni1663
-	</note>
+	<advance width="779"/>
 	<outline>
 		<contour>
 			<point x="113" y="219" type="line"/>
@@ -75,10 +72,13 @@
 	</outline>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2023-01-27 16:37:02 +0000</string>
+			<key>public.markColor</key>
+			<string>0.98,0.36,0.67,1</string>
 			<key>public.verticalOrigin</key>
 			<integer>1069</integer>
 		</dict>
 	</lib>
+	<note>
+uni1663
+</note>
 </glyph>

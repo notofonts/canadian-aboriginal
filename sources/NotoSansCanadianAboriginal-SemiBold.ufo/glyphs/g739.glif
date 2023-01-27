@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="g739" format="2">
 	<advance width="599"/>
+	<note>
+		g739
+	</note>
 	<outline>
 		<contour>
 			<point x="426" y="329" type="curve" smooth="yes"/>
@@ -61,11 +64,10 @@
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2023-01-27 16:35:20 +0000</string>
 			<key>public.verticalOrigin</key>
 			<integer>1069</integer>
 		</dict>
 	</lib>
-	<note>
-g739
-</note>
 </glyph>

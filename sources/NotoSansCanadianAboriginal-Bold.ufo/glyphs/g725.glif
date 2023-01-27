@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="g725" format="2">
 	<advance width="446"/>
+	<note>
+		g725
+	</note>
 	<outline>
 		<contour>
 			<point x="223" y="280" type="curve" smooth="yes"/>
@@ -21,11 +24,10 @@
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.Export</key>
 			<false/>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2023-01-27 16:38:51 +0000</string>
 			<key>public.verticalOrigin</key>
 			<integer>1069</integer>
 		</dict>
 	</lib>
-	<note>
-g725
-</note>
 </glyph>

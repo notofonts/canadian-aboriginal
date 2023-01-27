@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni18F0" format="2">
+	<advance width="828"/>
 	<unicode hex="18F0"/>
-	<advance width="1127"/>
+	<note>
+		uni18F0
+	</note>
 	<outline>
 		<contour>
 			<point x="217" y="356" type="line"/>
@@ -39,30 +42,16 @@
 			<point x="111" y="378"/>
 			<point x="217" y="359" type="curve"/>
 		</contour>
-		<contour>
-			<point x="915" y="324" type="curve" smooth="yes"/>
-			<point x="933" y="324"/>
-			<point x="948" y="338"/>
-			<point x="948" y="357" type="curve" smooth="yes"/>
-			<point x="948" y="375"/>
-			<point x="933" y="390"/>
-			<point x="915" y="390" type="curve" smooth="yes"/>
-			<point x="896" y="390"/>
-			<point x="881" y="375"/>
-			<point x="881" y="357" type="curve" smooth="yes"/>
-			<point x="881" y="338"/>
-			<point x="896" y="324"/>
-		</contour>
+		<component base="g725" xOffset="523" yOffset="-1"/>
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2023-01-27 16:38:28 +0000</string>
 			<key>public.markColor</key>
 			<string>0.98,0.36,0.67,1</string>
 			<key>public.verticalOrigin</key>
 			<integer>1069</integer>
 		</dict>
 	</lib>
-	<note>
-uni18F0
-</note>
 </glyph>

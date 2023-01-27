@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni145A" format="2">
-	<unicode hex="145A"/>
 	<advance width="998"/>
+	<unicode hex="145A"/>
+	<note>
+		uni145A
+	</note>
 	<outline>
 		<component base="uni144E"/>
 		<component base="g725" xOffset="652" yOffset="-7"/>
@@ -12,11 +15,10 @@
 			<string>=uni144C</string>
 			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
 			<string>=uni144C-20</string>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2023-01-27 16:38:51 +0000</string>
 			<key>public.verticalOrigin</key>
 			<integer>1069</integer>
 		</dict>
 	</lib>
-	<note>
-uni145A
-</note>
 </glyph>

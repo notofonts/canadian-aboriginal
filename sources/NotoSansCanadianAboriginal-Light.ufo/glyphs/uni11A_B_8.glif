@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni11AB8" format="2">
-	<unicode hex="11AB8"/>
 	<advance width="696"/>
+	<unicode hex="11AB8"/>
 	<outline>
 		<contour>
 			<point x="236" y="21" type="line"/>
@@ -29,8 +29,8 @@
 	</outline>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.98,0.36,0.67,1</string>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2023-01-27 16:37:02 +0000</string>
 			<key>public.verticalOrigin</key>
 			<integer>1069</integer>
 		</dict>

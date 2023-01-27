@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni162B" format="2">
-	<unicode hex="162B"/>
 	<advance width="930"/>
+	<unicode hex="162B"/>
+	<note>
+		uni162B
+	</note>
 	<outline>
 		<contour>
 			<point x="522" y="254" type="line"/>
@@ -43,13 +46,10 @@
 	</outline>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.98,0.36,0.67,1</string>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2023-01-27 16:35:20 +0000</string>
 			<key>public.verticalOrigin</key>
 			<integer>1069</integer>
 		</dict>
 	</lib>
-	<note>
-uni162B
-</note>
 </glyph>

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1433" format="2">
-	<unicode hex="1433"/>
 	<advance width="732"/>
+	<unicode hex="1433"/>
+	<note>
+		uni1433
+	</note>
 	<outline>
 		<contour>
 			<point x="59" y="-12" type="line"/>
@@ -17,11 +20,10 @@
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2023-01-27 16:37:02 +0000</string>
 			<key>public.verticalOrigin</key>
 			<integer>1069</integer>
 		</dict>
 	</lib>
-	<note>
-uni1433
-</note>
 </glyph>

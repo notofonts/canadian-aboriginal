@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni15C8" format="2">
-	<unicode hex="15C8"/>
 	<advance width="722"/>
+	<unicode hex="15C8"/>
+	<note>
+		uni15C8
+	</note>
 	<outline>
 		<contour>
 			<point x="535" y="354" type="line"/>
@@ -38,13 +41,10 @@
 	</outline>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.98,0.36,0.67,1</string>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2023-01-27 16:35:20 +0000</string>
 			<key>public.verticalOrigin</key>
 			<integer>1069</integer>
 		</dict>
 	</lib>
-	<note>
-uni15C8
-</note>
 </glyph>

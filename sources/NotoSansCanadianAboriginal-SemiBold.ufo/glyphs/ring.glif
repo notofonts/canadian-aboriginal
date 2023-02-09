@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ring" format="2">
-	<unicode hex="02DA"/>
 	<advance width="325"/>
+	<unicode hex="02DA"/>
+	<note>
+		ring
+	</note>
 	<outline>
 		<contour>
 			<point x="161" y="605" type="curve" smooth="yes"/>
@@ -36,11 +39,10 @@
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.Export</key>
 			<false/>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2023-01-27 16:35:20 +0000</string>
 			<key>public.verticalOrigin</key>
 			<integer>1069</integer>
 		</dict>
 	</lib>
-	<note>
-ring
-</note>
 </glyph>

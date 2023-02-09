@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="g729" format="2">
 	<advance width="677"/>
+	<note>
+		g729
+	</note>
 	<outline>
 		<contour>
 			<point x="107" y="0" type="line"/>
@@ -39,11 +42,10 @@
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2023-01-27 16:28:20 +0000</string>
 			<key>public.verticalOrigin</key>
 			<integer>1069</integer>
 		</dict>
 	</lib>
-	<note>
-g729
-</note>
 </glyph>

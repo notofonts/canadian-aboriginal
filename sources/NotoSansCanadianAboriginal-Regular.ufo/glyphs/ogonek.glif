@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ogonek" format="2">
-	<unicode hex="02DB"/>
 	<advance width="245"/>
+	<unicode hex="02DB"/>
+	<note>
+		ogonek
+	</note>
 	<outline>
 		<contour>
 			<point x="143" y="-220" type="curve" smooth="yes"/>
@@ -30,11 +33,10 @@
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.Export</key>
 			<false/>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2023-01-27 16:28:20 +0000</string>
 			<key>public.verticalOrigin</key>
 			<integer>1069</integer>
 		</dict>
 	</lib>
-	<note>
-ogonek
-</note>
 </glyph>

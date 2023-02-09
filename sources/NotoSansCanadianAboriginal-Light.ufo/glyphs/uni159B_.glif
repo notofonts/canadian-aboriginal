@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni159B" format="2">
-	<unicode hex="159B"/>
 	<advance width="897"/>
+	<unicode hex="159B"/>
+	<note>
+		uni159B
+	</note>
 	<outline>
 		<contour>
 			<point x="581" y="-12" type="curve" smooth="yes"/>
@@ -43,11 +46,10 @@
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2023-01-27 16:37:02 +0000</string>
 			<key>public.verticalOrigin</key>
 			<integer>1069</integer>
 		</dict>
 	</lib>
-	<note>
-uni159B
-</note>
 </glyph>

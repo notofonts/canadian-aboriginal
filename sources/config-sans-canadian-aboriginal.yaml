@@ -1,5 +1,5 @@
-buildVariable: true
 familyName: Noto Sans Canadian Aboriginal
+buildVariable: true
 googleFonts: true
 includeSubsets:
 - from: Noto Sans

@@ -2,6 +2,8 @@
 languagesystem DFLT dflt;
 languagesystem cans dflt;
 
+@finals = [uni141F uni1420 uni1421 uni1422 uni1423 uni1424 uni1425 uni1426 uni1427 uni1428 uni1429 uni142A uni167E uni18DE uni18DF ];
+
 # Prefix: Prefix
 lookup gsub_0_single {
 	sub uni1513 by g727 ;
@@ -32,3 +34,12 @@ script DFLT ;
 		
 } salt;
 
+feature ss01 {
+    featureNames { name "Mid-line finals"; };
+    pos @finals <0 -300 0 0>;
+} ss01;
+
+feature ss02 {
+    featureNames { name "Low-line finals"; };
+    pos @finals <0 -600 0 0>;
+} ss02;

@@ -1,0 +1,3541 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Glyphs</title>
+    
+    <style type="text/css">
+    
+
+        html{
+	  font-family: sans-serif;
+	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
+	.box-title{
+	  width: 100%;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attrib-old{
+                color: red;
+                cursor: text;
+            }
+            .attrib-new{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+	    @font-face{
+    src: url(old-NotoSansCanadianAboriginal[wght].ttf);
+    font-family: "old font";
+    font-weight: 100 900;
+    
+    font-style: normal;
+}
+	  
+
+	  
+	    @font-face{
+    src: url(new-NotoSansCanadianAboriginal[wght].ttf);
+    font-family: "new font";
+    font-weight: 100 900;
+    
+    font-style: normal;
+}
+	  
+
+	  
+
+	  
+	    .old-style{
+    font-family: "old font", "Adobe NotDef";
+    font-weight: 500.0;
+    
+    font-style: normal;
+}
+	  
+
+	  
+	    .new-style{
+    font-family: "new font", "Adobe NotDef";
+    font-weight: 500.0;
+    
+    font-style: normal;
+}
+	  
+
+	  
+	
+.cell{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  width: 50pt;
+  line-height: 48.0px;
+}
+.cell-word{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  line-height: 48.0px;
+}
+.cat-strings .cell {
+  clear: both;
+  position: static;
+  float: none;
+  text-align: left;
+}
+.box-title {
+  clear: both;
+}
+
+    </style>
+</head>
+<body>
+    <div id="nav">
+		
+			<div class="nav-item" id="font-toggle">old</div>
+		
+		
+	</div>
+    <div id="content">
+	<h2>
+<b>Diffenator</b>
+</h2>
+	
+  
+    <div class="box">
+    <div class="box-title">Tables</div>
+     
+<div class="node" >
+HVAR
+  <div class="node" style="display:none">
+  table
+    <div class="node" style="display:none">
+    AdvWidthMap
+      <div class="node" style="display:none">
+      mapping
+        <div class="node" style="display:none">
+        error
+          <span class="attrib-before">There are 593 changes, check manually!</span> <span class="attrib-after"></span>
+        </div>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    VarStore
+      <div class="node" style="display:none">
+      VarData
+        <div class="node" style="display:none">
+        [3]
+          <div class="node" style="display:none">
+          Item
+            <div class="node" style="display:none">
+            error
+              <span class="attrib-before">There are 216 changes, check manually!</span> <span class="attrib-after"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="node" >
+vmtx
+  <div class="node" style="display:none">
+  metrics
+    <div class="node" style="display:none">
+    uni11AB6
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">355</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11ABA
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">355</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11AB5
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">145</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11AB2
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">355</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11AB1
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">145</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11AB9
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">145</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11AB3
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">145</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11AB7
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">145</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11AB2
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">355</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11AB0
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">355</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11ABA
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">355</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11ABB
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">145</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11AB4
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">355</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11ABE
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">353</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11AB9
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">145</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11AB8
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">355</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11AB7
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">145</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11ABE
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">353</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11AB1
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">145</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11ABD
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">354</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11ABF
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">353</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11AB6
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">355</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11ABB
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">145</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11AB8
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">355</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11ABC
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">354</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    NULL
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">1069</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11ABD
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">354</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11AB5
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">145</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11AB4
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">355</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11AB0
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">355</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11ABC
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">354</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11ABF
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">353</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    .null
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">1069</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11AB3
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">145</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="node" >
+STAT
+  <div class="node" style="display:none">
+  design axis records
+    <div class="node" style="display:none">
+    wght
+      <div class="node" style="display:none">
+      order
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      AxisName
+        <span class="attrib-before">Weight</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+  </div>
+  <div class="node" style="display:none">
+  axis values
+    <div class="node" style="display:none">
+    Thin
+      <div class="node" style="display:none">
+      format
+        <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      AxisIndex
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      Flags
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      Value
+        <span class="attrib-before">100.0</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    ExtraLight
+      <div class="node" style="display:none">
+      format
+        <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      AxisIndex
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      Flags
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      Value
+        <span class="attrib-before">200.0</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    Light
+      <div class="node" style="display:none">
+      format
+        <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      AxisIndex
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      Flags
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      Value
+        <span class="attrib-before">300.0</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    Regular
+      <div class="node" style="display:none">
+      format
+        <span class="attrib-before">3</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      AxisIndex
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      Flags
+        <span class="attrib-before">2</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      Value
+        <span class="attrib-before">400.0</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    Medium
+      <div class="node" style="display:none">
+      format
+        <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      AxisIndex
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      Flags
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      Value
+        <span class="attrib-before">500.0</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    SemiBold
+      <div class="node" style="display:none">
+      format
+        <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      AxisIndex
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      Flags
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      Value
+        <span class="attrib-before">600.0</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    Bold
+      <div class="node" style="display:none">
+      format
+        <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      AxisIndex
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      Flags
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      Value
+        <span class="attrib-before">700.0</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    ExtraBold
+      <div class="node" style="display:none">
+      format
+        <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      AxisIndex
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      Flags
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      Value
+        <span class="attrib-before">800.0</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    Black
+      <div class="node" style="display:none">
+      format
+        <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      AxisIndex
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      Flags
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      Value
+        <span class="attrib-before">900.0</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="node" >
+OS/2
+  <div class="node" style="display:none">
+  xAvgCharWidth
+    <span class="attrib-before">751</span> <span class="attrib-after">750</span>
+  </div>
+</div>
+<div class="node" >
+post
+  <div class="node" style="display:none">
+  extraNames
+    <div class="node" style="display:none">
+    error
+      <span class="attrib-before">There are 751 changes, check manually!</span> <span class="attrib-after"></span>
+    </div>
+  </div>
+</div>
+<div class="node" >
+cmap
+  <div class="node" style="display:none">
+  0x11ABE
+    <span class="attrib-before">uni11ABE</span> <span class="attrib-after">u11ABE</span>
+  </div>
+  <div class="node" style="display:none">
+  0x11AB0
+    <span class="attrib-before">uni11AB0</span> <span class="attrib-after">u11AB0</span>
+  </div>
+  <div class="node" style="display:none">
+  0x11AB3
+    <span class="attrib-before">uni11AB3</span> <span class="attrib-after">u11AB3</span>
+  </div>
+  <div class="node" style="display:none">
+  0x11ABF
+    <span class="attrib-before">uni11ABF</span> <span class="attrib-after">u11ABF</span>
+  </div>
+  <div class="node" style="display:none">
+  0x11AB2
+    <span class="attrib-before">uni11AB2</span> <span class="attrib-after">u11AB2</span>
+  </div>
+  <div class="node" style="display:none">
+  0x11AB4
+    <span class="attrib-before">uni11AB4</span> <span class="attrib-after">u11AB4</span>
+  </div>
+  <div class="node" style="display:none">
+  0x11ABA
+    <span class="attrib-before">uni11ABA</span> <span class="attrib-after">u11ABA</span>
+  </div>
+  <div class="node" style="display:none">
+  0x11ABC
+    <span class="attrib-before">uni11ABC</span> <span class="attrib-after">u11ABC</span>
+  </div>
+  <div class="node" style="display:none">
+  0x11AB7
+    <span class="attrib-before">uni11AB7</span> <span class="attrib-after">u11AB7</span>
+  </div>
+  <div class="node" style="display:none">
+  0x11ABD
+    <span class="attrib-before">uni11ABD</span> <span class="attrib-after">u11ABD</span>
+  </div>
+  <div class="node" style="display:none">
+  0x11AB8
+    <span class="attrib-before">uni11AB8</span> <span class="attrib-after">u11AB8</span>
+  </div>
+  <div class="node" style="display:none">
+  0x11AB5
+    <span class="attrib-before">uni11AB5</span> <span class="attrib-after">u11AB5</span>
+  </div>
+  <div class="node" style="display:none">
+  0x11ABB
+    <span class="attrib-before">uni11ABB</span> <span class="attrib-after">u11ABB</span>
+  </div>
+  <div class="node" style="display:none">
+  0x0000
+    <span class="attrib-before">NULL</span> <span class="attrib-after">.null</span>
+  </div>
+  <div class="node" style="display:none">
+  0x11AB6
+    <span class="attrib-before">uni11AB6</span> <span class="attrib-after">u11AB6</span>
+  </div>
+  <div class="node" style="display:none">
+  0x11AB1
+    <span class="attrib-before">uni11AB1</span> <span class="attrib-after">u11AB1</span>
+  </div>
+  <div class="node" style="display:none">
+  0x11AB9
+    <span class="attrib-before">uni11AB9</span> <span class="attrib-after">u11AB9</span>
+  </div>
+</div>
+<div class="node" >
+name
+  <div class="node" style="display:none">
+  (265, 3, 1, 1033)
+    <span class="attrib-before">Black</span> <span class="attrib-after">Bold</span>
+  </div>
+  <div class="node" style="display:none">
+  (262, 3, 1, 1033)
+    <span class="attrib-before">SemiBold</span> <span class="attrib-after">None</span>
+  </div>
+  <div class="node" style="display:none">
+  (276, 3, 1, 1033)
+    <span class="attrib-before">None</span> <span class="attrib-after">Black</span>
+  </div>
+  <div class="node" style="display:none">
+  (259, 3, 1, 1033)
+    <span class="attrib-before">Light</span> <span class="attrib-after">Thin</span>
+  </div>
+  <div class="node" style="display:none">
+  (269, 1, 0, 0)
+    <span class="attrib-before">Regular</span> <span class="attrib-after">ExtraLight</span>
+  </div>
+  <div class="node" style="display:none">
+  (267, 1, 0, 0)
+    <span class="attrib-before">ExtraLight</span> <span class="attrib-after">None</span>
+  </div>
+  <div class="node" style="display:none">
+  (270, 3, 1, 1033)
+    <span class="attrib-before">Medium</span> <span class="attrib-after">Light</span>
+  </div>
+  <div class="node" style="display:none">
+  (267, 3, 1, 1033)
+    <span class="attrib-before">ExtraLight</span> <span class="attrib-after">Black</span>
+  </div>
+  <div class="node" style="display:none">
+  (266, 1, 0, 0)
+    <span class="attrib-before">Thin</span> <span class="attrib-after">None</span>
+  </div>
+  <div class="node" style="display:none">
+  (257, 3, 1, 1033)
+    <span class="attrib-before">Thin</span> <span class="attrib-after">Low-line finals</span>
+  </div>
+  <div class="node" style="display:none">
+  (273, 3, 1, 1033)
+    <span class="attrib-before">ExtraBold</span> <span class="attrib-after">SemiBold</span>
+  </div>
+  <div class="node" style="display:none">
+  (274, 1, 0, 0)
+    <span class="attrib-before">Black</span> <span class="attrib-after">Bold</span>
+  </div>
+  <div class="node" style="display:none">
+  (272, 1, 0, 0)
+    <span class="attrib-before">Bold</span> <span class="attrib-after">Medium</span>
+  </div>
+  <div class="node" style="display:none">
+  (276, 1, 0, 0)
+    <span class="attrib-before">None</span> <span class="attrib-after">Black</span>
+  </div>
+  <div class="node" style="display:none">
+  (274, 3, 1, 1033)
+    <span class="attrib-before">Black</span> <span class="attrib-after">Bold</span>
+  </div>
+  <div class="node" style="display:none">
+  (271, 1, 0, 0)
+    <span class="attrib-before">SemiBold</span> <span class="attrib-after">Regular</span>
+  </div>
+  <div class="node" style="display:none">
+  (264, 3, 1, 1033)
+    <span class="attrib-before">ExtraBold</span> <span class="attrib-after">SemiBold</span>
+  </div>
+  <div class="node" style="display:none">
+  (273, 1, 0, 0)
+    <span class="attrib-before">ExtraBold</span> <span class="attrib-after">SemiBold</span>
+  </div>
+  <div class="node" style="display:none">
+  (270, 1, 0, 0)
+    <span class="attrib-before">Medium</span> <span class="attrib-after">Light</span>
+  </div>
+  <div class="node" style="display:none">
+  (266, 3, 1, 1033)
+    <span class="attrib-before">Thin</span> <span class="attrib-after">ExtraBold</span>
+  </div>
+  <div class="node" style="display:none">
+  (275, 3, 1, 1033)
+    <span class="attrib-before">None</span> <span class="attrib-after">ExtraBold</span>
+  </div>
+  <div class="node" style="display:none">
+  (261, 3, 1, 1033)
+    <span class="attrib-before">Medium</span> <span class="attrib-after">None</span>
+  </div>
+  <div class="node" style="display:none">
+  (258, 3, 1, 1033)
+    <span class="attrib-before">ExtraLight</span> <span class="attrib-after">Weight</span>
+  </div>
+  <div class="node" style="display:none">
+  (272, 3, 1, 1033)
+    <span class="attrib-before">Bold</span> <span class="attrib-after">Medium</span>
+  </div>
+  <div class="node" style="display:none">
+  (260, 3, 1, 1033)
+    <span class="attrib-before">Regular</span> <span class="attrib-after">ExtraLight</span>
+  </div>
+  <div class="node" style="display:none">
+  (269, 3, 1, 1033)
+    <span class="attrib-before">Regular</span> <span class="attrib-after">ExtraLight</span>
+  </div>
+  <div class="node" style="display:none">
+  (268, 3, 1, 1033)
+    <span class="attrib-before">Light</span> <span class="attrib-after">Thin</span>
+  </div>
+  <div class="node" style="display:none">
+  (271, 3, 1, 1033)
+    <span class="attrib-before">SemiBold</span> <span class="attrib-after">Regular</span>
+  </div>
+  <div class="node" style="display:none">
+  (275, 1, 0, 0)
+    <span class="attrib-before">None</span> <span class="attrib-after">ExtraBold</span>
+  </div>
+  <div class="node" style="display:none">
+  (263, 3, 1, 1033)
+    <span class="attrib-before">Bold</span> <span class="attrib-after">Medium</span>
+  </div>
+  <div class="node" style="display:none">
+  (268, 1, 0, 0)
+    <span class="attrib-before">Light</span> <span class="attrib-after">Thin</span>
+  </div>
+  <div class="node" style="display:none">
+  (256, 3, 1, 1033)
+    <span class="attrib-before">Weight</span> <span class="attrib-after">Mid-line finals</span>
+  </div>
+</div>
+<div class="node" >
+glyf
+  <div class="node" style="display:none">
+  glyphs
+    <div class="node" style="display:none">
+    NULL
+      <div class="node" style="display:none">
+      numberOfContours
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    .null
+      <div class="node" style="display:none">
+      numberOfContours
+        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+      </div>
+    </div>
+  </div>
+  <div class="node" style="display:none">
+  glyphOrder
+    <div class="node" style="display:none">
+    [2]
+      <span class="attrib-before">NULL</span> <span class="attrib-after">.null</span>
+    </div>
+    <div class="node" style="display:none">
+    [740]
+      <span class="attrib-before">uni11AB0</span> <span class="attrib-after">u11AB0</span>
+    </div>
+    <div class="node" style="display:none">
+    [741]
+      <span class="attrib-before">uni11AB1</span> <span class="attrib-after">u11AB1</span>
+    </div>
+    <div class="node" style="display:none">
+    [742]
+      <span class="attrib-before">uni11AB2</span> <span class="attrib-after">u11AB2</span>
+    </div>
+    <div class="node" style="display:none">
+    [743]
+      <span class="attrib-before">uni11AB3</span> <span class="attrib-after">u11AB3</span>
+    </div>
+    <div class="node" style="display:none">
+    [744]
+      <span class="attrib-before">uni11AB4</span> <span class="attrib-after">u11AB4</span>
+    </div>
+    <div class="node" style="display:none">
+    [745]
+      <span class="attrib-before">uni11AB5</span> <span class="attrib-after">u11AB5</span>
+    </div>
+    <div class="node" style="display:none">
+    [746]
+      <span class="attrib-before">uni11AB6</span> <span class="attrib-after">u11AB6</span>
+    </div>
+    <div class="node" style="display:none">
+    [747]
+      <span class="attrib-before">uni11AB7</span> <span class="attrib-after">u11AB7</span>
+    </div>
+    <div class="node" style="display:none">
+    [748]
+      <span class="attrib-before">uni11AB8</span> <span class="attrib-after">u11AB8</span>
+    </div>
+    <div class="node" style="display:none">
+    [749]
+      <span class="attrib-before">uni11AB9</span> <span class="attrib-after">u11AB9</span>
+    </div>
+    <div class="node" style="display:none">
+    [750]
+      <span class="attrib-before">uni11ABA</span> <span class="attrib-after">u11ABA</span>
+    </div>
+    <div class="node" style="display:none">
+    [751]
+      <span class="attrib-before">uni11ABB</span> <span class="attrib-after">u11ABB</span>
+    </div>
+    <div class="node" style="display:none">
+    [752]
+      <span class="attrib-before">uni11ABC</span> <span class="attrib-after">u11ABC</span>
+    </div>
+    <div class="node" style="display:none">
+    [753]
+      <span class="attrib-before">uni11ABD</span> <span class="attrib-after">u11ABD</span>
+    </div>
+    <div class="node" style="display:none">
+    [754]
+      <span class="attrib-before">uni11ABE</span> <span class="attrib-after">u11ABE</span>
+    </div>
+    <div class="node" style="display:none">
+    [755]
+      <span class="attrib-before">uni11ABF</span> <span class="attrib-after">u11ABF</span>
+    </div>
+  </div>
+</div>
+<div class="node" >
+head
+  <div class="node" style="display:none">
+  modified
+    <span class="attrib-before">3744695383</span> <span class="attrib-after">3764750634</span>
+  </div>
+  <div class="node" style="display:none">
+  checkSumAdjustment
+    <span class="attrib-before">375390473</span> <span class="attrib-after">240650235</span>
+  </div>
+</div>
+<div class="node" >
+GPOS
+  <div class="node" style="display:none">
+  tableTag
+    <span class="attrib-before">None</span> <span class="attrib-after">GPOS</span>
+  </div>
+  <div class="node" style="display:none">
+  table
+    <div class="node" style="display:none">
+    Version
+      <span class="attrib-before">None</span> <span class="attrib-after">65536</span>
+    </div>
+    <div class="node" style="display:none">
+    ScriptList
+      <div class="node" style="display:none">
+      ScriptCount
+        <span class="attrib-before">None</span> <span class="attrib-after">2</span>
+      </div>
+      <div class="node" style="display:none">
+      ScriptRecord
+        <div class="node" style="display:none">
+        [0]
+          <div class="node" style="display:none">
+          ScriptTag
+            <span class="attrib-before">None</span> <span class="attrib-after">DFLT</span>
+          </div>
+          <div class="node" style="display:none">
+          Script
+            <div class="node" style="display:none">
+            DefaultLangSys
+              <div class="node" style="display:none">
+              ReqFeatureIndex
+                <span class="attrib-before">None</span> <span class="attrib-after">65535</span>
+              </div>
+              <div class="node" style="display:none">
+              FeatureCount
+                <span class="attrib-before">None</span> <span class="attrib-after">2</span>
+              </div>
+              <div class="node" style="display:none">
+              FeatureIndex
+                <div class="node" style="display:none">
+                [0]
+                  <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+                </div>
+                <div class="node" style="display:none">
+                [1]
+                  <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                </div>
+              </div>
+            </div>
+            <div class="node" style="display:none">
+            LangSysCount
+              <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [1]
+          <div class="node" style="display:none">
+          ScriptTag
+            <span class="attrib-before">None</span> <span class="attrib-after">cans</span>
+          </div>
+          <div class="node" style="display:none">
+          Script
+            <div class="node" style="display:none">
+            DefaultLangSys
+              <div class="node" style="display:none">
+              ReqFeatureIndex
+                <span class="attrib-before">None</span> <span class="attrib-after">65535</span>
+              </div>
+              <div class="node" style="display:none">
+              FeatureCount
+                <span class="attrib-before">None</span> <span class="attrib-after">2</span>
+              </div>
+              <div class="node" style="display:none">
+              FeatureIndex
+                <div class="node" style="display:none">
+                [0]
+                  <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+                </div>
+                <div class="node" style="display:none">
+                [1]
+                  <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+                </div>
+              </div>
+            </div>
+            <div class="node" style="display:none">
+            LangSysCount
+              <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    FeatureList
+      <div class="node" style="display:none">
+      FeatureCount
+        <span class="attrib-before">None</span> <span class="attrib-after">2</span>
+      </div>
+      <div class="node" style="display:none">
+      FeatureRecord
+        <div class="node" style="display:none">
+        [0]
+          <div class="node" style="display:none">
+          FeatureTag
+            <span class="attrib-before">None</span> <span class="attrib-after">ss01</span>
+          </div>
+          <div class="node" style="display:none">
+          Feature
+            <div class="node" style="display:none">
+            FeatureParams
+              <div class="node" style="display:none">
+              Version
+                <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+              </div>
+              <div class="node" style="display:none">
+              UINameID
+                <span class="attrib-before">None</span> <span class="attrib-after">256</span>
+              </div>
+            </div>
+            <div class="node" style="display:none">
+            LookupCount
+              <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+            </div>
+            <div class="node" style="display:none">
+            LookupListIndex
+              <div class="node" style="display:none">
+              [0]
+                <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [1]
+          <div class="node" style="display:none">
+          FeatureTag
+            <span class="attrib-before">None</span> <span class="attrib-after">ss02</span>
+          </div>
+          <div class="node" style="display:none">
+          Feature
+            <div class="node" style="display:none">
+            FeatureParams
+              <div class="node" style="display:none">
+              Version
+                <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+              </div>
+              <div class="node" style="display:none">
+              UINameID
+                <span class="attrib-before">None</span> <span class="attrib-after">257</span>
+              </div>
+            </div>
+            <div class="node" style="display:none">
+            LookupCount
+              <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+            </div>
+            <div class="node" style="display:none">
+            LookupListIndex
+              <div class="node" style="display:none">
+              [0]
+                <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    LookupList
+      <div class="node" style="display:none">
+      LookupCount
+        <span class="attrib-before">None</span> <span class="attrib-after">2</span>
+      </div>
+      <div class="node" style="display:none">
+      Lookup
+        <div class="node" style="display:none">
+        [0]
+          <div class="node" style="display:none">
+          LookupType
+            <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+          </div>
+          <div class="node" style="display:none">
+          LookupFlag
+            <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+          </div>
+          <div class="node" style="display:none">
+          SubTableCount
+            <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+          </div>
+          <div class="node" style="display:none">
+          SubTable
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              Format
+                <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+              </div>
+              <div class="node" style="display:none">
+              Coverage
+                <div class="node" style="display:none">
+                glyphs
+                  <div class="node" style="display:none">
+                  [0]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni141F</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [1]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni1420</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [2]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni1421</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [3]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni1422</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [4]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni1423</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [5]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni1424</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [6]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni1425</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [7]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni1426</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [8]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni1427</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [9]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni1428</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [10]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni1429</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [11]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni142A</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [12]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni167E</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [13]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni18DE</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [14]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni18DF</span>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              ValueFormat
+                <span class="attrib-before">None</span> <span class="attrib-after">2</span>
+              </div>
+              <div class="node" style="display:none">
+              Value
+                <div class="node" style="display:none">
+                YPlacement
+                  <span class="attrib-before">None</span> <span class="attrib-after">-300</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [1]
+          <div class="node" style="display:none">
+          LookupType
+            <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+          </div>
+          <div class="node" style="display:none">
+          LookupFlag
+            <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+          </div>
+          <div class="node" style="display:none">
+          SubTableCount
+            <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+          </div>
+          <div class="node" style="display:none">
+          SubTable
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              Format
+                <span class="attrib-before">None</span> <span class="attrib-after">1</span>
+              </div>
+              <div class="node" style="display:none">
+              Coverage
+                <div class="node" style="display:none">
+                glyphs
+                  <div class="node" style="display:none">
+                  [0]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni141F</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [1]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni1420</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [2]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni1421</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [3]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni1422</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [4]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni1423</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [5]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni1424</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [6]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni1425</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [7]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni1426</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [8]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni1427</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [9]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni1428</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [10]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni1429</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [11]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni142A</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [12]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni167E</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [13]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni18DE</span>
+                  </div>
+                  <div class="node" style="display:none">
+                  [14]
+                    <span class="attrib-before">None</span> <span class="attrib-after">uni18DF</span>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              ValueFormat
+                <span class="attrib-before">None</span> <span class="attrib-after">2</span>
+              </div>
+              <div class="node" style="display:none">
+              Value
+                <div class="node" style="display:none">
+                YPlacement
+                  <span class="attrib-before">None</span> <span class="attrib-after">-600</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="node" >
+hmtx
+  <div class="node" style="display:none">
+  metrics
+    <div class="node" style="display:none">
+    uni18F2
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">1329</span> <span class="attrib-after">1088</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11AB6
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">724</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">69</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11ABA
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">724</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">69</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11AB5
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">618</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">51</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11AB2
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">617</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">58</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11AB1
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">636</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">51</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11AB9
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">745</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">35</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11AB3
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">617</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">58</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11AB7
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">724</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">69</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11AB2
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">617</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">58</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11AB0
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">617</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">51</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11ABA
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">724</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">69</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11ABB
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">745</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">69</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11AB4
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">618</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">51</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11ABE
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">787</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">68</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11AB9
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">745</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">35</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11AB8
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">724</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">35</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni18ED
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">1298</span> <span class="attrib-after">1056</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11AB7
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">724</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">69</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11ABE
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">787</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">68</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni18F0
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">1123</span> <span class="attrib-after">885</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11AB1
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">636</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">51</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11ABD
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">664</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">68</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11ABF
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">787</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">68</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11AB6
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">724</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">69</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11ABB
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">745</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">69</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11AB8
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">724</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">35</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11ABC
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">664</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">68</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    NULL
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">0</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11ABD
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">664</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">68</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11AB5
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">618</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">51</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11AB4
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">618</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">51</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11AB0
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">617</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">51</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11ABC
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">664</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">68</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    uni11ABF
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">787</span> <span class="attrib-after">None</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">68</span> <span class="attrib-after">None</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    .null
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">0</span>
+      </div>
+    </div>
+    <div class="node" style="display:none">
+    u11AB3
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">None</span> <span class="attrib-after">617</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">None</span> <span class="attrib-after">58</span>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+
+    
+      <div class="box">
+        <div class="box-title">Misshapen Canadian_Aboriginal words</div>
+        <div class="box-text old-style" style="font-size: 32pt">
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᑐᑭᓯᒋᐊᕐᕕᖓᓅᕐᓗᑎᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=110, pos=(0, 0, 689, 0)<br>gid=139, pos=(0, 0, 609, 0)<br>gid=269, pos=(0, 0, 592, 0)<br>gid=169, pos=(0, 0, 642, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=371, pos=(0, 0, 797, 0)<br>gid=433, pos=(0, 0, 1197, 0)<br>gid=227, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=110, pos=(0, 0, 689, 0)<br>gid=139, pos=(0, 0, 609, 0)<br>gid=269, pos=(0, 0, 592, 0)<br>gid=169, pos=(0, 0, 642, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=371, pos=(0, 0, 797, 0)<br>gid=433, pos=(0, 0, 1197, 0)<br>gid=227, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.01%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᓈᒻᒪᒃᓴᓚᐅᖅᑐᒍᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=230, pos=(0, 0, 912, 0)<br>gid=217, pos=(0, 0, 356, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=274, pos=(0, 0, 592, 0)<br>gid=248, pos=(0, 0, 895, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=171, pos=(0, 0, 642, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=230, pos=(0, 0, 912, 0)<br>gid=217, pos=(0, 0, 356, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=274, pos=(0, 0, 592, 0)<br>gid=248, pos=(0, 0, 895, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=171, pos=(0, 0, 642, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐅᓄᖅᓯᕚᓪᓕᕐᓗᒍ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=35, pos=(0, 0, 735, 0)<br>gid=226, pos=(0, 0, 912, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=269, pos=(0, 0, 592, 0)<br>gid=376, pos=(0, 0, 802, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=171, pos=(0, 0, 642, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=35, pos=(0, 0, 735, 0)<br>gid=226, pos=(0, 0, 912, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=269, pos=(0, 0, 592, 0)<br>gid=376, pos=(0, 0, 802, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=171, pos=(0, 0, 642, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᒧᕇᓐ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=197, pos=(0, 0, 601, 0)<br>gid=357, pos=(0, 0, 913, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=197, pos=(0, 0, 601, 0)<br>gid=357, pos=(0, 0, 913, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐳᑉᓚᒃ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=81, pos=(0, 0, 714, 0)<br>gid=103, pos=(0, 0, 382, 0)<br>gid=248, pos=(0, 0, 895, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=81, pos=(0, 0, 714, 0)<br>gid=103, pos=(0, 0, 382, 0)<br>gid=248, pos=(0, 0, 895, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᒥᒃᖠᒋᐊᖅᑎᓪᓗᒍ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=195, pos=(0, 0, 601, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=446, pos=(0, 0, 895, 0)<br>gid=169, pos=(0, 0, 642, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=171, pos=(0, 0, 642, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=195, pos=(0, 0, 601, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=446, pos=(0, 0, 895, 0)<br>gid=169, pos=(0, 0, 642, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=171, pos=(0, 0, 642, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᑲᑐᔾᔨᖃᑎᒌᒍᑎᖃᕐᓂᕐᒧᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=144, pos=(0, 0, 609, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=348, pos=(0, 0, 356, 0)<br>gid=326, pos=(0, 0, 575, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=170, pos=(0, 0, 642, 0)<br>gid=171, pos=(0, 0, 642, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=197, pos=(0, 0, 601, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=144, pos=(0, 0, 609, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=348, pos=(0, 0, 356, 0)<br>gid=326, pos=(0, 0, 575, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=170, pos=(0, 0, 642, 0)<br>gid=171, pos=(0, 0, 642, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=197, pos=(0, 0, 601, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᑕᓚᕖᓴᒃᑯᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=115, pos=(0, 0, 689, 0)<br>gid=248, pos=(0, 0, 895, 0)<br>gid=372, pos=(0, 0, 797, 0)<br>gid=274, pos=(0, 0, 592, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=141, pos=(0, 0, 609, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=115, pos=(0, 0, 689, 0)<br>gid=248, pos=(0, 0, 895, 0)<br>gid=372, pos=(0, 0, 797, 0)<br>gid=274, pos=(0, 0, 592, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=141, pos=(0, 0, 609, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐊᔪᙱᓐᓂᖅᑖᕐᓂᕐᒧᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=40, pos=(0, 0, 735, 0)<br>gid=328, pos=(0, 0, 575, 0)<br>gid=655, pos=(0, 0, 1464, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=116, pos=(0, 0, 689, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=197, pos=(0, 0, 601, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=40, pos=(0, 0, 735, 0)<br>gid=328, pos=(0, 0, 575, 0)<br>gid=655, pos=(0, 0, 1464, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=116, pos=(0, 0, 689, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=197, pos=(0, 0, 601, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᒎᓗᓂᒡᓘ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=172, pos=(0, 0, 637, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=191, pos=(0, 0, 384, 0)<br>gid=246, pos=(0, 0, 895, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=172, pos=(0, 0, 637, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=191, pos=(0, 0, 384, 0)<br>gid=246, pos=(0, 0, 895, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐅᖅᓱᐊᓗᖃᐅᑏᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=35, pos=(0, 0, 735, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=271, pos=(0, 0, 593, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=109, pos=(0, 0, 777, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=35, pos=(0, 0, 735, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=271, pos=(0, 0, 593, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=109, pos=(0, 0, 777, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᓄᕕᐱᓕ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=226, pos=(0, 0, 912, 0)<br>gid=371, pos=(0, 0, 797, 0)<br>gid=79, pos=(0, 0, 795, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=226, pos=(0, 0, 912, 0)<br>gid=371, pos=(0, 0, 797, 0)<br>gid=79, pos=(0, 0, 795, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᑕᑯᑎᑦᑎᔪᓐᓇᕆᐊᓖᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=115, pos=(0, 0, 689, 0)<br>gid=141, pos=(0, 0, 609, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=328, pos=(0, 0, 575, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=244, pos=(0, 0, 895, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=115, pos=(0, 0, 689, 0)<br>gid=141, pos=(0, 0, 609, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=328, pos=(0, 0, 575, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=244, pos=(0, 0, 895, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᖀᖅᓱᕈᓐᓇᖅᑐᑦᐅᕝᕙᓘᓐᓃᑦᓈᒻᒪᒍᓐᓃᕈᔾᔨᓗᑎᒃ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=414, pos=(0, 0, 927, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=271, pos=(0, 0, 593, 0)<br>gid=358, pos=(0, 0, 593, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=379, pos=(0, 0, 521, 0)<br>gid=375, pos=(0, 0, 802, 0)<br>gid=246, pos=(0, 0, 895, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=225, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=230, pos=(0, 0, 912, 0)<br>gid=217, pos=(0, 0, 356, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=171, pos=(0, 0, 642, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=225, pos=(0, 0, 912, 0)<br>gid=358, pos=(0, 0, 593, 0)<br>gid=348, pos=(0, 0, 356, 0)<br>gid=326, pos=(0, 0, 575, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=414, pos=(0, 0, 927, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=271, pos=(0, 0, 593, 0)<br>gid=358, pos=(0, 0, 593, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=379, pos=(0, 0, 521, 0)<br>gid=375, pos=(0, 0, 802, 0)<br>gid=246, pos=(0, 0, 895, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=225, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=230, pos=(0, 0, 912, 0)<br>gid=217, pos=(0, 0, 356, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=171, pos=(0, 0, 642, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=225, pos=(0, 0, 912, 0)<br>gid=358, pos=(0, 0, 593, 0)<br>gid=348, pos=(0, 0, 356, 0)<br>gid=326, pos=(0, 0, 575, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᖁᑦᑎᖕᓂᖅᐹᖑᖃᑕᐅᓪᓗᓂ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=415, pos=(0, 0, 920, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=435, pos=(0, 0, 596, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=87, pos=(0, 0, 719, 0)<br>gid=431, pos=(0, 0, 928, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=415, pos=(0, 0, 920, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=435, pos=(0, 0, 596, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=87, pos=(0, 0, 719, 0)<br>gid=431, pos=(0, 0, 928, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᑲᖏᕐᑐᒑᐱᒃ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=144, pos=(0, 0, 609, 0)<br>gid=429, pos=(0, 0, 1197, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=175, pos=(0, 0, 642, 0)<br>gid=79, pos=(0, 0, 795, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=144, pos=(0, 0, 609, 0)<br>gid=429, pos=(0, 0, 1197, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=175, pos=(0, 0, 642, 0)<br>gid=79, pos=(0, 0, 795, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᓴᓇᙳᐊᖅᑐᓕᕆᓂᕐᒧᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=274, pos=(0, 0, 592, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=657, pos=(0, 0, 1250, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=197, pos=(0, 0, 601, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=274, pos=(0, 0, 592, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=657, pos=(0, 0, 1250, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=197, pos=(0, 0, 601, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᑰᒑᕉᕐ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=142, pos=(0, 0, 609, 0)<br>gid=175, pos=(0, 0, 642, 0)<br>gid=359, pos=(0, 0, 593, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=142, pos=(0, 0, 609, 0)<br>gid=175, pos=(0, 0, 642, 0)<br>gid=359, pos=(0, 0, 593, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐃᓂᖓᓐᓂᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=33, pos=(0, 0, 792, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=433, pos=(0, 0, 1197, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=33, pos=(0, 0, 792, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=433, pos=(0, 0, 1197, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐱᖦᖤᖏᓴᓕᕐᓗᓂ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=79, pos=(0, 0, 795, 0)<br>gid=452, pos=(0, 0, 570, 0)<br>gid=450, pos=(0, 0, 895, 0)<br>gid=429, pos=(0, 0, 1197, 0)<br>gid=274, pos=(0, 0, 592, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=79, pos=(0, 0, 795, 0)<br>gid=452, pos=(0, 0, 570, 0)<br>gid=450, pos=(0, 0, 895, 0)<br>gid=429, pos=(0, 0, 1197, 0)<br>gid=274, pos=(0, 0, 592, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐲᑐᓴᓐ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=80, pos=(0, 0, 796, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=274, pos=(0, 0, 592, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=80, pos=(0, 0, 796, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=274, pos=(0, 0, 592, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᑲᖏᖅᖣᑉ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=144, pos=(0, 0, 609, 0)<br>gid=429, pos=(0, 0, 1197, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=449, pos=(0, 0, 895, 0)<br>gid=103, pos=(0, 0, 382, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=144, pos=(0, 0, 609, 0)<br>gid=429, pos=(0, 0, 1197, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=449, pos=(0, 0, 895, 0)<br>gid=103, pos=(0, 0, 382, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐱᒐᓗᐊᖅᒪᖔᑕ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=79, pos=(0, 0, 795, 0)<br>gid=174, pos=(0, 0, 642, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=434, pos=(0, 0, 1197, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=79, pos=(0, 0, 795, 0)<br>gid=174, pos=(0, 0, 642, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=434, pos=(0, 0, 1197, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐋᔩᖃᑎᒌᒃᑎᓂᒃ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=41, pos=(0, 0, 735, 0)<br>gid=327, pos=(0, 0, 575, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=170, pos=(0, 0, 642, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=41, pos=(0, 0, 735, 0)<br>gid=327, pos=(0, 0, 575, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=170, pos=(0, 0, 642, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᓂᕆᖃᑦᑕᖁᔨᙱᖦᖢᑎᒃ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=224, pos=(0, 0, 912, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=415, pos=(0, 0, 920, 0)<br>gid=326, pos=(0, 0, 575, 0)<br>gid=655, pos=(0, 0, 1464, 0)<br>gid=452, pos=(0, 0, 570, 0)<br>gid=448, pos=(0, 0, 895, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=224, pos=(0, 0, 912, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=415, pos=(0, 0, 920, 0)<br>gid=326, pos=(0, 0, 575, 0)<br>gid=655, pos=(0, 0, 1464, 0)<br>gid=452, pos=(0, 0, 570, 0)<br>gid=448, pos=(0, 0, 895, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᑕᑉᑑᓇᒧᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=115, pos=(0, 0, 689, 0)<br>gid=103, pos=(0, 0, 382, 0)<br>gid=111, pos=(0, 0, 689, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=197, pos=(0, 0, 601, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=115, pos=(0, 0, 689, 0)<br>gid=103, pos=(0, 0, 382, 0)<br>gid=111, pos=(0, 0, 689, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=197, pos=(0, 0, 601, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᖁᐃᖐᓕᓴᖅᓯᐊᓂᒃᑳᖓᕕᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=415, pos=(0, 0, 920, 0)<br>gid=33, pos=(0, 0, 792, 0)<br>gid=430, pos=(0, 0, 1197, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=274, pos=(0, 0, 592, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=269, pos=(0, 0, 592, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=145, pos=(0, 0, 609, 0)<br>gid=433, pos=(0, 0, 1197, 0)<br>gid=371, pos=(0, 0, 797, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=415, pos=(0, 0, 920, 0)<br>gid=33, pos=(0, 0, 792, 0)<br>gid=430, pos=(0, 0, 1197, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=274, pos=(0, 0, 592, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=269, pos=(0, 0, 592, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=145, pos=(0, 0, 609, 0)<br>gid=433, pos=(0, 0, 1197, 0)<br>gid=371, pos=(0, 0, 797, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐋᖒᓯ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=41, pos=(0, 0, 735, 0)<br>gid=432, pos=(0, 0, 936, 0)<br>gid=269, pos=(0, 0, 592, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=41, pos=(0, 0, 735, 0)<br>gid=432, pos=(0, 0, 936, 0)<br>gid=269, pos=(0, 0, 592, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐄᔭᒐᖅᐸᒡᓗᑎᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=34, pos=(0, 0, 792, 0)<br>gid=331, pos=(0, 0, 575, 0)<br>gid=174, pos=(0, 0, 642, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=86, pos=(0, 0, 715, 0)<br>gid=191, pos=(0, 0, 384, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=34, pos=(0, 0, 792, 0)<br>gid=331, pos=(0, 0, 575, 0)<br>gid=174, pos=(0, 0, 642, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=86, pos=(0, 0, 715, 0)<br>gid=191, pos=(0, 0, 384, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᖄᖅᑕᔫᕐᒥᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=418, pos=(0, 0, 927, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=329, pos=(0, 0, 575, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=195, pos=(0, 0, 601, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=418, pos=(0, 0, 927, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=329, pos=(0, 0, 575, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=195, pos=(0, 0, 601, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐃᙲᓐᓈᖅᑕᐅᒃᑯᓪᓘᓐᓃᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=33, pos=(0, 0, 792, 0)<br>gid=656, pos=(0, 0, 1464, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=230, pos=(0, 0, 912, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=141, pos=(0, 0, 609, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=246, pos=(0, 0, 895, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=225, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=33, pos=(0, 0, 792, 0)<br>gid=656, pos=(0, 0, 1464, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=230, pos=(0, 0, 912, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=141, pos=(0, 0, 609, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=246, pos=(0, 0, 895, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=225, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐱᓪᓗᐊᑕᐅᕗᖅ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=79, pos=(0, 0, 795, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=373, pos=(0, 0, 802, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=79, pos=(0, 0, 795, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=373, pos=(0, 0, 802, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᓵᓚᖃᐅᑎᒃᓴᖅ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=275, pos=(0, 0, 592, 0)<br>gid=248, pos=(0, 0, 895, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=274, pos=(0, 0, 592, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=275, pos=(0, 0, 592, 0)<br>gid=248, pos=(0, 0, 895, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=274, pos=(0, 0, 592, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐃᓇᖏᐅᑎᐅᓛᖅᑐᖅ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=33, pos=(0, 0, 792, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=429, pos=(0, 0, 1197, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=249, pos=(0, 0, 895, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=33, pos=(0, 0, 792, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=429, pos=(0, 0, 1197, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=249, pos=(0, 0, 895, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᑲᐱᔭᐅᓂᕐᒧᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=144, pos=(0, 0, 609, 0)<br>gid=79, pos=(0, 0, 795, 0)<br>gid=331, pos=(0, 0, 575, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=197, pos=(0, 0, 601, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=144, pos=(0, 0, 609, 0)<br>gid=79, pos=(0, 0, 795, 0)<br>gid=331, pos=(0, 0, 575, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=197, pos=(0, 0, 601, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐃᓚᐅᖃᑕᐅᓂᑰᔪᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=33, pos=(0, 0, 792, 0)<br>gid=248, pos=(0, 0, 895, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=142, pos=(0, 0, 609, 0)<br>gid=328, pos=(0, 0, 575, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=33, pos=(0, 0, 792, 0)<br>gid=248, pos=(0, 0, 895, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=142, pos=(0, 0, 609, 0)<br>gid=328, pos=(0, 0, 575, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᑐᙵᓇᖅᖢᓂᓗ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=110, pos=(0, 0, 689, 0)<br>gid=659, pos=(0, 0, 1464, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=448, pos=(0, 0, 895, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=110, pos=(0, 0, 689, 0)<br>gid=659, pos=(0, 0, 1464, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=448, pos=(0, 0, 895, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᒐᕙᒪᑐᖃᒃᑯᓐᓄᑦᑮᓇᐅᔭᓕᐅᕐᓂᖅᐅᑭᐅᖅᑕᖅᑐᒥᒪᑭᒪᐃᓐᓇᕈᑎᒃᓴᓄᑦᓇᓕᔪᒌᓕᖅᑎᑦᑎᓂᐊᖅᑐᖅᓇᖕᒥᓂᕆᔭᕐᓄᑦᑮᓇᐅᔭᓕᐅᕐᓂᕐᓂᐊᒥᓱᙳᕆᐊᕐᓗᒋᓪᓗᐱᕕᒃᓴᑦᕿᓂᕐᓂᕐᓄᑦᐱᕙᓪᓕᐊᔾᔪᑎᓄᓪᓗ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=174, pos=(0, 0, 642, 0)<br>gid=375, pos=(0, 0, 802, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=141, pos=(0, 0, 609, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=226, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=140, pos=(0, 0, 609, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=331, pos=(0, 0, 575, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=139, pos=(0, 0, 609, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=195, pos=(0, 0, 601, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=139, pos=(0, 0, 609, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=33, pos=(0, 0, 792, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=358, pos=(0, 0, 593, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=274, pos=(0, 0, 592, 0)<br>gid=226, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=328, pos=(0, 0, 575, 0)<br>gid=170, pos=(0, 0, 642, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=435, pos=(0, 0, 596, 0)<br>gid=195, pos=(0, 0, 601, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=331, pos=(0, 0, 575, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=226, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=140, pos=(0, 0, 609, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=331, pos=(0, 0, 575, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=195, pos=(0, 0, 601, 0)<br>gid=271, pos=(0, 0, 593, 0)<br>gid=657, pos=(0, 0, 1250, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=169, pos=(0, 0, 642, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=79, pos=(0, 0, 795, 0)<br>gid=371, pos=(0, 0, 797, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=274, pos=(0, 0, 592, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=413, pos=(0, 0, 927, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=226, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=79, pos=(0, 0, 795, 0)<br>gid=375, pos=(0, 0, 802, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=348, pos=(0, 0, 356, 0)<br>gid=328, pos=(0, 0, 575, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=226, pos=(0, 0, 912, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=174, pos=(0, 0, 642, 0)<br>gid=375, pos=(0, 0, 802, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=141, pos=(0, 0, 609, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=226, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=140, pos=(0, 0, 609, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=331, pos=(0, 0, 575, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=139, pos=(0, 0, 609, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=195, pos=(0, 0, 601, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=139, pos=(0, 0, 609, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=33, pos=(0, 0, 792, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=358, pos=(0, 0, 593, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=274, pos=(0, 0, 592, 0)<br>gid=226, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=328, pos=(0, 0, 575, 0)<br>gid=170, pos=(0, 0, 642, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=435, pos=(0, 0, 596, 0)<br>gid=195, pos=(0, 0, 601, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=331, pos=(0, 0, 575, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=226, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=140, pos=(0, 0, 609, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=331, pos=(0, 0, 575, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=195, pos=(0, 0, 601, 0)<br>gid=271, pos=(0, 0, 593, 0)<br>gid=657, pos=(0, 0, 1250, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=169, pos=(0, 0, 642, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=79, pos=(0, 0, 795, 0)<br>gid=371, pos=(0, 0, 797, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=274, pos=(0, 0, 592, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=413, pos=(0, 0, 927, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=226, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=79, pos=(0, 0, 795, 0)<br>gid=375, pos=(0, 0, 802, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=348, pos=(0, 0, 356, 0)<br>gid=328, pos=(0, 0, 575, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=226, pos=(0, 0, 912, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᖃᑕᖖᒍᑎᑎᓪᓗ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=417, pos=(0, 0, 927, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=436, pos=(0, 0, 869, 0)<br>gid=171, pos=(0, 0, 642, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=417, pos=(0, 0, 927, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=436, pos=(0, 0, 869, 0)<br>gid=171, pos=(0, 0, 642, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᓇᓗᓇᖏᔾᔪᑕᐅᔪᓐᓇᖅᑐᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=229, pos=(0, 0, 912, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=429, pos=(0, 0, 1197, 0)<br>gid=348, pos=(0, 0, 356, 0)<br>gid=328, pos=(0, 0, 575, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=328, pos=(0, 0, 575, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=229, pos=(0, 0, 912, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=429, pos=(0, 0, 1197, 0)<br>gid=348, pos=(0, 0, 356, 0)<br>gid=328, pos=(0, 0, 575, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=328, pos=(0, 0, 575, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᖃᓄᐃᖂᔨᖏᒃᑲᓗᐊᖅᐸᓪᓗ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=417, pos=(0, 0, 927, 0)<br>gid=226, pos=(0, 0, 912, 0)<br>gid=33, pos=(0, 0, 792, 0)<br>gid=416, pos=(0, 0, 923, 0)<br>gid=326, pos=(0, 0, 575, 0)<br>gid=429, pos=(0, 0, 1197, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=144, pos=(0, 0, 609, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=86, pos=(0, 0, 715, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=417, pos=(0, 0, 927, 0)<br>gid=226, pos=(0, 0, 912, 0)<br>gid=33, pos=(0, 0, 792, 0)<br>gid=416, pos=(0, 0, 923, 0)<br>gid=326, pos=(0, 0, 575, 0)<br>gid=429, pos=(0, 0, 1197, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=144, pos=(0, 0, 609, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=86, pos=(0, 0, 715, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐃᖅᑲᓇᐃᔮᕆᒋᐊᓕᒻᒪᕆᒃ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=33, pos=(0, 0, 792, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=144, pos=(0, 0, 609, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=33, pos=(0, 0, 792, 0)<br>gid=332, pos=(0, 0, 575, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=169, pos=(0, 0, 642, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=217, pos=(0, 0, 356, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=33, pos=(0, 0, 792, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=144, pos=(0, 0, 609, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=33, pos=(0, 0, 792, 0)<br>gid=332, pos=(0, 0, 575, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=169, pos=(0, 0, 642, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=217, pos=(0, 0, 356, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐅᑎᖅᑎᑦᓯᒍᑎᖏᓐᓂ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=35, pos=(0, 0, 735, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=269, pos=(0, 0, 592, 0)<br>gid=171, pos=(0, 0, 642, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=429, pos=(0, 0, 1197, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=35, pos=(0, 0, 735, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=269, pos=(0, 0, 592, 0)<br>gid=171, pos=(0, 0, 642, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=429, pos=(0, 0, 1197, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᑕᖅᑭᑕᒫᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=115, pos=(0, 0, 689, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=139, pos=(0, 0, 609, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=201, pos=(0, 0, 599, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=115, pos=(0, 0, 689, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=139, pos=(0, 0, 609, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=201, pos=(0, 0, 599, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᑭᒡᓕᒋᑎᑕᐅᔪᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=139, pos=(0, 0, 609, 0)<br>gid=191, pos=(0, 0, 384, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=169, pos=(0, 0, 642, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=328, pos=(0, 0, 575, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=139, pos=(0, 0, 609, 0)<br>gid=191, pos=(0, 0, 384, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=169, pos=(0, 0, 642, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=328, pos=(0, 0, 575, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐱᓕᕆᐊᖑᔪᒃᓴᓂᒃ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=79, pos=(0, 0, 795, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=431, pos=(0, 0, 928, 0)<br>gid=328, pos=(0, 0, 575, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=274, pos=(0, 0, 592, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=79, pos=(0, 0, 795, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=431, pos=(0, 0, 928, 0)<br>gid=328, pos=(0, 0, 575, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=274, pos=(0, 0, 592, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐱᓕᕆᔨᓪᓚᕆᖕᓄᑦᐊᕐᕌᒍᒥ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=79, pos=(0, 0, 795, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=326, pos=(0, 0, 575, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=248, pos=(0, 0, 895, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=435, pos=(0, 0, 596, 0)<br>gid=226, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=362, pos=(0, 0, 594, 0)<br>gid=171, pos=(0, 0, 642, 0)<br>gid=195, pos=(0, 0, 601, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=79, pos=(0, 0, 795, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=326, pos=(0, 0, 575, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=248, pos=(0, 0, 895, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=435, pos=(0, 0, 596, 0)<br>gid=226, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=362, pos=(0, 0, 594, 0)<br>gid=171, pos=(0, 0, 642, 0)<br>gid=195, pos=(0, 0, 601, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐱᕋᔭᓐᓂᕐᒥᓪᓗ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=79, pos=(0, 0, 795, 0)<br>gid=361, pos=(0, 0, 594, 0)<br>gid=331, pos=(0, 0, 575, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=195, pos=(0, 0, 601, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=79, pos=(0, 0, 795, 0)<br>gid=361, pos=(0, 0, 594, 0)<br>gid=331, pos=(0, 0, 575, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=195, pos=(0, 0, 601, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐊᓂᕐᑎᕆᑦᑎᐊᕈᓐᓃᓲᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=40, pos=(0, 0, 735, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=358, pos=(0, 0, 593, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=225, pos=(0, 0, 912, 0)<br>gid=272, pos=(0, 0, 586, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=40, pos=(0, 0, 735, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=358, pos=(0, 0, 593, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=225, pos=(0, 0, 912, 0)<br>gid=272, pos=(0, 0, 586, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᒪᐃᑯ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=200, pos=(0, 0, 601, 0)<br>gid=33, pos=(0, 0, 792, 0)<br>gid=141, pos=(0, 0, 609, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=200, pos=(0, 0, 601, 0)<br>gid=33, pos=(0, 0, 792, 0)<br>gid=141, pos=(0, 0, 609, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᓄᓇᓕᖕᒥᓘᓐᓃᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=226, pos=(0, 0, 912, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=435, pos=(0, 0, 596, 0)<br>gid=195, pos=(0, 0, 601, 0)<br>gid=246, pos=(0, 0, 895, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=225, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=226, pos=(0, 0, 912, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=435, pos=(0, 0, 596, 0)<br>gid=195, pos=(0, 0, 601, 0)<br>gid=246, pos=(0, 0, 895, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=225, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᓂᐊᖁᙴᒥᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=224, pos=(0, 0, 912, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=415, pos=(0, 0, 920, 0)<br>gid=658, pos=(0, 0, 1239, 0)<br>gid=195, pos=(0, 0, 601, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=224, pos=(0, 0, 912, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=415, pos=(0, 0, 920, 0)<br>gid=658, pos=(0, 0, 1239, 0)<br>gid=195, pos=(0, 0, 601, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᓈᑦᓰᖑᔭᓛᕐᓂᐊ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=230, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=270, pos=(0, 0, 595, 0)<br>gid=431, pos=(0, 0, 928, 0)<br>gid=331, pos=(0, 0, 575, 0)<br>gid=249, pos=(0, 0, 895, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=230, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=270, pos=(0, 0, 595, 0)<br>gid=431, pos=(0, 0, 928, 0)<br>gid=331, pos=(0, 0, 575, 0)<br>gid=249, pos=(0, 0, 895, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐅᓪᓗᒥᒨᖓᔪᓂᒃ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=35, pos=(0, 0, 735, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=195, pos=(0, 0, 601, 0)<br>gid=198, pos=(0, 0, 601, 0)<br>gid=433, pos=(0, 0, 1197, 0)<br>gid=328, pos=(0, 0, 575, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=35, pos=(0, 0, 735, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=195, pos=(0, 0, 601, 0)<br>gid=198, pos=(0, 0, 601, 0)<br>gid=433, pos=(0, 0, 1197, 0)<br>gid=328, pos=(0, 0, 575, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐊᑭᓕᖅᓱᖅᑕᐅᑦᑎᐊᕐᓇᖅᑐᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=40, pos=(0, 0, 735, 0)<br>gid=139, pos=(0, 0, 609, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=271, pos=(0, 0, 593, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=40, pos=(0, 0, 735, 0)<br>gid=139, pos=(0, 0, 609, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=271, pos=(0, 0, 593, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=40, pos=(0, 0, 735, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᖁᐃᕿᓐᓇᖅᑐᑖᖅᑕᐃᓕᒪᓂᕐᒧᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=415, pos=(0, 0, 920, 0)<br>gid=33, pos=(0, 0, 792, 0)<br>gid=413, pos=(0, 0, 927, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=116, pos=(0, 0, 689, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=33, pos=(0, 0, 792, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=197, pos=(0, 0, 601, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=415, pos=(0, 0, 920, 0)<br>gid=33, pos=(0, 0, 792, 0)<br>gid=413, pos=(0, 0, 927, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=116, pos=(0, 0, 689, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=33, pos=(0, 0, 792, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=197, pos=(0, 0, 601, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᔫᓐ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=329, pos=(0, 0, 575, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=329, pos=(0, 0, 575, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᕼᐋᒻᒪᓚᐅᔫᑉ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=410, pos=(0, 0, 680, 0)<br>gid=41, pos=(0, 0, 735, 0)<br>gid=217, pos=(0, 0, 356, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=248, pos=(0, 0, 895, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=329, pos=(0, 0, 575, 0)<br>gid=103, pos=(0, 0, 382, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=410, pos=(0, 0, 680, 0)<br>gid=41, pos=(0, 0, 735, 0)<br>gid=217, pos=(0, 0, 356, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=248, pos=(0, 0, 895, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=329, pos=(0, 0, 575, 0)<br>gid=103, pos=(0, 0, 382, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᓄᑲᖅᖡᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=226, pos=(0, 0, 912, 0)<br>gid=144, pos=(0, 0, 609, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=447, pos=(0, 0, 895, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=226, pos=(0, 0, 912, 0)<br>gid=144, pos=(0, 0, 609, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=447, pos=(0, 0, 895, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐅᐱᓐᓇᖅᑐᐃᓐᓇᐅᕘᒃ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=35, pos=(0, 0, 735, 0)<br>gid=79, pos=(0, 0, 795, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=33, pos=(0, 0, 792, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=374, pos=(0, 0, 802, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=35, pos=(0, 0, 735, 0)<br>gid=79, pos=(0, 0, 795, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=33, pos=(0, 0, 792, 0)<br>gid=238, pos=(0, 0, 584, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=374, pos=(0, 0, 802, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᓂᐸᓕᔅᒥᐅᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=224, pos=(0, 0, 912, 0)<br>gid=86, pos=(0, 0, 715, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=291, pos=(0, 0, 359, 0)<br>gid=195, pos=(0, 0, 601, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=224, pos=(0, 0, 912, 0)<br>gid=86, pos=(0, 0, 715, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=291, pos=(0, 0, 359, 0)<br>gid=195, pos=(0, 0, 601, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐃᒐᓯᐅᑏᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=33, pos=(0, 0, 792, 0)<br>gid=174, pos=(0, 0, 642, 0)<br>gid=269, pos=(0, 0, 592, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=109, pos=(0, 0, 777, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=33, pos=(0, 0, 792, 0)<br>gid=174, pos=(0, 0, 642, 0)<br>gid=269, pos=(0, 0, 592, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=109, pos=(0, 0, 777, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐱᓕᕆᕝᕕᖓᓄᑦ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=79, pos=(0, 0, 795, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=379, pos=(0, 0, 521, 0)<br>gid=371, pos=(0, 0, 797, 0)<br>gid=433, pos=(0, 0, 1197, 0)<br>gid=226, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=79, pos=(0, 0, 795, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=379, pos=(0, 0, 521, 0)<br>gid=371, pos=(0, 0, 797, 0)<br>gid=433, pos=(0, 0, 1197, 0)<br>gid=226, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᖁᑦᑎᓛᒦᓚᐅᖅᑐᖅ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=415, pos=(0, 0, 920, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=249, pos=(0, 0, 895, 0)<br>gid=196, pos=(0, 0, 601, 0)<br>gid=248, pos=(0, 0, 895, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=415, pos=(0, 0, 920, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=249, pos=(0, 0, 895, 0)<br>gid=196, pos=(0, 0, 601, 0)<br>gid=248, pos=(0, 0, 895, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᓱᐴᖅᑐᖅᑕᐃᓕᒪᓂᕐᒥᒃ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=271, pos=(0, 0, 593, 0)<br>gid=82, pos=(0, 0, 714, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=33, pos=(0, 0, 792, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=195, pos=(0, 0, 601, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=271, pos=(0, 0, 593, 0)<br>gid=82, pos=(0, 0, 714, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=115, pos=(0, 0, 689, 0)<br>gid=33, pos=(0, 0, 792, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=195, pos=(0, 0, 601, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐋᒌᓯ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=41, pos=(0, 0, 735, 0)<br>gid=170, pos=(0, 0, 642, 0)<br>gid=269, pos=(0, 0, 592, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=41, pos=(0, 0, 735, 0)<br>gid=170, pos=(0, 0, 642, 0)<br>gid=269, pos=(0, 0, 592, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᓴᐳᔾᔭᐅᓪᓗᑎᒃ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=274, pos=(0, 0, 592, 0)<br>gid=81, pos=(0, 0, 714, 0)<br>gid=348, pos=(0, 0, 356, 0)<br>gid=331, pos=(0, 0, 575, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=274, pos=(0, 0, 592, 0)<br>gid=81, pos=(0, 0, 714, 0)<br>gid=348, pos=(0, 0, 356, 0)<br>gid=331, pos=(0, 0, 575, 0)<br>gid=35, pos=(0, 0, 735, 0)<br>gid=264, pos=(0, 0, 528, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐆᑎᕐᓇᕐᓯᓗᓂ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=36, pos=(0, 0, 735, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=269, pos=(0, 0, 592, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=36, pos=(0, 0, 735, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=269, pos=(0, 0, 592, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐃᖃᓗᖕᓂᙶᖅᑐᓂᒃ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=33, pos=(0, 0, 792, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=435, pos=(0, 0, 596, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=660, pos=(0, 0, 1464, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=33, pos=(0, 0, 792, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>gid=435, pos=(0, 0, 596, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=660, pos=(0, 0, 1464, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="en">
+    <div class="tooltip">
+        ᐱᓕᕆᖃᑎᖃᕐᓃᑦᓄᓇᖃᖅᑳᖅᓯᒪᔪᓂᑦᒐᕙᒪᓂᑦᑲᑐᔾᔨᖃᑎᒌᓂᒃᓗ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=79, pos=(0, 0, 795, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=225, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=226, pos=(0, 0, 912, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=145, pos=(0, 0, 609, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=269, pos=(0, 0, 592, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=328, pos=(0, 0, 575, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=174, pos=(0, 0, 642, 0)<br>gid=375, pos=(0, 0, 802, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=144, pos=(0, 0, 609, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=348, pos=(0, 0, 356, 0)<br>gid=326, pos=(0, 0, 575, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=170, pos=(0, 0, 642, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=79, pos=(0, 0, 795, 0)<br>gid=243, pos=(0, 0, 895, 0)<br>gid=356, pos=(0, 0, 913, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=366, pos=(0, 0, 352, 0)<br>gid=225, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=226, pos=(0, 0, 912, 0)<br>gid=229, pos=(0, 0, 912, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=145, pos=(0, 0, 609, 0)<br>gid=419, pos=(0, 0, 717, 0)<br>gid=269, pos=(0, 0, 592, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=328, pos=(0, 0, 575, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=174, pos=(0, 0, 642, 0)<br>gid=375, pos=(0, 0, 802, 0)<br>gid=200, pos=(0, 0, 601, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=132, pos=(0, 0, 317, 0)<br>gid=144, pos=(0, 0, 609, 0)<br>gid=110, pos=(0, 0, 689, 0)<br>gid=348, pos=(0, 0, 356, 0)<br>gid=326, pos=(0, 0, 575, 0)<br>gid=417, pos=(0, 0, 927, 0)<br>gid=108, pos=(0, 0, 777, 0)<br>gid=170, pos=(0, 0, 642, 0)<br>gid=224, pos=(0, 0, 912, 0)<br>gid=161, pos=(0, 0, 394, 0)<br>gid=245, pos=(0, 0, 895, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+        </div>
+      </div>
+    
+    
+    <div class="box">
+      <div class="box-title">Misshapen user strings</div>
+      <div class="box-text old-style" style="font-size: 32pt">
+        
+      </div>
+    </div>
+    
+
+    
+
+    </div>
+  
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
+	  
+	if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+    const divs = document.querySelectorAll('.node');
+    divs.forEach(el => el.addEventListener('click', event => {
+    var children = event.target.querySelectorAll(".node");
+    children.forEach(function(e) {
+        if (e.style.display === "none") {
+            e.style.display = "block";
+        } else {
+            e.style.display = "none";
+        }
+    })
+    }));
+    
+
+function wordBreaks() {
+  words = document.getElementsByClassName("cell-word")
+  res = []
+  prevTop = 0
+  for (i=0; i<words.length; i++) {
+      var word = words[i]
+      currentTop = word.getBoundingClientRect().top
+      if (currentTop > prevTop) {
+          res.push(i)
+      }
+      prevTop = currentTop
+  }
+  return res
+}
+
+async function insertBreaks() {
+  switchFonts()
+  await sleep(1)
+  breaksBefore = wordBreaks()
+  switchFonts()
+  await sleep(1)
+  breaksAfter = wordBreaks()
+
+
+  console.log(breaksBefore.length, breaksAfter.length)
+
+  if (breaksBefore.length >= breaksAfter.length) {
+    breaks = breaksBefore
+  } else {
+    breaks = breaksAfter
+  }
+
+  words = document.getElementsByClassName("cell-word")
+  breaks.forEach(function(i) {
+    if (i != 0) {
+      i = i
+    }
+    word = words[i]
+    spacer = document.createElement("div")
+    spacer.className = "spacer"
+    word.parentNode.insertBefore(spacer, word)
+  })
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+  
+insertBreaks()
+
+
+    </script>
+</html>

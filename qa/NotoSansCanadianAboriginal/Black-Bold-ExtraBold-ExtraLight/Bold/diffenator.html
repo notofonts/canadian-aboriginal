@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Glyphs</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style type="text/css">
+    
+
+        html{
+	  font-family: sans-serif;
+	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
+	.box-title{
+	  width: 100%;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attrib-old{
+                color: red;
+                cursor: text;
+            }
+            .attrib-new{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+	    @font-face{
+    src: url(old-NotoSansCanadianAboriginal[wght].ttf);
+    font-family: "old font";
+    font-weight: 100 900;
+    
+    font-style: normal;
+}
+	  
+
+	  
+	    @font-face{
+    src: url(new-NotoSansCanadianAboriginal[wght].ttf);
+    font-family: "new font";
+    font-weight: 100 900;
+    
+    font-style: normal;
+}
+	  
+
+	  
+
+	  
+	    .old-wght-700_0{
+    font-family: "old font", "Adobe NotDef";
+    font-weight: 700.0;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 700.0;
+}
+	  
+
+	  
+	    .new-wght-700_0{
+    font-family: "new font", "Adobe NotDef";
+    font-weight: 700.0;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 700.0;
+}
+	  
+
+	  
+	
+.cell{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  width: 50pt;
+  line-height: 48.0px;
+}
+.cell-word{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  line-height: 48.0px;
+}
+.cat-strings .cell {
+  clear: both;
+  position: static;
+  float: none;
+  text-align: left;
+}
+.box-title {
+  clear: both;
+}
+
+    </style>
+</head>
+<body>
+    <div id="nav">
+		
+			<div class="nav-item" id="font-toggle">old</div>
+		
+		
+	</div>
+    <div id="content">
+	<h2>
+<b>Diffenator</b>
+</h2>
+	
+  
+    <div class="box">
+    <div class="box-title">Tables</div>
+     <script>var fontdiff = {"cmap": {"0x11AB4": ["uni11AB4", "u11AB4"], "0x11ABF": ["uni11ABF", "u11ABF"], "0x11AB3": ["uni11AB3", "u11AB3"], "0x11ABA": ["uni11ABA", "u11ABA"], "0x11ABB": ["uni11ABB", "u11ABB"], "0x11AB7": ["uni11AB7", "u11AB7"], "0x11AB6": ["uni11AB6", "u11AB6"], "0x0000": ["NULL", ".null"], "0x11AB8": ["uni11AB8", "u11AB8"], "0x11AB9": ["uni11AB9", "u11AB9"], "0x11AB1": ["uni11AB1", "u11AB1"], "0x11AB2": ["uni11AB2", "u11AB2"], "0x11ABE": ["uni11ABE", "u11ABE"], "0x11ABC": ["uni11ABC", "u11ABC"], "0x11ABD": ["uni11ABD", "u11ABD"], "0x11AB5": ["uni11AB5", "u11AB5"], "0x11AB0": ["uni11AB0", "u11AB0"]}, "MVAR": {"tableTag": [null, "MVAR"], "table": {"Version": [null, 65536], "Reserved": [null, 0], "ValueRecordSize": [null, 8], "ValueRecordCount": [null, 2], "VarStore": {"Format": [null, 1], "VarRegionList": {"RegionAxisCount": [null, 1], "RegionCount": [null, 3], "Region": {"0": {"VarRegionAxis": {"0": {"StartCoord": [null, -1.0], "PeakCoord": [null, -1.0], "EndCoord": [null, 0.0]}}}, "1": {"VarRegionAxis": {"0": {"StartCoord": [null, 0.0], "PeakCoord": [null, 0.6099853515625], "EndCoord": [null, 1.0]}}}, "2": {"VarRegionAxis": {"0": {"StartCoord": [null, 0.6099853515625], "PeakCoord": [null, 1.0], "EndCoord": [null, 1.0]}}}}}, "VarDataCount": [null, 1], "VarData": {"0": {"ItemCount": [null, 2], "NumShorts": [null, 0], "VarRegionCount": [null, 3], "VarRegionIndex": {"0": [null, 0], "1": [null, 1], "2": [null, 2]}, "Item": {"0": {"0": [null, -19], "1": [null, 9], "2": [null, 14]}, "1": {"0": [null, -11], "1": [null, 5], "2": [null, 8]}}}}}, "ValueRecord": {"0": {"ValueTag": [null, "stro"], "VarIdx": [null, 1]}, "1": {"ValueTag": [null, "xhgt"], "VarIdx": [null, 0]}}}}, "head": {"fontRevision": [2.0019989013671875, 2.0030059814453125], "checkSumAdjustment": [375390473, 777998751], "modified": [3744695383, 3770199812]}, "glyf": {"glyphOrder": {"2": ["NULL", ".null"], "740": ["uni11AB0", "u11AB0"], "741": ["uni11AB1", "u11AB1"], "742": ["uni11AB2", "u11AB2"], "743": ["uni11AB3", "u11AB3"], "744": ["uni11AB4", "u11AB4"], "745": ["uni11AB5", "u11AB5"], "746": ["uni11AB6", "u11AB6"], "747": ["uni11AB7", "u11AB7"], "748": ["uni11AB8", "u11AB8"], "749": ["uni11AB9", "u11AB9"], "750": ["uni11ABA", "u11ABA"], "751": ["uni11ABB", "u11ABB"], "752": ["uni11ABC", "u11ABC"], "753": ["uni11ABD", "u11ABD"], "754": ["uni11ABE", "u11ABE"], "755": ["uni11ABF", "u11ABF"]}, "glyphs": {"error": ["There are 754 changes, check manually!", ""]}}, "gvar": {"variations": {"data": {"error": ["There are 748 changes, check manually!", ""]}}}, "name": {"256/3/1/1033": ["Weight", "Mid-line finals"], "272/3/1/1033": ["Bold", "Medium"], "275/1/0/0": [null, "ExtraBold"], "261/3/1/1033": ["Medium", null], "274/1/0/0": ["Black", "Bold"], "270/1/0/0": ["Medium", "Light"], "273/1/0/0": ["ExtraBold", "SemiBold"], "270/3/1/1033": ["Medium", "Light"], "275/3/1/1033": [null, "ExtraBold"], "262/3/1/1033": ["SemiBold", null], "276/1/0/0": [null, "Black"], "273/3/1/1033": ["ExtraBold", "SemiBold"], "3/3/1/1033": ["2.002;GOOG;NotoSansCanadianAboriginal-Regular", "2.003;GOOG;NotoSansCanadianAboriginal-Regular"], "268/1/0/0": ["Light", "Thin"], "263/3/1/1033": ["Bold", "Medium"], "271/1/0/0": ["SemiBold", "Regular"], "257/3/1/1033": ["Thin", "Low-line finals"], "276/3/1/1033": [null, "Black"], "267/1/0/0": ["ExtraLight", null], "268/3/1/1033": ["Light", "Thin"], "265/3/1/1033": ["Black", "Bold"], "266/3/1/1033": ["Thin", "ExtraBold"], "267/3/1/1033": ["ExtraLight", "Black"], "259/3/1/1033": ["Light", "Thin"], "271/3/1/1033": ["SemiBold", "Regular"], "274/3/1/1033": ["Black", "Bold"], "264/3/1/1033": ["ExtraBold", "SemiBold"], "269/3/1/1033": ["Regular", "ExtraLight"], "5/3/1/1033": ["Version 2.002", "Version 2.003"], "266/1/0/0": ["Thin", null], "260/3/1/1033": ["Regular", "ExtraLight"], "258/3/1/1033": ["ExtraLight", "Weight"], "269/1/0/0": ["Regular", "ExtraLight"], "272/1/0/0": ["Bold", "Medium"]}, "STAT": {"design axis records": {"wght": {"order": [0, null], "AxisName": ["Weight", null]}}, "axis values": {"Thin": {"format": [1, null], "AxisIndex": [0, null], "Flags": [0, null], "Value": [100.0, null]}, "ExtraLight": {"format": [1, null], "AxisIndex": [0, null], "Flags": [0, null], "Value": [200.0, null]}, "Light": {"format": [1, null], "AxisIndex": [0, null], "Flags": [0, null], "Value": [300.0, null]}, "Regular": {"format": [3, null], "AxisIndex": [0, null], "Flags": [2, null], "Value": [400.0, null]}, "Medium": {"format": [1, null], "AxisIndex": [0, null], "Flags": [0, null], "Value": [500.0, null]}, "SemiBold": {"format": [1, null], "AxisIndex": [0, null], "Flags": [0, null], "Value": [600.0, null]}, "Bold": {"format": [1, null], "AxisIndex": [0, null], "Flags": [0, null], "Value": [700.0, null]}, "ExtraBold": {"format": [1, null], "AxisIndex": [0, null], "Flags": [0, null], "Value": [800.0, null]}, "Black": {"format": [1, null], "AxisIndex": [0, null], "Flags": [0, null], "Value": [900.0, null]}}}, "HVAR": {"table": {"VarStore": {"VarData": {"3": {"Item": {"error": ["There are 216 changes, check manually!", ""]}}}}, "AdvWidthMap": {"mapping": {"error": ["There are 593 changes, check manually!", ""]}}}}, "OS/2": {"xAvgCharWidth": [751, 750]}, "hmtx": {"metrics": {"u11AB0": {"0": [null, 617], "1": [null, 51]}, "uni11AB6": {"0": [724, null], "1": [69, null]}, "uni18F2": {"0": [1329, 1088]}, "uni11ABE": {"0": [787, null], "1": [68, null]}, "u11AB9": {"0": [null, 745], "1": [null, 35]}, "uni18ED": {"0": [1298, 1056]}, "uni11AB1": {"0": [636, null], "1": [51, null]}, "u11ABA": {"0": [null, 724], "1": [null, 69]}, "uni11AB3": {"0": [617, null], "1": [58, null]}, "u11AB7": {"0": [null, 724], "1": [null, 69]}, "uni11ABC": {"0": [664, null], "1": [68, null]}, "uni11ABF": {"0": [787, null], "1": [68, null]}, "u11AB4": {"0": [null, 618], "1": [null, 51]}, "u11ABB": {"0": [null, 745], "1": [null, 69]}, "u11ABC": {"0": [null, 664], "1": [null, 68]}, "uni11ABB": {"0": [745, null], "1": [69, null]}, "NULL": {"0": [0, null], "1": [0, null]}, "u11ABF": {"0": [null, 787], "1": [null, 68]}, "u11AB3": {"0": [null, 617], "1": [null, 58]}, "uni11AB4": {"0": [618, null], "1": [51, null]}, "u11AB5": {"0": [null, 618], "1": [null, 51]}, "uni11ABA": {"0": [724, null], "1": [69, null]}, "u11AB8": {"0": [null, 724], "1": [null, 35]}, "uni11AB8": {"0": [724, null], "1": [35, null]}, "uni11AB5": {"0": [618, null], "1": [51, null]}, "uni18F0": {"0": [1123, 885]}, "u11AB2": {"0": [null, 617], "1": [null, 58]}, "u11AB6": {"0": [null, 724], "1": [null, 69]}, "u11ABD": {"0": [null, 664], "1": [null, 68]}, "uni11AB0": {"0": [617, null], "1": [51, null]}, "uni11AB7": {"0": [724, null], "1": [69, null]}, "uni11AB9": {"0": [745, null], "1": [35, null]}, ".null": {"0": [null, 0], "1": [null, 0]}, "uni11AB2": {"0": [617, null], "1": [58, null]}, "u11ABE": {"0": [null, 787], "1": [null, 68]}, "uni11ABD": {"0": [664, null], "1": [68, null]}, "u11AB1": {"0": [null, 636], "1": [null, 51]}}}, "GPOS": {"tableTag": [null, "GPOS"], "table": {"Version": [null, 65536], "ScriptList": {"ScriptCount": [null, 2], "ScriptRecord": {"0": {"ScriptTag": [null, "DFLT"], "Script": {"DefaultLangSys": {"ReqFeatureIndex": [null, 65535], "FeatureCount": [null, 2], "FeatureIndex": {"0": [null, 0], "1": [null, 1]}}, "LangSysCount": [null, 0]}}, "1": {"ScriptTag": [null, "cans"], "Script": {"DefaultLangSys": {"ReqFeatureIndex": [null, 65535], "FeatureCount": [null, 2], "FeatureIndex": {"0": [null, 0], "1": [null, 1]}}, "LangSysCount": [null, 0]}}}}, "FeatureList": {"FeatureCount": [null, 2], "FeatureRecord": {"0": {"FeatureTag": [null, "ss01"], "Feature": {"FeatureParams": {"Version": [null, 0], "UINameID": [null, 256]}, "LookupCount": [null, 1], "LookupListIndex": {"0": [null, 0]}}}, "1": {"FeatureTag": [null, "ss02"], "Feature": {"FeatureParams": {"Version": [null, 0], "UINameID": [null, 257]}, "LookupCount": [null, 1], "LookupListIndex": {"0": [null, 1]}}}}}, "LookupList": {"LookupCount": [null, 2], "Lookup": {"0": {"LookupType": [null, 1], "LookupFlag": [null, 0], "SubTableCount": [null, 1], "SubTable": {"0": {"Format": [null, 1], "Coverage": {"glyphs": {"0": [null, "uni141F"], "1": [null, "uni1420"], "2": [null, "uni1421"], "3": [null, "uni1422"], "4": [null, "uni1423"], "5": [null, "uni1424"], "6": [null, "uni1425"], "7": [null, "uni1426"], "8": [null, "uni1427"], "9": [null, "uni1428"], "10": [null, "uni1429"], "11": [null, "uni142A"], "12": [null, "uni167E"], "13": [null, "uni18DE"], "14": [null, "uni18DF"]}}, "ValueFormat": [null, 2], "Value": {"YPlacement": [null, -300]}}}}, "1": {"LookupType": [null, 1], "LookupFlag": [null, 0], "SubTableCount": [null, 1], "SubTable": {"0": {"Format": [null, 1], "Coverage": {"glyphs": {"0": [null, "uni141F"], "1": [null, "uni1420"], "2": [null, "uni1421"], "3": [null, "uni1422"], "4": [null, "uni1423"], "5": [null, "uni1424"], "6": [null, "uni1425"], "7": [null, "uni1426"], "8": [null, "uni1427"], "9": [null, "uni1428"], "10": [null, "uni1429"], "11": [null, "uni142A"], "12": [null, "uni167E"], "13": [null, "uni18DE"], "14": [null, "uni18DF"]}}, "ValueFormat": [null, 2], "Value": {"YPlacement": [null, -600]}}}}}}}}, "vmtx": {"metrics": {"u11AB0": {"0": [null, 0], "1": [null, 355]}, "uni11AB6": {"0": [0, null], "1": [355, null]}, "uni11ABE": {"0": [0, null], "1": [353, null]}, "u11AB9": {"0": [null, 0], "1": [null, 145]}, "uni11AB1": {"0": [0, null], "1": [145, null]}, "u11ABA": {"0": [null, 0], "1": [null, 355]}, "uni11AB3": {"0": [0, null], "1": [145, null]}, "u11AB7": {"0": [null, 0], "1": [null, 145]}, "uni11ABC": {"0": [0, null], "1": [354, null]}, "uni11ABF": {"0": [0, null], "1": [353, null]}, "u11AB4": {"0": [null, 0], "1": [null, 355]}, "u11ABB": {"0": [null, 0], "1": [null, 145]}, "u11ABC": {"0": [null, 0], "1": [null, 354]}, "uni11ABB": {"0": [0, null], "1": [145, null]}, "NULL": {"0": [0, null], "1": [1069, null]}, "u11ABF": {"0": [null, 0], "1": [null, 353]}, "u11AB3": {"0": [null, 0], "1": [null, 145]}, "uni11AB4": {"0": [0, null], "1": [355, null]}, "u11AB5": {"0": [null, 0], "1": [null, 145]}, "uni11ABA": {"0": [0, null], "1": [355, null]}, "u11AB8": {"0": [null, 0], "1": [null, 355]}, "uni11AB8": {"0": [0, null], "1": [355, null]}, "uni11AB5": {"0": [0, null], "1": [145, null]}, "u11AB2": {"0": [null, 0], "1": [null, 355]}, "u11AB6": {"0": [null, 0], "1": [null, 355]}, "u11ABD": {"0": [null, 0], "1": [null, 354]}, "uni11AB0": {"0": [0, null], "1": [355, null]}, "uni11AB7": {"0": [0, null], "1": [145, null]}, "uni11AB9": {"0": [0, null], "1": [145, null]}, ".null": {"0": [null, 0], "1": [null, 1069]}, "uni11AB2": {"0": [0, null], "1": [355, null]}, "u11ABE": {"0": [null, 0], "1": [null, 353]}, "uni11ABD": {"0": [0, null], "1": [354, null]}, "u11AB1": {"0": [null, 0], "1": [null, 145]}}}, "post": {"extraNames": {"error": ["There are 751 changes, check manually!", ""]}}};</script><div id="difftable"></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+
+    
+      <div class="box">
+        <div class="box-title">Misshapen Canadian_Aboriginal words</div>
+        <div class="box-text old-wght-700_0" style="font-size: 32pt">
+          
+        </div>
+      </div>
+    
+    
+    <div class="box">
+      <div class="box-title">Misshapen user strings</div>
+      <div class="box-text old-wght-700_0" style="font-size: 32pt">
+        
+      </div>
+    </div>
+    
+
+    
+
+    </div>
+  
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
+	  
+	if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+	function render(node, toplevel) {
+		var wrapper = $("<div> </div>");
+		if (!node) { return wrapper }
+		if (Array.isArray(node)) {
+			var before = $("<span/>");
+			before.addClass("attr-before");
+			before.html(" " + node[0] + " ");
+			var after = $("<span/>");
+			after.addClass("attr-after");
+			after.append(node[1]);
+			wrapper.append(before);
+			wrapper.append(after);
+			return wrapper
+		}
+		for (const [key, value] of Object.entries(node)) {
+			var display = $("<div/>");
+			display.addClass("node")
+			if (!toplevel && ! key.match(/^\d+$/)) {
+				display.hide()
+			}
+			display.append(key);
+			display.append(render(value, false).children());
+			wrapper.append(display)
+		}
+		return wrapper
+
+	}
+	$(function() {
+		$("#difftable").append(render(fontdiff, true).children())
+		$(".node").on("click", function(event){ $(this).children().toggle(); event.stopPropagation() })
+	});
+    
+
+function wordBreaks() {
+  words = document.getElementsByClassName("cell-word")
+  res = []
+  prevTop = 0
+  for (i=0; i<words.length; i++) {
+      var word = words[i]
+      currentTop = word.getBoundingClientRect().top
+      if (currentTop > prevTop) {
+          res.push(i)
+      }
+      prevTop = currentTop
+  }
+  return res
+}
+
+async function insertBreaks() {
+  switchFonts()
+  await sleep(1)
+  breaksBefore = wordBreaks()
+  switchFonts()
+  await sleep(1)
+  breaksAfter = wordBreaks()
+
+
+  console.log(breaksBefore.length, breaksAfter.length)
+
+  if (breaksBefore.length >= breaksAfter.length) {
+    breaks = breaksBefore
+  } else {
+    breaks = breaksAfter
+  }
+
+  words = document.getElementsByClassName("cell-word")
+  breaks.forEach(function(i) {
+    if (i != 0) {
+      i = i
+    }
+    word = words[i]
+    spacer = document.createElement("div")
+    spacer.className = "spacer"
+    word.parentNode.insertBefore(spacer, word)
+  })
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+  
+insertBreaks()
+
+
+    </script>
+</html>

@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Glyphs</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style type="text/css">
+    
+
+        html{
+	  font-family: sans-serif;
+	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
+	.box-title{
+	  width: 100%;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attr-before{
+                color: red;
+                cursor: text;
+            }
+            .attr-after{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+	    @font-face{
+    src: url(old-NotoSansCanadianAboriginal[wght].ttf);
+    font-family: "old font";
+    font-weight: 100 900;
+    
+    font-style: normal;
+}
+	  
+
+	  
+	    @font-face{
+    src: url(new-NotoSansCanadianAboriginal-Black.ttf);
+    font-family: "new font";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+
+	  
+
+	  
+	    .old-Black{
+    font-family: "old font", "Adobe NotDef";
+    font-weight: 900.0;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 900.0;
+}
+	  
+
+	  
+	    .new-Black{
+    font-family: "new font", "Adobe NotDef";
+    font-weight: 900;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 900;
+}
+	  
+
+	  
+	
+.cell{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  width: 50pt;
+  line-height: 48.0px;
+}
+.cell-word{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  line-height: 48.0px;
+}
+.cat-strings .cell {
+  clear: both;
+  position: static;
+  float: none;
+  text-align: left;
+}
+.box-title {
+  clear: both;
+}
+
+
+	   #ot-panel {
+		max-height: 400px;
+		overflow-y: scroll;
+		background: white;
+		padding: 10px;
+		display: none;
+	   }
+    </style>
+</head>
+<body>
+    <div id="nav">
+		
+			<div class="nav-item" id="font-toggle">old</div>
+		
+			<div class="nav-item" id="ot-button">OT features</div>
+			<div id="ot-panel">
+			</div>
+		
+	</div>
+    <div id="content">
+	<h2>
+<b>Diffenator</b>
+</h2>
+	
+  
+    <div class="box">
+    <div class="box-title">Tables</div>
+      <div data-path="root" data-open="0" id="difftable"></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+      <div class="box">
+        <div class="box-title">Modified encoded Glyphs</div>
+        <div class="box-text old-Black" style="font-size: 32pt">
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘡ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER JJA<br>
+            unicode: U+1621<br>
+            changed pixels: 1.68%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘞ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER JJE<br>
+            unicode: U+161E<br>
+            changed pixels: 1.68%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘟ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER JJEE<br>
+            unicode: U+161F<br>
+            changed pixels: 1.56%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘜ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER JJU<br>
+            unicode: U+161C<br>
+            changed pixels: 1.54%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘱ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER LHEE<br>
+            unicode: U+1631<br>
+            changed pixels: 1.53%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘲ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER LHI<br>
+            unicode: U+1632<br>
+            changed pixels: 1.53%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘰ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER LHE<br>
+            unicode: U+1630<br>
+            changed pixels: 1.53%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘠ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER JJI<br>
+            unicode: U+1620<br>
+            changed pixels: 1.35%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘼ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER TLE<br>
+            unicode: U+163C<br>
+            changed pixels: 1.31%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘾ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER TLI<br>
+            unicode: U+163E<br>
+            changed pixels: 1.31%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘽ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER TLEE<br>
+            unicode: U+163D<br>
+            changed pixels: 1.31%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘝ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER JJO<br>
+            unicode: U+161D<br>
+            changed pixels: 1.30%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᗣ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER TTO<br>
+            unicode: U+15E3<br>
+            changed pixels: 1.27%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᗝ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER THO<br>
+            unicode: U+15DD<br>
+            changed pixels: 1.27%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᗩ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER PO<br>
+            unicode: U+15E9<br>
+            changed pixels: 1.27%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘹ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER TLHA<br>
+            unicode: U+1639<br>
+            changed pixels: 1.21%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘇ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER NA<br>
+            unicode: U+1607<br>
+            changed pixels: 1.20%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᑏ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS TII<br>
+            unicode: U+144F<br>
+            changed pixels: 1.17%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘿ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER TLA<br>
+            unicode: U+163F<br>
+            changed pixels: 1.17%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᑎ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS TI<br>
+            unicode: U+144E<br>
+            changed pixels: 1.17%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᑍ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS TAAI<br>
+            unicode: U+144D<br>
+            changed pixels: 1.17%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘎ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER YU<br>
+            unicode: U+160E<br>
+            changed pixels: 1.15%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘢ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER LU<br>
+            unicode: U+1622<br>
+            changed pixels: 1.14%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘳ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER LHA<br>
+            unicode: U+1633<br>
+            changed pixels: 1.14%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᗢ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER TTU<br>
+            unicode: U+15E2<br>
+            changed pixels: 1.11%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᗨ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER PU<br>
+            unicode: U+15E8<br>
+            changed pixels: 1.11%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᗜ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER THU<br>
+            unicode: U+15DC<br>
+            changed pixels: 1.11%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᑟ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS TWOO<br>
+            unicode: U+145F<br>
+            changed pixels: 1.06%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᑝ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS TWO<br>
+            unicode: U+145D<br>
+            changed pixels: 1.06%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᑌ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS TE<br>
+            unicode: U+144C<br>
+            changed pixels: 1.05%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘣ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER LO<br>
+            unicode: U+1623<br>
+            changed pixels: 1.02%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘙ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER JI<br>
+            unicode: U+1619<br>
+            changed pixels: 1.01%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘯ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER LHO<br>
+            unicode: U+162F<br>
+            changed pixels: 1.01%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘛ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER JA<br>
+            unicode: U+161B<br>
+            changed pixels: 0.99%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᑒ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS Y-CREE TOO<br>
+            unicode: U+1452<br>
+            changed pixels: 0.99%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᑓ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER DEE<br>
+            unicode: U+1453<br>
+            changed pixels: 0.99%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᑑ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS TOO<br>
+            unicode: U+1451<br>
+            changed pixels: 0.99%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᑐ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS TO<br>
+            unicode: U+1450<br>
+            changed pixels: 0.99%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᑔ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER DI<br>
+            unicode: U+1454<br>
+            changed pixels: 0.99%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᑨ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS TTI<br>
+            unicode: U+1468<br>
+            changed pixels: 0.98%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘶ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER TLHE<br>
+            unicode: U+1636<br>
+            changed pixels: 0.96%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘷ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER TLHEE<br>
+            unicode: U+1637<br>
+            changed pixels: 0.96%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᘸ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER TLHI<br>
+            unicode: U+1638<br>
+            changed pixels: 0.96%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᑜ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS WEST-CREE TWII<br>
+            unicode: U+145C<br>
+            changed pixels: 0.94%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᑚ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS WEST-CREE TWI<br>
+            unicode: U+145A<br>
+            changed pixels: 0.94%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᒄ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS KW<br>
+            unicode: U+1484<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ᣲ<br>
+        <span class="tooltiptext">
+            name: CANADIAN SYLLABICS CARRIER JWA<br>
+            unicode: U+18F2<br>
+            changed pixels: 0.91%
+        </span>
+    </div>
+</div>
+            </div>
+          
+          </div>
+      </div>
+    
+
+    
+      <div class="box">
+        <div class="box-title">Misshapen Canadian_Aboriginal words</div>
+        <div class="box-text old-Black" style="font-size: 32pt">
+          
+        </div>
+      </div>
+    
+    
+    <div class="box">
+      <div class="box-title">Misshapen user strings</div>
+      <div class="box-text old-Black" style="font-size: 32pt">
+        
+      </div>
+    </div>
+    
+
+    
+
+    </div>
+  
+<script>var fontdiff = {"vmtx": {"metrics": {"error": ["There are 350 changes, check manually!", ""]}}, "name": {"260/3/1/1033": ["ExtraLight", null], "275/1/0/0": ["ExtraBold", null], "271/3/1/1033": ["Regular", null], "268/1/0/0": ["Thin", null], "266/3/1/1033": ["ExtraBold", null], "273/1/0/0": ["SemiBold", null], "17/3/1/1033": [null, "Black"], "259/3/1/1033": ["Thin", null], "272/1/0/0": ["Medium", null], "264/3/1/1033": ["SemiBold", null], "6/3/1/1033": ["NotoSansCanadianAboriginal-Regular", "NotoSansCanadianAboriginal-Black"], "267/3/1/1033": ["Black", null], "270/1/0/0": ["Light", null], "274/1/0/0": ["Bold", null], "268/3/1/1033": ["Thin", null], "263/3/1/1033": ["Medium", null], "269/3/1/1033": ["ExtraLight", null], "1/3/1/1033": ["Noto Sans Canadian Aboriginal", "Noto Sans CanAborig Bk"], "4/3/1/1033": ["Noto Sans Canadian Aboriginal Regular", "Noto Sans Canadian Aboriginal Black"], "270/3/1/1033": ["Light", null], "25/3/1/1033": ["NotoSansCanadianAboriginal", null], "273/3/1/1033": ["SemiBold", null], "272/3/1/1033": ["Medium", null], "274/3/1/1033": ["Bold", null], "275/3/1/1033": ["ExtraBold", null], "276/1/0/0": ["Black", null], "269/1/0/0": ["ExtraLight", null], "271/1/0/0": ["Regular", null], "16/3/1/1033": [null, "Noto Sans Canadian Aboriginal"], "3/3/1/1033": ["2.003;GOOG;NotoSansCanadianAboriginal-Regular", "2.003;GOOG;NotoSansCanadianAboriginal-Black"], "276/3/1/1033": ["Black", null], "258/3/1/1033": ["Weight", null], "265/3/1/1033": ["Bold", null]}, "cmap": {"0x02DB": ["ogonek", null], "0x02DA": ["ring", null]}, "HVAR": {"tableTag": ["HVAR", null], "table": {"Version": [65536, null], "VarStore": {"Format": [1, null], "VarRegionList": {"RegionAxisCount": [1, null], "RegionCount": [3, null], "Region": {"0": {"VarRegionAxis": {"0": {"StartCoord": [-1.0, null], "PeakCoord": [-1.0, null], "EndCoord": [0.0, null]}}}, "1": {"VarRegionAxis": {"0": {"StartCoord": [0.0, null], "PeakCoord": [0.6099853515625, null], "EndCoord": [1.0, null]}}}, "2": {"VarRegionAxis": {"0": {"StartCoord": [0.6099853515625, null], "PeakCoord": [1.0, null], "EndCoord": [1.0, null]}}}}}, "VarDataCount": [5, null], "VarData": {"0": {"ItemCount": [5, null], "NumShorts": [0, null], "VarRegionCount": [2, null], "VarRegionIndex": {"0": [0, null], "1": [1, null]}, "Item": {"0": {"0": [-29, null], "1": [12, null]}, "1": {"0": [-22, null], "1": [8, null]}, "2": {"0": [-20, null], "1": [19, null]}, "3": {"0": [-9, null], "1": [8, null]}, "4": {"0": [10, null], "1": [20, null]}}}, "1": {"ItemCount": [3, null], "NumShorts": [0, null], "VarRegionCount": [2, null], "VarRegionIndex": {"0": [0, null], "1": [2, null]}, "Item": {"0": {"0": [-26, null], "1": [-20, null]}, "1": {"0": [0, null], "1": [0, null]}, "2": {"0": [9, null], "1": [0, null]}}}, "2": {"ItemCount": [6, null], "NumShorts": [0, null], "VarRegionCount": [2, null], "VarRegionIndex": {"0": [1, null], "1": [2, null]}, "Item": {"0": {"0": [11, null], "1": [4, null]}, "1": {"0": [11, null], "1": [5, null]}, "2": {"0": [32, null], "1": [34, null]}, "3": {"0": [46, null], "1": [57, null]}, "4": {"0": [76, null], "1": [116, null]}, "5": {"0": [86, null], "1": [116, null]}}}, "3": {"ItemCount": [277, null], "NumShorts": [0, null], "VarRegionCount": [3, null], "VarRegionIndex": {"0": [0, null], "1": [1, null], "2": [2, null]}, "Item": {"error": ["There are 277 changes, check manually!", ""]}}, "4": {"ItemCount": [2, null], "NumShorts": [1, null], "VarRegionCount": [3, null], "VarRegionIndex": {"0": [2, null], "1": [0, null], "2": [1, null]}, "Item": {"0": {"0": [132, null], "1": [-28, null], "2": [85, null]}, "1": {"0": [153, null], "1": [-21, null], "2": [94, null]}}}}}, "AdvWidthMap": {"mapping": {"error": ["There are 756 changes, check manually!", ""]}}}}, "prep": {"tableTag": ["prep", null]}, "post": {"extraNames": {"error": ["There are 744 changes, check manually!", ""]}}, "MVAR": {"tableTag": ["MVAR", null], "table": {"Version": [65536, null], "Reserved": [0, null], "ValueRecordSize": [8, null], "ValueRecordCount": [2, null], "VarStore": {"Format": [1, null], "VarRegionList": {"RegionAxisCount": [1, null], "RegionCount": [3, null], "Region": {"0": {"VarRegionAxis": {"0": {"StartCoord": [-1.0, null], "PeakCoord": [-1.0, null], "EndCoord": [0.0, null]}}}, "1": {"VarRegionAxis": {"0": {"StartCoord": [0.0, null], "PeakCoord": [0.6099853515625, null], "EndCoord": [1.0, null]}}}, "2": {"VarRegionAxis": {"0": {"StartCoord": [0.6099853515625, null], "PeakCoord": [1.0, null], "EndCoord": [1.0, null]}}}}}, "VarDataCount": [1, null], "VarData": {"0": {"ItemCount": [2, null], "NumShorts": [0, null], "VarRegionCount": [3, null], "VarRegionIndex": {"0": [0, null], "1": [1, null], "2": [2, null]}, "Item": {"0": {"0": [-19, null], "1": [9, null], "2": [14, null]}, "1": {"0": [-11, null], "1": [5, null], "2": [8, null]}}}}}, "ValueRecord": {"0": {"ValueTag": ["stro", null], "VarIdx": [1, null]}, "1": {"ValueTag": ["xhgt", null], "VarIdx": [0, null]}}}}, "avar": {"tableTag": ["avar", null], "segments": {"wght": {"-1.0": [-1.0, null], "-0.66668701171875": [-0.796875, null], "-0.33331298828125": [-0.5, null], "0.0": [0.0, null], "0.20001220703125": [0.17999267578125, null], "0.4000244140625": [0.3800048828125, null], "0.5999755859375": [0.6099853515625, null], "0.79998779296875": [0.78997802734375, null], "1.0": [1.0, null]}}, "table": {"Version": [65536, null], "Reserved": [0, null], "AxisCount": [1, null], "AxisSegmentMap": {"0": {"PositionMapCount": [9, null], "AxisValueMap": {"0": {"FromCoordinate": [-1.0, null], "ToCoordinate": [-1.0, null]}, "1": {"FromCoordinate": [-0.66668701171875, null], "ToCoordinate": [-0.796875, null]}, "2": {"FromCoordinate": [-0.33331298828125, null], "ToCoordinate": [-0.5, null]}, "3": {"FromCoordinate": [0.0, null], "ToCoordinate": [0.0, null]}, "4": {"FromCoordinate": [0.20001220703125, null], "ToCoordinate": [0.17999267578125, null]}, "5": {"FromCoordinate": [0.4000244140625, null], "ToCoordinate": [0.3800048828125, null]}, "6": {"FromCoordinate": [0.5999755859375, null], "ToCoordinate": [0.6099853515625, null]}, "7": {"FromCoordinate": [0.79998779296875, null], "ToCoordinate": [0.78997802734375, null]}, "8": {"FromCoordinate": [1.0, null], "ToCoordinate": [1.0, null]}}}}}, "majorVersion": [1, null], "minorVersion": [0, null]}, "maxp": {"maxContours": [5, 4], "maxCompositePoints": [104, 101], "maxPoints": [95, 87], "numGlyphs": [756, 753]}, "glyf": {"axisTags": {"0": ["wght", null]}, "glyphOrder": {"error": ["There are 747 changes, check manually!", ""]}, "_reverseGlyphOrder": {"error": ["There are 747 changes, check manually!", ""]}, "glyphs": {"error": ["There are 738 changes, check manually!", ""]}}, "VVAR": {"tableTag": ["VVAR", null], "table": {"Version": [65536, null], "VarStore": {"Format": [1, null], "VarRegionList": {"RegionAxisCount": [1, null], "RegionCount": [3, null], "Region": {"0": {"VarRegionAxis": {"0": {"StartCoord": [-1.0, null], "PeakCoord": [-1.0, null], "EndCoord": [0.0, null]}}}, "1": {"VarRegionAxis": {"0": {"StartCoord": [0.0, null], "PeakCoord": [0.6099853515625, null], "EndCoord": [1.0, null]}}}, "2": {"VarRegionAxis": {"0": {"StartCoord": [0.6099853515625, null], "PeakCoord": [1.0, null], "EndCoord": [1.0, null]}}}}}, "VarDataCount": [1, null], "VarData": {"0": {"ItemCount": [756, null], "NumShorts": [0, null], "VarRegionCount": [0, null]}}}}}, "hmtx": {"metrics": {"error": ["There are 749 changes, check manually!", ""]}}, "fvar": {"axes": {"wght": {"minValue": [100.0, null], "maxValue": [900.0, null], "defaultValue": [400.0, null], "axisName": ["Weight", null]}}, "instances": {"Thin": {"coordinates": {"wght": [100.0, null]}, "flags": [0, null]}, "ExtraLight": {"coordinates": {"wght": [200.0, null]}, "flags": [0, null]}, "Light": {"coordinates": {"wght": [300.0, null]}, "flags": [0, null]}, "Regular": {"coordinates": {"wght": [400.0, null]}, "flags": [0, null]}, "Medium": {"coordinates": {"wght": [500.0, null]}, "flags": [0, null]}, "SemiBold": {"coordinates": {"wght": [600.0, null]}, "flags": [0, null]}, "Bold": {"coordinates": {"wght": [700.0, null]}, "flags": [0, null]}, "ExtraBold": {"coordinates": {"wght": [800.0, null]}, "flags": [0, null]}, "Black": {"coordinates": {"wght": [900.0, null]}, "flags": [0, null]}}}, "OS/2": {"ulUnicodeRange1": [103, 3], "fsSelection": [192, 448], "ulUnicodeRange2": [8192, 0], "sxHeight": [500, 514], "xAvgCharWidth": [750, 801], "yStrikeoutPosition": [300, 308], "usWeightClass": [400, 900], "panose": {"bWeight": [5, 10]}}, "gasp": {"tableTag": ["gasp", null], "version": [1, null], "gaspRange": {"65535": [15, null]}}, "head": {"xMax": [1388, 1478], "xMin": [3, 9], "modified": [3770199791, 3789558786], "checkSumAdjustment": [777998793, 37015196]}, "gvar": {"tableTag": ["gvar", null], "version": [1, null], "reserved": [0, null], "axisCount": [1, null], "sharedTupleCount": [3, null], "offsetToSharedTuples": [1534, null], "glyphCount": [756, null], "flags": [0, null], "offsetToGlyphVariationData": [1540, null]}, "hhea": {"numberOfHMetrics": [755, 752], "minRightSideBearing": [-79, -85], "xMaxExtent": [1388, 1478], "advanceWidthMax": [1447, 1527], "minLeftSideBearing": [3, 9]}};</script>
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
+	  
+	if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+// apply optional ot feats
+
+function buildFeatureList() {
+	var features = [
+		'aalt', 'c2sc', 'calt', 'case', 'cpsp', 'dlig', 'dnom',
+		'fina', 'frac', 'init', 'kern', 'liga', 'lnum', 'numr', 'onum',
+		'ordn', 'pnum', 'salt', 'sinf', 'smcp', 'sups',
+		'swsh', 'titl', 'tnum', 'zero', 'ss01', 'ss02',
+		'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08',
+		'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14',
+		'ss15', 'ss16', 'ss17', 'ss18', 'ss19', 'ss20'
+	]
+	
+	var otPanel = document.getElementById("ot-panel")
+	for (i=0; i<features.length; i++) {
+		var feat = features[i]
+		
+		var row = document.createElement("div");
+
+		var item = document.createElement("input");
+		item.type = "checkbox"
+		item.value = feat
+		item.classList.add("ot-checkbox")
+		var label = document.createElement("label")
+		label.textContent = feat
+
+		row.appendChild(item)
+		row.appendChild(label)
+
+		otPanel.appendChild(row)
+	}
+}
+
+buildFeatureList()
+
+
+function enableFeatures() {
+	var checkboxes = document.getElementsByClassName("ot-checkbox")
+	var res = []
+	var disableKerning = false
+	for (i=0; i<checkboxes.length; i++) {
+		if (checkboxes[i].checked === true) {
+			var checkbox = checkboxes[i]
+			res.push('"' + checkbox.value + '"')
+
+			if (checkbox.value === "kern") {
+				disableKerning = true
+			}
+		}
+	}	
+
+	var boxText = document.getElementsByClassName("box-text")
+	var otString = res.join(", ")
+	for (j=0; j<boxText.length; j++) {
+		boxText[j].style.fontFeatureSettings = otString
+		if (disableKerning === true) {
+			boxText[j].style.fontKerning = "none"
+		}
+	}
+}
+
+var otButton = document.getElementById("ot-button")
+otButton.addEventListener("click", function() {
+    otPanel = document.getElementById("ot-panel")
+    if (otPanel.style.display !== "block") {
+        otPanel.style.display = "block"
+    } else {
+        otPanel.style.display = "none"
+    }
+})
+var checkboxes = document.getElementsByClassName("ot-checkbox")
+for (i=0; i<checkboxes.length; i++) {
+	cb = checkboxes[i]
+	cb.addEventListener("click", enableFeatures)
+}	
+    
+  class Table {
+      constructor(data) {
+          this.data = {"root": data}
+          this.open("root")
+      }
+
+      createNode(key, label) {
+          let childElem = document.createElement("div")
+          let childKey = key
+          childElem.dataset.path = childKey
+          childElem.dataset.open = "0"
+          childElem.innerHTML = label
+          childElem.classList.add("node")
+          return childElem
+      }
+
+      close(key) {
+          let htmlParent = document.querySelector(`[data-path="${key}"]`)
+          let label = htmlParent.childNodes[0].nodeValue
+          htmlParent.replaceChildren()
+          htmlParent.textContent = label
+          htmlParent.dataset.open = "0"
+      }
+
+      open(key) {
+          let htmlParent = document.querySelector(`[data-path="${key}"]`)
+          htmlParent.dataset.open = "1"
+
+          // traverse to correct data level based on data-path
+          let path = key.split(".")
+          let data = this.data
+          for (var i=0; i<path.length; i++) {
+              data = data[path[i]];
+
+          }
+
+          // arrays containing two values are used as leaf nodes.
+          // The first item is the before value and the second
+          // is for after value.
+          if (Array.isArray(data)) {
+              let childElem = this.createNode("", "")
+              let before = document.createElement("span")
+              before.classList.add("attr-before")
+              before.textContent = String(data[0]) + " "
+              let after = document.createElement("span")
+              after.classList.add("attr-after")
+              after.textContent = String(data[1])
+              childElem.appendChild(before)
+              childElem.appendChild(after)
+              htmlParent.appendChild(childElem)
+              return
+          }
+          // Create next child nodes
+          for (var i in data) {
+              let childKey = key + "." + i
+              let childElem = this.createNode(childKey, i)
+              htmlParent.appendChild(childElem);
+              var that = this
+
+              // Toggle whether to open or close a node
+              childElem.addEventListener("click", function() {
+                  if (this.dataset.open === "0") {
+                      that.open(childKey)
+                      event.stopPropagation()
+                  } else {
+                      that.close(childKey)
+                      event.stopPropagation()
+                  }
+              })
+          }
+      }
+  }
+
+  let t = new Table(fontdiff, document.getElementById("difftable"))
+
+
+function wordBreaks() {
+  words = document.getElementsByClassName("cell-word")
+  res = []
+  prevTop = 0
+  for (i=0; i<words.length; i++) {
+      var word = words[i]
+      currentTop = word.getBoundingClientRect().top
+      if (currentTop > prevTop) {
+          res.push(i)
+      }
+      prevTop = currentTop
+  }
+  return res
+}
+
+async function insertBreaks() {
+  switchFonts()
+  await sleep(1)
+  breaksBefore = wordBreaks()
+  switchFonts()
+  await sleep(1)
+  breaksAfter = wordBreaks()
+
+
+  console.log(breaksBefore.length, breaksAfter.length)
+
+  if (breaksBefore.length >= breaksAfter.length) {
+    breaks = breaksBefore
+  } else {
+    breaks = breaksAfter
+  }
+
+  words = document.getElementsByClassName("cell-word")
+  breaks.forEach(function(i) {
+    if (i != 0) {
+      i = i
+    }
+    word = words[i]
+    spacer = document.createElement("div")
+    spacer.className = "spacer"
+    word.parentNode.insertBefore(spacer, word)
+  })
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+  
+insertBreaks()
+
+
+    </script>
+</html>

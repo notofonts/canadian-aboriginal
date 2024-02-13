@@ -1,0 +1,49 @@
+{
+color = 9;
+glyphname = uni11ABD;
+layers = (
+{
+layerId = master01;
+metricLeft = "=uni11ABC";
+metricRight = "=uni11ABC";
+shapes = (
+{
+pos = (637,0);
+ref = uni11ABC;
+scale = (-1,1);
+}
+);
+vertWidth = 0;
+width = 637;
+},
+{
+layerId = "95BBE91D-E142-4583-9333-40F49FDAAF51";
+metricLeft = "=uni11ABC";
+metricRight = "=uni11ABC";
+shapes = (
+{
+pos = (664,0);
+ref = uni11ABC;
+scale = (-1,1);
+}
+);
+vertWidth = 0;
+width = 664;
+},
+{
+layerId = "3DE82CA6-356F-4113-A2BF-F7F877EAC5C8";
+metricLeft = "=uni11ABC";
+metricRight = "=uni11ABC";
+shapes = (
+{
+pos = (703,0);
+ref = uni11ABC;
+scale = (-1,1);
+}
+);
+vertWidth = 0;
+width = 702;
+}
+);
+unicode = 72381;
+}

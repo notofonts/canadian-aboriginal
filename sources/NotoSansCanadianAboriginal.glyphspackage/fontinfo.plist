@@ -1,0 +1,4142 @@
+{
+.appVersion = "3227";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+}
+);
+classes = (
+{
+code = "uni141F
+uni1420
+uni1421
+uni1422
+uni1423
+uni1424
+uni1425
+uni1426
+uni1427
+uni1428
+uni1429
+uni142A
+uni167E
+uni18DE
+uni18DF
+";
+name = finals;
+}
+);
+customParameters = (
+{
+name = fsType;
+value = (
+);
+},
+{
+name = unicodeRanges;
+value = (
+0,
+1,
+2,
+5,
+6,
+45,
+77
+);
+},
+{
+name = codePageRanges;
+value = (
+1252
+);
+},
+{
+name = "Write lastChange";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Has WWS Names";
+value = 1;
+},
+{
+name = openTypeOS2SelectionUnsupportedBits;
+value = (
+);
+},
+{
+name = glyphOrder;
+value = (
+.notdef,
+CR,
+NULL,
+breve,
+caron,
+dotaccent,
+dotlessi,
+g720,
+g721,
+g722,
+g723,
+g724,
+g725,
+g726,
+g727,
+g728,
+g729,
+g730,
+g731,
+g732,
+g733,
+g734,
+g735,
+g736,
+g737,
+g738,
+g739,
+g740,
+g741,
+g742,
+ogonek,
+ring,
+space,
+uni00A0,
+uni0307,
+uni1400,
+uni1401,
+uni1402,
+uni1403,
+uni1404,
+uni1405,
+uni1406,
+uni1407,
+uni1408,
+uni1409,
+uni140A,
+uni140B,
+uni140C,
+uni140D,
+uni140E,
+uni140F,
+uni1410,
+uni1411,
+uni1412,
+uni1413,
+uni1414,
+uni1415,
+uni1416,
+uni1417,
+uni1418,
+uni1419,
+uni141A,
+uni141B,
+uni141C,
+uni141D,
+uni141E,
+uni141F,
+uni1420,
+uni1421,
+uni1422,
+uni1423,
+uni1424,
+uni1425,
+uni1426,
+uni1427,
+uni1428,
+uni1429,
+uni142A,
+uni142B,
+uni142C,
+uni142D,
+uni142E,
+uni142F,
+uni1430,
+uni1431,
+uni1432,
+uni1433,
+uni1434,
+uni1435,
+uni1436,
+uni1437,
+uni1438,
+uni1439,
+uni143A,
+uni143B,
+uni143C,
+uni143D,
+uni143E,
+uni143F,
+uni1440,
+uni1441,
+uni1442,
+uni1443,
+uni1444,
+uni1445,
+uni1446,
+uni1447,
+uni1448,
+uni1449,
+uni144A,
+uni144B,
+uni144C,
+uni144D,
+uni144E,
+uni144F,
+uni1450,
+uni1451,
+uni1452,
+uni1453,
+uni1454,
+uni1455,
+uni1456,
+uni1457,
+uni1458,
+uni1459,
+uni145A,
+uni145B,
+uni145C,
+uni145D,
+uni145E,
+uni145F,
+uni1460,
+uni1461,
+uni1462,
+uni1463,
+uni1464,
+uni1465,
+uni1466,
+uni1467,
+uni1468,
+uni1469,
+uni146A,
+uni146B,
+uni146C,
+uni146D,
+uni146E,
+uni146F,
+uni1470,
+uni1471,
+uni1472,
+uni1473,
+uni1474,
+uni1475,
+uni1476,
+uni1477,
+uni1478,
+uni1479,
+uni147A,
+uni147B,
+uni147C,
+uni147D,
+uni147E,
+uni147F,
+uni1480,
+uni1481,
+uni1482,
+uni1483,
+uni1484,
+uni1485,
+uni1486,
+uni1487,
+uni1488,
+uni1489,
+uni148A,
+uni148B,
+uni148C,
+uni148D,
+uni148E,
+uni148F,
+uni1490,
+uni1491,
+uni1492,
+uni1493,
+uni1494,
+uni1495,
+uni1496,
+uni1497,
+uni1498,
+uni1499,
+uni149A,
+uni149B,
+uni149C,
+uni149D,
+uni149E,
+uni149F,
+uni14A0,
+uni14A1,
+uni14A2,
+uni14A3,
+uni14A4,
+uni14A5,
+uni14A6,
+uni14A7,
+uni14A8,
+uni14A9,
+uni14AA,
+uni14AB,
+uni14AC,
+uni14AD,
+uni14AE,
+uni14AF,
+uni14B0,
+uni14B1,
+uni14B2,
+uni14B3,
+uni14B4,
+uni14B5,
+uni14B6,
+uni14B7,
+uni14B8,
+uni14B9,
+uni14BA,
+uni14BB,
+uni14BC,
+uni14BD,
+uni14BE,
+uni14BF,
+uni14C0,
+uni14C1,
+uni14C2,
+uni14C3,
+uni14C4,
+uni14C5,
+uni14C6,
+uni14C7,
+uni14C8,
+uni14C9,
+uni14CA,
+uni14CB,
+uni14CC,
+uni14CD,
+uni14CE,
+uni14CF,
+uni14D0,
+uni14D1,
+uni14D2,
+uni14D3,
+uni14D4,
+uni14D5,
+uni14D6,
+uni14D7,
+uni14D8,
+uni14D9,
+uni14DA,
+uni14DB,
+uni14DC,
+uni14DD,
+uni14DE,
+uni14DF,
+uni14E0,
+uni14E1,
+uni14E2,
+uni14E3,
+uni14E4,
+uni14E5,
+uni14E6,
+uni14E7,
+uni14E8,
+uni14E9,
+uni14EA,
+uni14EB,
+uni14EC,
+uni14ED,
+uni14EE,
+uni14EF,
+uni14F0,
+uni14F1,
+uni14F2,
+uni14F3,
+uni14F4,
+uni14F5,
+uni14F6,
+uni14F7,
+uni14F8,
+uni14F9,
+uni14FA,
+uni14FB,
+uni14FC,
+uni14FD,
+uni14FE,
+uni14FF,
+uni1500,
+uni1501,
+uni1502,
+uni1503,
+uni1504,
+uni1505,
+uni1506,
+uni1507,
+uni1508,
+uni1509,
+uni150A,
+uni150B,
+uni150C,
+uni150D,
+uni150E,
+uni150F,
+uni1510,
+uni1511,
+uni1512,
+uni1513,
+uni1514,
+uni1515,
+uni1516,
+uni1517,
+uni1518,
+uni1519,
+uni151A,
+uni151B,
+uni151C,
+uni151D,
+uni151E,
+uni151F,
+uni1520,
+uni1521,
+uni1522,
+uni1523,
+uni1524,
+uni1525,
+uni1526,
+uni1527,
+uni1528,
+uni1529,
+uni152A,
+uni152B,
+uni152C,
+uni152D,
+uni152E,
+uni152F,
+uni1530,
+uni1531,
+uni1532,
+uni1533,
+uni1534,
+uni1535,
+uni1536,
+uni1537,
+uni1538,
+uni1539,
+uni153A,
+uni153B,
+uni153C,
+uni153D,
+uni153E,
+uni153F,
+uni1540,
+uni1541,
+uni1542,
+uni1543,
+uni1544,
+uni1545,
+uni1546,
+uni1547,
+uni1548,
+uni1549,
+uni154A,
+uni154B,
+uni154C,
+uni154D,
+uni154E,
+uni154F,
+uni1550,
+uni1551,
+uni1552,
+uni1553,
+uni1554,
+uni1555,
+uni1556,
+uni1557,
+uni1558,
+uni1559,
+uni155A,
+uni155B,
+uni155C,
+uni155D,
+uni155E,
+uni155F,
+uni1560,
+uni1561,
+uni1562,
+uni1563,
+uni1564,
+uni1565,
+uni1566,
+uni1567,
+uni1568,
+uni1569,
+uni156A,
+uni156B,
+uni156C,
+uni156D,
+uni156E,
+uni156F,
+uni1570,
+uni1571,
+uni1572,
+uni1573,
+uni1574,
+uni1575,
+uni1576,
+uni1577,
+uni1578,
+uni1579,
+uni157A,
+uni157B,
+uni157C,
+uni157D,
+uni157E,
+uni157F,
+uni1580,
+uni1581,
+uni1582,
+uni1583,
+uni1584,
+uni1585,
+uni1586,
+uni1587,
+uni1588,
+uni1589,
+uni158A,
+uni158B,
+uni158C,
+uni158D,
+uni158E,
+uni158F,
+uni1590,
+uni1591,
+uni1592,
+uni1593,
+uni1594,
+uni1595,
+uni1596,
+uni1597,
+uni1598,
+uni1599,
+uni159A,
+uni159B,
+uni159C,
+uni159D,
+uni159E,
+uni159F,
+uni15A0,
+uni15A1,
+uni15A2,
+uni15A3,
+uni15A4,
+uni15A5,
+uni15A6,
+uni15A7,
+uni15A8,
+uni15A9,
+uni15AA,
+uni15AB,
+uni15AC,
+uni15AD,
+uni15AE,
+uni15AF,
+uni15B0,
+uni15B1,
+uni15B2,
+uni15B3,
+uni15B4,
+uni15B5,
+uni15B6,
+uni15B7,
+uni15B8,
+uni15B9,
+uni15BA,
+uni15BB,
+uni15BC,
+uni15BD,
+uni15BE,
+uni15BF,
+uni15C0,
+uni15C1,
+uni15C2,
+uni15C3,
+uni15C4,
+uni15C5,
+uni15C6,
+uni15C7,
+uni15C8,
+uni15C9,
+uni15CA,
+uni15CB,
+uni15CC,
+uni15CD,
+uni15CE,
+uni15CF,
+uni15D0,
+uni15D1,
+uni15D2,
+uni15D3,
+uni15D4,
+uni15D5,
+uni15D6,
+uni15D7,
+uni15D8,
+uni15D9,
+uni15DA,
+uni15DB,
+uni15DC,
+uni15DD,
+uni15DE,
+uni15DF,
+uni15E0,
+uni15E1,
+uni15E2,
+uni15E3,
+uni15E4,
+uni15E5,
+uni15E6,
+uni15E7,
+uni15E8,
+uni15E9,
+uni15EA,
+uni15EB,
+uni15EC,
+uni15ED,
+uni15EE,
+uni15EF,
+uni15F0,
+uni15F1,
+uni15F2,
+uni15F3,
+uni15F4,
+uni15F5,
+uni15F6,
+uni15F7,
+uni15F8,
+uni15F9,
+uni15FA,
+uni15FB,
+uni15FC,
+uni15FD,
+uni15FE,
+uni15FF,
+uni1600,
+uni1601,
+uni1602,
+uni1603,
+uni1604,
+uni1605,
+uni1606,
+uni1607,
+uni1608,
+uni1609,
+uni160A,
+uni160B,
+uni160C,
+uni160D,
+uni160E,
+uni160F,
+uni1610,
+uni1611,
+uni1612,
+uni1613,
+uni1614,
+uni1615,
+uni1616,
+uni1617,
+uni1618,
+uni1619,
+uni161A,
+uni161B,
+uni161C,
+uni161D,
+uni161E,
+uni161F,
+uni1620,
+uni1621,
+uni1622,
+uni1623,
+uni1624,
+uni1625,
+uni1626,
+uni1627,
+uni1628,
+uni1629,
+uni162A,
+uni162B,
+uni162C,
+uni162D,
+uni162E,
+uni162F,
+uni1630,
+uni1631,
+uni1632,
+uni1633,
+uni1634,
+uni1635,
+uni1636,
+uni1637,
+uni1638,
+uni1639,
+uni163A,
+uni163B,
+uni163C,
+uni163D,
+uni163E,
+uni163F,
+uni1640,
+uni1641,
+uni1642,
+uni1643,
+uni1644,
+uni1645,
+uni1646,
+uni1647,
+uni1648,
+uni1649,
+uni164A,
+uni164B,
+uni164C,
+uni164D,
+uni164E,
+uni164F,
+uni1650,
+uni1651,
+uni1652,
+uni1653,
+uni1654,
+uni1655,
+uni1656,
+uni1657,
+uni1658,
+uni1659,
+uni165A,
+uni165B,
+uni165C,
+uni165D,
+uni165E,
+uni165F,
+uni1660,
+uni1661,
+uni1662,
+uni1663,
+uni1664,
+uni1665,
+uni1666,
+uni1667,
+uni1668,
+uni1669,
+uni166A,
+uni166B,
+uni166C,
+uni166D,
+uni166E,
+uni166F,
+uni1670,
+uni1671,
+uni1672,
+uni1673,
+uni1674,
+uni1675,
+uni1676,
+uni1677,
+uni1678,
+uni1679,
+uni167A,
+uni167B,
+uni167C,
+uni167D,
+uni167E,
+uni167F,
+uni18B0,
+uni18B1,
+uni18B2,
+uni18B3,
+uni18B4,
+uni18B5,
+uni18B6,
+uni18B7,
+uni18B8,
+uni18B9,
+uni18BA,
+uni18BB,
+uni18BC,
+uni18BD,
+uni18BE,
+uni18BF,
+uni18C0,
+uni18C1,
+uni18C2,
+uni18C3,
+uni18C4,
+uni18C5,
+uni18C6,
+uni18C7,
+uni18C8,
+uni18C9,
+uni18CA,
+uni18CB,
+uni18CC,
+uni18CD,
+uni18CE,
+uni18CF,
+uni18D0,
+uni18D1,
+uni18D2,
+uni18D3,
+uni18D4,
+uni18D5,
+uni18D6,
+uni18D7,
+uni18D8,
+uni18D9,
+uni18DA,
+uni18DB,
+uni18DC,
+uni18DD,
+uni18DE,
+uni18DF,
+uni18E0,
+uni18E1,
+uni18E2,
+uni18E3,
+uni18E4,
+uni18E5,
+uni18E6,
+uni18E7,
+uni18E8,
+uni18E9,
+uni18EA,
+uni18EB,
+uni18EC,
+uni18ED,
+uni18EE,
+uni18EF,
+uni18F0,
+uni18F1,
+uni18F2,
+uni18F3,
+uni18F4,
+uni18F5,
+uni25CC,
+uni11AB0,
+uni11AB1,
+uni11AB2,
+uni11AB3,
+uni11AB4,
+uni11AB5,
+uni11AB6,
+uni11AB7,
+uni11AB8,
+uni11AB9,
+uni11ABA,
+uni11ABB,
+uni11ABC,
+uni11ABD,
+uni11ABE,
+uni11ABF
+);
+},
+{
+name = "Axis Mappings";
+value = {
+wght = {
+26 = 100;
+39 = 200;
+58 = 300;
+90 = 400;
+108 = 500;
+128 = 600;
+151 = 700;
+169 = 800;
+190 = 900;
+};
+};
+}
+);
+date = "2017-11-19 13:14:29 +0000";
+familyName = "Noto Sans Canadian Aboriginal";
+featurePrefixes = (
+{
+code = "languagesystem DFLT dflt;
+languagesystem cans dflt;
+
+lookup gsub_0_single {
+	sub uni1513 by g727 ;
+	sub uni1514 by g728 ;
+	sub uni1515 by g729 ;
+	sub uni1516 by g730 ;
+	sub uni151D by g731 ;
+	sub uni151E by g732 ;
+	sub uni151F by g733 ;
+	sub uni1520 by g734 ;
+	sub uni1521 by g735 ;
+	sub uni1522 by g736 ;
+	sub uni1523 by g737 ;
+	sub uni1524 by g738 ;
+	sub uni1595 by g739 ;
+	sub uni18C0 by g740 ;
+	sub uni18C1 by g741 ;
+	sub uni18C2 by g742 ;
+    } gsub_0_single ;
+
+";
+name = "<anonymous>";
+}
+);
+features = (
+{
+code = "script DFLT ;
+		language dflt ;
+			lookup gsub_0_single;
+	script cans ;
+		language dflt ;
+			lookup gsub_0_single;
+		";
+tag = salt;
+},
+{
+code = "pos @finals <0 -300 0 0>;
+";
+labels = (
+{
+language = dflt;
+value = "Mid-line finals";
+}
+);
+tag = ss01;
+},
+{
+code = "pos @finals <0 -600 0 0>;
+";
+labels = (
+{
+language = dflt;
+value = "Low-line finals";
+}
+);
+tag = ss02;
+}
+);
+fontMaster = (
+{
+axesValues = (
+26
+);
+customParameters = (
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = vheaVertAscender;
+value = 500;
+},
+{
+name = vheaVertDescender;
+value = -500;
+},
+{
+name = vheaVertLineGap;
+value = 1000;
+},
+{
+name = vheaVertTypoAscender;
+value = 500;
+},
+{
+name = vheaVertTypoDescender;
+value = -500;
+},
+{
+name = vheaVertTypoLineGap;
+value = 1000;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = weightClass;
+value = 400;
+},
+{
+name = widthClass;
+value = 5;
+}
+);
+iconName = Light;
+id = master01;
+metricValues = (
+{
+over = 15;
+pos = 1069;
+},
+{
+over = 15;
+pos = 714;
+},
+{
+over = 15;
+pos = 481;
+},
+{
+over = -15;
+},
+{
+over = -15;
+pos = -293;
+},
+{
+}
+);
+name = Light;
+stemValues = (
+26,
+67,
+103,
+26,
+67,
+103
+);
+userData = {
+GSOffsetHorizontal = 3;
+GSOffsetProportional = 1;
+GSOffsetVertical = 3;
+com.github.googlei18n.ufo2ft.filters = (
+{
+name = eraseOpenCorners;
+namespace = glyphsLib.filters;
+pre = 1;
+}
+);
+com.schriftgestaltung.Glyphs.layerLib.public.default = {
+org.unifiedfontobject.normalizer.imageReferences = {
+};
+org.unifiedfontobject.normalizer.modTimes = "version: 0.5.4
+1661269005.9 C_R_.glif
+1661269005.9 N_U_L_L_.glif
+1661269005.9 _notdef.glif
+1661269005.9 breve.glif
+1661269005.9 caron.glif
+1661269005.9 dotaccent.glif
+1661269005.9 dotlessi.glif
+1661269005.9 g720.glif
+1661269005.9 g721.glif
+1661269005.9 g722.glif
+1661269005.9 g723.glif
+1661269005.9 g724.glif
+1661269005.9 g725.glif
+1661269005.9 g726.glif
+1661269005.9 g727.glif
+1661269005.9 g728.glif
+1661269005.9 g729.glif
+1661269005.9 g730.glif
+1661269005.9 g731.glif
+1661269005.9 g732.glif
+1661269005.9 g733.glif
+1661269005.9 g734.glif
+1661269005.9 g735.glif
+1661269005.9 g736.glif
+1661269005.9 g737.glif
+1661269005.9 g738.glif
+1661269005.9 g739.glif
+1661269005.9 g740.glif
+1661269005.9 g741.glif
+1661269005.9 g742.glif
+1661269005.9 ogonek.glif
+1661269005.9 ring.glif
+1661269005.9 space.glif
+1661269005.9 uni00A_0.glif
+1661269005.9 uni0307.glif
+1661269005.9 uni11A_B_0.glif
+1661269005.9 uni11A_B_1.glif
+1661269005.9 uni11A_B_2.glif
+1661269005.9 uni11A_B_3.glif
+1661269005.9 uni11A_B_4.glif
+1661269005.9 uni11A_B_5.glif
+1661269005.9 uni11A_B_6.glif
+1661269005.9 uni11A_B_7.glif
+1661269005.9 uni11A_B_8.glif
+1661269005.9 uni11A_B_9.glif
+1661269005.9 uni11A_B_A_.glif
+1661269005.9 uni11A_B_B_.glif
+1661269005.9 uni11A_B_C_.glif
+1661269005.9 uni11A_B_D_.glif
+1661269005.9 uni11A_B_E_.glif
+1661269005.9 uni11A_B_F_.glif
+1661269005.9 uni1400.glif
+1661269005.9 uni1401.glif
+1661269005.9 uni1402.glif
+1661269005.9 uni1403.glif
+1661269005.9 uni1404.glif
+1661269005.9 uni1405.glif
+1661269005.9 uni1406.glif
+1661269005.9 uni1407.glif
+1661269005.9 uni1408.glif
+1661269005.9 uni1409.glif
+1661269005.9 uni140A_.glif
+1661269005.9 uni140B_.glif
+1661269005.9 uni140C_.glif
+1661269005.9 uni140D_.glif
+1661269005.9 uni140E_.glif
+1661269005.9 uni140F_.glif
+1661269005.9 uni1410.glif
+1661269005.9 uni1411.glif
+1661269005.9 uni1412.glif
+1661269005.9 uni1413.glif
+1661269005.9 uni1414.glif
+1661269005.9 uni1415.glif
+1661269005.9 uni1416.glif
+1661269005.9 uni1417.glif
+1661269005.9 uni1418.glif
+1661269005.9 uni1419.glif
+1661269005.9 uni141A_.glif
+1661269005.9 uni141B_.glif
+1661269005.9 uni141C_.glif
+1661269005.9 uni141D_.glif
+1661269005.9 uni141E_.glif
+1661269005.9 uni141F_.glif
+1661269005.9 uni1420.glif
+1661269005.9 uni1421.glif
+1661269005.9 uni1422.glif
+1661269005.9 uni1423.glif
+1661269005.9 uni1424.glif
+1661269005.9 uni1425.glif
+1661269005.9 uni1426.glif
+1661269006.0 uni1427.glif
+1661269006.0 uni1428.glif
+1661269006.0 uni1429.glif
+1661269006.0 uni142A_.glif
+1661269006.0 uni142B_.glif
+1661269006.0 uni142C_.glif
+1661269006.0 uni142D_.glif
+1661269006.0 uni142E_.glif
+1661269006.0 uni142F_.glif
+1661269006.0 uni1430.glif
+1661269006.0 uni1431.glif
+1661269006.0 uni1432.glif
+1661269006.0 uni1433.glif
+1661269006.0 uni1434.glif
+1661269006.0 uni1435.glif
+1661269006.0 uni1436.glif
+1661269006.0 uni1437.glif
+1661269006.0 uni1438.glif
+1661269006.0 uni1439.glif
+1661269006.0 uni143A_.glif
+1661269006.0 uni143B_.glif
+1661269006.0 uni143C_.glif
+1661269006.0 uni143D_.glif
+1661269006.0 uni143E_.glif
+1661269006.0 uni143F_.glif
+1661269006.0 uni1440.glif
+1661269006.0 uni1441.glif
+1661269006.0 uni1442.glif
+1661269006.0 uni1443.glif
+1661269006.0 uni1444.glif
+1661269006.0 uni1445.glif
+1661269006.0 uni1446.glif
+1661269006.0 uni1447.glif
+1661269006.0 uni1448.glif
+1661269006.0 uni1449.glif
+1661269006.0 uni144A_.glif
+1661269006.0 uni144B_.glif
+1661269006.0 uni144C_.glif
+1661269006.0 uni144D_.glif
+1661269006.0 uni144E_.glif
+1661269006.0 uni144F_.glif
+1661269006.0 uni1450.glif
+1661269006.0 uni1451.glif
+1661269006.0 uni1452.glif
+1661269006.0 uni1453.glif
+1661269006.0 uni1454.glif
+1661269006.0 uni1455.glif
+1661269006.0 uni1456.glif
+1661269006.0 uni1457.glif
+1661269006.0 uni1458.glif
+1661269006.0 uni1459.glif
+1661269006.0 uni145A_.glif
+1661269006.0 uni145B_.glif
+1661269006.0 uni145C_.glif
+1661269006.0 uni145D_.glif
+1661269006.0 uni145E_.glif
+1661269006.0 uni145F_.glif
+1661269006.0 uni1460.glif
+1661269006.0 uni1461.glif
+1661269006.0 uni1462.glif
+1661269006.0 uni1463.glif
+1661269006.0 uni1464.glif
+1661269006.0 uni1465.glif
+1661269006.0 uni1466.glif
+1661269006.0 uni1467.glif
+1661269006.0 uni1468.glif
+1661269006.0 uni1469.glif
+1661269006.0 uni146A_.glif
+1661269006.0 uni146B_.glif
+1661269006.0 uni146C_.glif
+1661269006.0 uni146D_.glif
+1661269006.0 uni146E_.glif
+1661269006.0 uni146F_.glif
+1661269006.0 uni1470.glif
+1661269006.0 uni1471.glif
+1661269006.0 uni1472.glif
+1661269006.0 uni1473.glif
+1661269006.0 uni1474.glif
+1661269006.0 uni1475.glif
+1661269006.0 uni1476.glif
+1661269006.0 uni1477.glif
+1661269006.0 uni1478.glif
+1661269006.0 uni1479.glif
+1661269006.0 uni147A_.glif
+1661269006.0 uni147B_.glif
+1661269006.0 uni147C_.glif
+1661269006.0 uni147D_.glif
+1661269006.0 uni147E_.glif
+1661269006.0 uni147F_.glif
+1661269006.0 uni1480.glif
+1661269006.0 uni1481.glif
+1661269006.0 uni1482.glif
+1661269006.0 uni1483.glif
+1661269006.0 uni1484.glif
+1661269006.0 uni1485.glif
+1661269006.0 uni1486.glif
+1661269006.0 uni1487.glif
+1661269006.0 uni1488.glif
+1661269006.0 uni1489.glif
+1661269006.0 uni148A_.glif
+1661269006.0 uni148B_.glif
+1661269006.0 uni148C_.glif
+1661269006.0 uni148D_.glif
+1661269006.0 uni148E_.glif
+1661269006.0 uni148F_.glif
+1661269006.0 uni1490.glif
+1661269006.0 uni1491.glif
+1661269006.0 uni1492.glif
+1661269006.0 uni1493.glif
+1661269006.0 uni1494.glif
+1661269006.0 uni1495.glif
+1661269006.0 uni1496.glif
+1661269006.0 uni1497.glif
+1661269006.0 uni1498.glif
+1661269006.0 uni1499.glif
+1661269006.0 uni149A_.glif
+1661269006.0 uni149B_.glif
+1661269006.0 uni149C_.glif
+1661269006.0 uni149D_.glif
+1661269006.0 uni149E_.glif
+1661269006.0 uni149F_.glif
+1661269006.0 uni14A_0.glif
+1661269006.0 uni14A_1.glif
+1661269006.0 uni14A_2.glif
+1661269006.0 uni14A_3.glif
+1661269006.0 uni14A_4.glif
+1661269006.0 uni14A_5.glif
+1661269006.0 uni14A_6.glif
+1661269006.0 uni14A_7.glif
+1661269006.0 uni14A_8.glif
+1661269006.0 uni14A_9.glif
+1661269006.0 uni14A_A_.glif
+1661269006.0 uni14A_B_.glif
+1661269006.0 uni14A_C_.glif
+1661269006.0 uni14A_D_.glif
+1661269006.0 uni14A_E_.glif
+1661269006.0 uni14A_F_.glif
+1661269006.0 uni14B_0.glif
+1661269006.0 uni14B_1.glif
+1661269006.0 uni14B_2.glif
+1661269006.0 uni14B_3.glif
+1661269006.0 uni14B_4.glif
+1661269006.0 uni14B_5.glif
+1661269006.0 uni14B_6.glif
+1661269006.0 uni14B_7.glif
+1661269006.0 uni14B_8.glif
+1661269006.0 uni14B_9.glif
+1661269006.0 uni14B_A_.glif
+1661269006.0 uni14B_B_.glif
+1661269006.0 uni14B_C_.glif
+1661269006.0 uni14B_D_.glif
+1661269006.0 uni14B_E_.glif
+1661269006.0 uni14B_F_.glif
+1661269006.0 uni14C_0.glif
+1661269006.0 uni14C_1.glif
+1661269006.0 uni14C_2.glif
+1661269006.0 uni14C_3.glif
+1661269006.0 uni14C_4.glif
+1661269006.0 uni14C_5.glif
+1661269006.0 uni14C_6.glif
+1661269006.0 uni14C_7.glif
+1661269006.0 uni14C_8.glif
+1661269006.0 uni14C_9.glif
+1661269006.0 uni14C_A_.glif
+1661269006.0 uni14C_B_.glif
+1661269006.0 uni14C_C_.glif
+1661269006.0 uni14C_D_.glif
+1661269006.0 uni14C_E_.glif
+1661269006.0 uni14C_F_.glif
+1661269006.0 uni14D_0.glif
+1661269006.0 uni14D_1.glif
+1661269006.0 uni14D_2.glif
+1661269006.0 uni14D_3.glif
+1661269006.0 uni14D_4.glif
+1661269006.0 uni14D_5.glif
+1661269006.0 uni14D_6.glif
+1661269006.0 uni14D_7.glif
+1661269006.0 uni14D_8.glif
+1661269006.0 uni14D_9.glif
+1661269006.0 uni14D_A_.glif
+1661269006.0 uni14D_B_.glif
+1661269006.0 uni14D_C_.glif
+1661269006.0 uni14D_D_.glif
+1661269006.0 uni14D_E_.glif
+1661269006.0 uni14D_F_.glif
+1661269006.0 uni14E_0.glif
+1661269006.0 uni14E_1.glif
+1661269006.0 uni14E_2.glif
+1661269006.0 uni14E_3.glif
+1661269006.0 uni14E_4.glif
+1661269006.0 uni14E_5.glif
+1661269006.0 uni14E_6.glif
+1661269006.0 uni14E_7.glif
+1661269006.0 uni14E_8.glif
+1661269006.0 uni14E_9.glif
+1661269006.0 uni14E_A_.glif
+1661269006.0 uni14E_B_.glif
+1661269006.0 uni14E_C_.glif
+1661269006.0 uni14E_D_.glif
+1661269006.0 uni14E_E_.glif
+1661269006.0 uni14E_F_.glif
+1661269006.0 uni14F_0.glif
+1661269006.0 uni14F_1.glif
+1661269006.0 uni14F_2.glif
+1661269006.0 uni14F_3.glif
+1661269006.0 uni14F_4.glif
+1661269006.0 uni14F_5.glif
+1661269006.0 uni14F_6.glif
+1661269006.0 uni14F_7.glif
+1661269006.0 uni14F_8.glif
+1661269006.0 uni14F_9.glif
+1661269006.0 uni14F_A_.glif
+1661269006.0 uni14F_B_.glif
+1661269006.0 uni14F_C_.glif
+1661269006.0 uni14F_D_.glif
+1661269006.0 uni14F_E_.glif
+1661269006.0 uni14F_F_.glif
+1661269006.0 uni1500.glif
+1661269006.0 uni1501.glif
+1661269006.0 uni1502.glif
+1661269006.0 uni1503.glif
+1661269006.0 uni1504.glif
+1661269006.0 uni1505.glif
+1661269006.0 uni1506.glif
+1661269006.0 uni1507.glif
+1661269006.0 uni1508.glif
+1661269006.0 uni1509.glif
+1661269006.0 uni150A_.glif
+1661269006.0 uni150B_.glif
+1661269006.0 uni150C_.glif
+1661269006.0 uni150D_.glif
+1661269006.0 uni150E_.glif
+1661269006.0 uni150F_.glif
+1661269006.0 uni1510.glif
+1661269006.0 uni1511.glif
+1661269006.0 uni1512.glif
+1661269006.0 uni1513.glif
+1661269006.0 uni1514.glif
+1661269006.0 uni1515.glif
+1661269006.0 uni1516.glif
+1661269006.0 uni1517.glif
+1661269006.0 uni1518.glif
+1661269006.0 uni1519.glif
+1661269006.0 uni151A_.glif
+1661269006.0 uni151B_.glif
+1661269006.0 uni151C_.glif
+1661269006.0 uni151D_.glif
+1661269006.0 uni151E_.glif
+1661269006.0 uni151F_.glif
+1661269006.0 uni1520.glif
+1661269006.0 uni1521.glif
+1661269006.0 uni1522.glif
+1661269006.0 uni1523.glif
+1661269006.0 uni1524.glif
+1661269006.0 uni1525.glif
+1661269006.0 uni1526.glif
+1661269006.0 uni1527.glif
+1661269006.0 uni1528.glif
+1661269006.0 uni1529.glif
+1661269006.0 uni152A_.glif
+1661269006.0 uni152B_.glif
+1661269006.0 uni152C_.glif
+1661269006.0 uni152D_.glif
+1661269006.0 uni152E_.glif
+1661269006.0 uni152F_.glif
+1661269006.0 uni1530.glif
+1661269006.0 uni1531.glif
+1661269006.0 uni1532.glif
+1661269006.1 uni1533.glif
+1661269006.1 uni1534.glif
+1661269006.1 uni1535.glif
+1661269006.1 uni1536.glif
+1661269006.1 uni1537.glif
+1661269006.1 uni1538.glif
+1661269006.1 uni1539.glif
+1661269006.1 uni153A_.glif
+1661269006.1 uni153B_.glif
+1661269006.1 uni153C_.glif
+1661269006.1 uni153D_.glif
+1661269006.1 uni153E_.glif
+1661269006.1 uni153F_.glif
+1661269006.1 uni1540.glif
+1661269006.1 uni1541.glif
+1661269006.1 uni1542.glif
+1661269006.1 uni1543.glif
+1661269006.1 uni1544.glif
+1661269006.1 uni1545.glif
+1661269006.1 uni1546.glif
+1661269006.1 uni1547.glif
+1661269006.1 uni1548.glif
+1661269006.1 uni1549.glif
+1661269006.1 uni154A_.glif
+1661269006.1 uni154B_.glif
+1661269006.1 uni154C_.glif
+1661269006.1 uni154D_.glif
+1661269006.1 uni154E_.glif
+1661269006.1 uni154F_.glif
+1661269006.1 uni1550.glif
+1661269006.1 uni1551.glif
+1661269006.1 uni1552.glif
+1661269006.1 uni1553.glif
+1661269006.1 uni1554.glif
+1661269006.1 uni1555.glif
+1661269006.1 uni1556.glif
+1661269006.1 uni1557.glif
+1661269006.1 uni1558.glif
+1661269006.1 uni1559.glif
+1661269006.1 uni155A_.glif
+1661269006.1 uni155B_.glif
+1661269006.1 uni155C_.glif
+1661269006.1 uni155D_.glif
+1661269006.1 uni155E_.glif
+1661269006.1 uni155F_.glif
+1661269006.1 uni1560.glif
+1661269006.1 uni1561.glif
+1661269006.1 uni1562.glif
+1661269006.1 uni1563.glif
+1661269006.1 uni1564.glif
+1661269006.1 uni1565.glif
+1661269006.1 uni1566.glif
+1661269006.1 uni1567.glif
+1661269006.1 uni1568.glif
+1661269006.1 uni1569.glif
+1661269006.1 uni156A_.glif
+1661269006.1 uni156B_.glif
+1661269006.1 uni156C_.glif
+1661269006.1 uni156D_.glif
+1661269006.1 uni156E_.glif
+1661269006.1 uni156F_.glif
+1661269006.1 uni1570.glif
+1661269006.1 uni1571.glif
+1661269006.1 uni1572.glif
+1661269006.1 uni1573.glif
+1661269006.1 uni1574.glif
+1661269006.1 uni1575.glif
+1661269006.1 uni1576.glif
+1661269006.1 uni1577.glif
+1661269006.1 uni1578.glif
+1661269006.1 uni1579.glif
+1661269006.1 uni157A_.glif
+1661269006.1 uni157B_.glif
+1661269006.1 uni157C_.glif
+1661269006.1 uni157D_.glif
+1661269006.1 uni157E_.glif
+1661269006.1 uni157F_.glif
+1661269006.1 uni1580.glif
+1661269006.1 uni1581.glif
+1661269006.1 uni1582.glif
+1661269006.1 uni1583.glif
+1661269006.1 uni1584.glif
+1661269006.1 uni1585.glif
+1661269006.1 uni1586.glif
+1661269006.1 uni1587.glif
+1661269006.1 uni1588.glif
+1661269006.1 uni1589.glif
+1661269006.1 uni158A_.glif
+1661269006.1 uni158B_.glif
+1661269006.1 uni158C_.glif
+1661269006.1 uni158D_.glif
+1661269006.1 uni158E_.glif
+1661269006.1 uni158F_.glif
+1661269006.1 uni1590.glif
+1661269006.1 uni1591.glif
+1661269006.1 uni1592.glif
+1661269006.1 uni1593.glif
+1661269006.1 uni1594.glif
+1661269006.1 uni1595.glif
+1661269006.1 uni1596.glif
+1661269006.1 uni1597.glif
+1661269006.1 uni1598.glif
+1661269006.1 uni1599.glif
+1661269006.1 uni159A_.glif
+1661269006.1 uni159B_.glif
+1661269006.1 uni159C_.glif
+1661269006.1 uni159D_.glif
+1661269006.1 uni159E_.glif
+1661269006.1 uni159F_.glif
+1661269006.1 uni15A_0.glif
+1661269006.1 uni15A_1.glif
+1661269006.1 uni15A_2.glif
+1661269006.1 uni15A_3.glif
+1661269006.1 uni15A_4.glif
+1661269006.1 uni15A_5.glif
+1661269006.1 uni15A_6.glif
+1661269006.1 uni15A_7.glif
+1661269006.1 uni15A_8.glif
+1661269006.1 uni15A_9.glif
+1661269006.1 uni15A_A_.glif
+1661269006.1 uni15A_B_.glif
+1661269006.1 uni15A_C_.glif
+1661269006.1 uni15A_D_.glif
+1661269006.1 uni15A_E_.glif
+1661269006.1 uni15A_F_.glif
+1661269006.1 uni15B_0.glif
+1661269006.1 uni15B_1.glif
+1661269006.1 uni15B_2.glif
+1661269006.1 uni15B_3.glif
+1661269006.1 uni15B_4.glif
+1661269006.1 uni15B_5.glif
+1661269006.1 uni15B_6.glif
+1661269006.1 uni15B_7.glif
+1661269006.1 uni15B_8.glif
+1661269006.1 uni15B_9.glif
+1661269006.1 uni15B_A_.glif
+1661269006.1 uni15B_B_.glif
+1661269006.1 uni15B_C_.glif
+1661269006.1 uni15B_D_.glif
+1661269006.1 uni15B_E_.glif
+1661269006.1 uni15B_F_.glif
+1661269006.1 uni15C_0.glif
+1661269006.1 uni15C_1.glif
+1661269006.1 uni15C_2.glif
+1661269006.1 uni15C_3.glif
+1661269006.1 uni15C_4.glif
+1661269006.1 uni15C_5.glif
+1661269006.1 uni15C_6.glif
+1661269006.1 uni15C_7.glif
+1661269006.1 uni15C_8.glif
+1661269006.1 uni15C_9.glif
+1661269006.1 uni15C_A_.glif
+1661269006.1 uni15C_B_.glif
+1661269006.1 uni15C_C_.glif
+1661269006.1 uni15C_D_.glif
+1661269006.1 uni15C_E_.glif
+1661269006.1 uni15C_F_.glif
+1661269006.1 uni15D_0.glif
+1661269006.1 uni15D_1.glif
+1661269006.1 uni15D_2.glif
+1661269006.1 uni15D_3.glif
+1661269006.1 uni15D_4.glif
+1661269006.1 uni15D_5.glif
+1661269006.1 uni15D_6.glif
+1661269006.1 uni15D_7.glif
+1661269006.1 uni15D_8.glif
+1661269006.1 uni15D_9.glif
+1661269006.1 uni15D_A_.glif
+1661269006.1 uni15D_B_.glif
+1661269006.1 uni15D_C_.glif
+1661269006.1 uni15D_D_.glif
+1661269006.1 uni15D_E_.glif
+1661269006.1 uni15D_F_.glif
+1661269006.1 uni15E_0.glif
+1661269006.1 uni15E_1.glif
+1661269006.1 uni15E_2.glif
+1661269006.1 uni15E_3.glif
+1661269006.1 uni15E_4.glif
+1661269006.1 uni15E_5.glif
+1661269006.1 uni15E_6.glif
+1661269006.1 uni15E_7.glif
+1661269006.1 uni15E_8.glif
+1661269006.1 uni15E_9.glif
+1661269006.1 uni15E_A_.glif
+1661269006.1 uni15E_B_.glif
+1661269006.1 uni15E_C_.glif
+1661269006.1 uni15E_D_.glif
+1661269006.1 uni15E_E_.glif
+1661269006.1 uni15E_F_.glif
+1661269006.1 uni15F_0.glif
+1661269006.1 uni15F_1.glif
+1661269006.1 uni15F_2.glif
+1661269006.1 uni15F_3.glif
+1661269006.1 uni15F_4.glif
+1661269006.1 uni15F_5.glif
+1661269006.1 uni15F_6.glif
+1661269006.1 uni15F_7.glif
+1661269006.1 uni15F_8.glif
+1661269006.1 uni15F_9.glif
+1661269006.1 uni15F_A_.glif
+1661269006.1 uni15F_B_.glif
+1661269006.1 uni15F_C_.glif
+1661269006.1 uni15F_D_.glif
+1661269006.1 uni15F_E_.glif
+1661269006.1 uni15F_F_.glif
+1661269006.1 uni1600.glif
+1661269006.1 uni1601.glif
+1661269006.1 uni1602.glif
+1661269006.1 uni1603.glif
+1661269006.1 uni1604.glif
+1661269006.1 uni1605.glif
+1661269006.1 uni1606.glif
+1661269006.1 uni1607.glif
+1661269006.2 uni1608.glif
+1661269006.2 uni1609.glif
+1661269006.2 uni160A_.glif
+1661269006.2 uni160B_.glif
+1661269006.2 uni160C_.glif
+1661269006.2 uni160D_.glif
+1661269006.2 uni160E_.glif
+1661269006.2 uni160F_.glif
+1661269006.2 uni1610.glif
+1661269006.2 uni1611.glif
+1661269006.2 uni1612.glif
+1661269006.2 uni1613.glif
+1661269006.2 uni1614.glif
+1661269006.2 uni1615.glif
+1661269006.2 uni1616.glif
+1661269006.2 uni1617.glif
+1661269006.2 uni1618.glif
+1661269006.2 uni1619.glif
+1661269006.2 uni161A_.glif
+1661269006.2 uni161B_.glif
+1661269006.2 uni161C_.glif
+1661269006.2 uni161D_.glif
+1661269006.2 uni161E_.glif
+1661269006.2 uni161F_.glif
+1661269006.2 uni1620.glif
+1661269006.2 uni1621.glif
+1661269006.2 uni1622.glif
+1661269006.2 uni1623.glif
+1661269006.2 uni1624.glif
+1661269006.2 uni1625.glif
+1661269006.2 uni1626.glif
+1661269006.2 uni1627.glif
+1661269006.2 uni1628.glif
+1661269006.2 uni1629.glif
+1661269006.2 uni162A_.glif
+1661269006.2 uni162B_.glif
+1661269006.2 uni162C_.glif
+1661269006.2 uni162D_.glif
+1661269006.2 uni162E_.glif
+1661269006.2 uni162F_.glif
+1661269006.2 uni1630.glif
+1661269006.2 uni1631.glif
+1661269006.2 uni1632.glif
+1661269006.2 uni1633.glif
+1661269006.2 uni1634.glif
+1661269006.2 uni1635.glif
+1661269006.2 uni1636.glif
+1661269006.2 uni1637.glif
+1661269006.2 uni1638.glif
+1661269006.2 uni1639.glif
+1661269006.2 uni163A_.glif
+1661269006.2 uni163B_.glif
+1661269006.2 uni163C_.glif
+1661269006.2 uni163D_.glif
+1661269006.2 uni163E_.glif
+1661269006.2 uni163F_.glif
+1661269006.2 uni1640.glif
+1661269006.2 uni1641.glif
+1661269006.2 uni1642.glif
+1661269006.2 uni1643.glif
+1661269006.2 uni1644.glif
+1661269006.2 uni1645.glif
+1661269006.2 uni1646.glif
+1661269006.2 uni1647.glif
+1661269006.2 uni1648.glif
+1661269006.2 uni1649.glif
+1661269006.2 uni164A_.glif
+1661269006.2 uni164B_.glif
+1661269006.2 uni164C_.glif
+1661269006.2 uni164D_.glif
+1661269006.2 uni164E_.glif
+1661269006.2 uni164F_.glif
+1661269006.2 uni1650.glif
+1661269006.2 uni1651.glif
+1661269006.2 uni1652.glif
+1661269006.2 uni1653.glif
+1661269006.2 uni1654.glif
+1661269006.2 uni1655.glif
+1661269006.2 uni1656.glif
+1661269006.2 uni1657.glif
+1661269006.2 uni1658.glif
+1661269006.2 uni1659.glif
+1661269006.2 uni165A_.glif
+1661269006.2 uni165B_.glif
+1661269006.2 uni165C_.glif
+1661269006.2 uni165D_.glif
+1661269006.2 uni165E_.glif
+1661269006.2 uni165F_.glif
+1661269006.2 uni1660.glif
+1661269006.2 uni1661.glif
+1661269006.2 uni1662.glif
+1661269006.2 uni1663.glif
+1661269006.2 uni1664.glif
+1661269006.2 uni1665.glif
+1661269006.2 uni1666.glif
+1661269006.2 uni1667.glif
+1661269006.2 uni1668.glif
+1661269006.2 uni1669.glif
+1661269006.2 uni166A_.glif
+1661269006.2 uni166B_.glif
+1661269006.2 uni166C_.glif
+1661269006.2 uni166D_.glif
+1661269006.2 uni166E_.glif
+1661269006.2 uni166F_.glif
+1661269006.2 uni1670.glif
+1661269006.2 uni1671.glif
+1661269006.2 uni1672.glif
+1661269006.2 uni1673.glif
+1661269006.2 uni1674.glif
+1661269006.2 uni1675.glif
+1661269006.2 uni1676.glif
+1661269006.2 uni1677.glif
+1661269006.2 uni1678.glif
+1661269006.2 uni1679.glif
+1661269006.2 uni167A_.glif
+1661269006.2 uni167B_.glif
+1661269006.2 uni167C_.glif
+1661269006.2 uni167D_.glif
+1661269006.2 uni167E_.glif
+1661269006.2 uni167F_.glif
+1661269006.2 uni18B_0.glif
+1661269006.2 uni18B_1.glif
+1661269006.2 uni18B_2.glif
+1661269006.2 uni18B_3.glif
+1661269006.2 uni18B_4.glif
+1661269006.2 uni18B_5.glif
+1661269006.2 uni18B_6.glif
+1661269006.2 uni18B_7.glif
+1661269006.2 uni18B_8.glif
+1661269006.2 uni18B_9.glif
+1661269006.2 uni18B_A_.glif
+1661269006.2 uni18B_B_.glif
+1661269006.2 uni18B_C_.glif
+1661269006.2 uni18B_D_.glif
+1661269006.2 uni18B_E_.glif
+1661269006.2 uni18B_F_.glif
+1661269006.2 uni18C_0.glif
+1661269006.2 uni18C_1.glif
+1661269006.2 uni18C_2.glif
+1661269006.2 uni18C_3.glif
+1661269006.2 uni18C_4.glif
+1661269006.2 uni18C_5.glif
+1661269006.2 uni18C_6.glif
+1661269006.2 uni18C_7.glif
+1661269006.2 uni18C_8.glif
+1661269006.2 uni18C_9.glif
+1661269006.2 uni18C_A_.glif
+1661269006.2 uni18C_B_.glif
+1661269006.2 uni18C_C_.glif
+1661269006.2 uni18C_D_.glif
+1661269006.2 uni18C_E_.glif
+1661269006.2 uni18C_F_.glif
+1661269006.2 uni18D_0.glif
+1661269006.2 uni18D_1.glif
+1661269006.2 uni18D_2.glif
+1661269006.2 uni18D_3.glif
+1661269006.2 uni18D_4.glif
+1661269006.2 uni18D_5.glif
+1661269006.2 uni18D_6.glif
+1661269006.2 uni18D_7.glif
+1661269006.2 uni18D_8.glif
+1661269006.2 uni18D_9.glif
+1661269006.2 uni18D_A_.glif
+1661269006.2 uni18D_B_.glif
+1661269006.2 uni18D_C_.glif
+1661269006.2 uni18D_D_.glif
+1661269006.2 uni18D_E_.glif
+1661269006.2 uni18D_F_.glif
+1661269006.2 uni18E_0.glif
+1661269006.2 uni18E_1.glif
+1661269006.2 uni18E_2.glif
+1661269006.2 uni18E_3.glif
+1661269006.2 uni18E_4.glif
+1661269006.2 uni18E_5.glif
+1661269006.2 uni18E_6.glif
+1661269006.2 uni18E_7.glif
+1661269006.2 uni18E_8.glif
+1661269006.2 uni18E_9.glif
+1661269006.2 uni18E_A_.glif
+1661269006.2 uni18E_B_.glif
+1661269006.2 uni18E_C_.glif
+1661269006.2 uni18E_D_.glif
+1661269006.2 uni18E_E_.glif
+1661269006.2 uni18E_F_.glif
+1661269006.3 uni18F_0.glif
+1661269006.3 uni18F_1.glif
+1661269006.3 uni18F_2.glif
+1661269006.3 uni18F_3.glif
+1661269006.3 uni18F_4.glif
+1661269006.3 uni18F_5.glif";
+};
+noodleExtremesAndInflections = 1;
+noodleRemoveOverlap = 1;
+noodleThickness = "22.0";
+org.unifiedfontobject.normalizer.modTimes = "version: 0.5.4
+1661269006.3 fontinfo.plist
+1661269006.3 layercontents.plist
+1661269006.3 metainfo.plist";
+};
+},
+{
+axesValues = (
+90
+);
+customParameters = (
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = vheaVertAscender;
+value = 500;
+},
+{
+name = vheaVertDescender;
+value = -500;
+},
+{
+name = vheaVertLineGap;
+value = 1000;
+},
+{
+name = vheaVertTypoAscender;
+value = 500;
+},
+{
+name = vheaVertTypoDescender;
+value = -500;
+},
+{
+name = vheaVertTypoLineGap;
+value = 1000;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = weightClass;
+value = 400;
+},
+{
+name = widthClass;
+value = 5;
+}
+);
+id = "95BBE91D-E142-4583-9333-40F49FDAAF51";
+metricValues = (
+{
+over = 15;
+pos = 1069;
+},
+{
+over = 15;
+pos = 714;
+},
+{
+over = 15;
+pos = 500;
+},
+{
+over = -15;
+},
+{
+over = -15;
+pos = -293;
+},
+{
+}
+);
+name = Regular;
+stemValues = (
+71,
+119,
+185,
+78,
+119,
+185
+);
+userData = {
+com.github.googlei18n.ufo2ft.filters = (
+{
+name = eraseOpenCorners;
+namespace = glyphsLib.filters;
+pre = 1;
+}
+);
+com.schriftgestaltung.Glyphs.layerLib.public.default = {
+org.unifiedfontobject.normalizer.imageReferences = {
+};
+org.unifiedfontobject.normalizer.modTimes = "version: 0.5.4
+1661268999.1 C_R_.glif
+1661268999.1 N_U_L_L_.glif
+1661268999.1 _notdef.glif
+1661268999.1 breve.glif
+1661268999.1 caron.glif
+1661268999.1 dotaccent.glif
+1661268999.1 dotlessi.glif
+1661268999.1 g720.glif
+1661268999.1 g721.glif
+1661268999.1 g722.glif
+1661268999.1 g723.glif
+1661268999.1 g724.glif
+1661268999.1 g725.glif
+1661268999.1 g726.glif
+1661268999.1 g727.glif
+1661268999.1 g728.glif
+1661268999.1 g729.glif
+1661268999.1 g730.glif
+1661268999.1 g731.glif
+1661268999.1 g732.glif
+1661268999.1 g733.glif
+1661268999.1 g734.glif
+1661268999.1 g735.glif
+1661268999.1 g736.glif
+1661268999.1 g737.glif
+1661268999.1 g738.glif
+1661268999.1 g739.glif
+1661268999.1 g740.glif
+1661268999.1 g741.glif
+1661268999.1 g742.glif
+1661268999.1 ogonek.glif
+1661268999.1 ring.glif
+1661268999.1 space.glif
+1661268999.1 uni00A_0.glif
+1661268999.1 uni0307.glif
+1661268999.1 uni11A_B_0.glif
+1661268999.1 uni11A_B_1.glif
+1661268999.1 uni11A_B_2.glif
+1661268999.1 uni11A_B_3.glif
+1661268999.1 uni11A_B_4.glif
+1661268999.1 uni11A_B_5.glif
+1661268999.1 uni11A_B_6.glif
+1661268999.1 uni11A_B_7.glif
+1661268999.1 uni11A_B_8.glif
+1661268999.1 uni11A_B_9.glif
+1661268999.1 uni11A_B_A_.glif
+1661268999.1 uni11A_B_B_.glif
+1661268999.1 uni11A_B_C_.glif
+1661268999.1 uni11A_B_D_.glif
+1661268999.1 uni11A_B_E_.glif
+1661268999.1 uni11A_B_F_.glif
+1661268999.1 uni1400.glif
+1661268999.1 uni1401.glif
+1661268999.1 uni1402.glif
+1661268999.1 uni1403.glif
+1661268999.1 uni1404.glif
+1661268999.1 uni1405.glif
+1661268999.1 uni1406.glif
+1661268999.1 uni1407.glif
+1661268999.1 uni1408.glif
+1661268999.1 uni1409.glif
+1661268999.1 uni140A_.glif
+1661268999.1 uni140B_.glif
+1661268999.1 uni140C_.glif
+1661268999.1 uni140D_.glif
+1661268999.1 uni140E_.glif
+1661268999.1 uni140F_.glif
+1661268999.1 uni1410.glif
+1661268999.1 uni1411.glif
+1661268999.1 uni1412.glif
+1661268999.1 uni1413.glif
+1661268999.1 uni1414.glif
+1661268999.1 uni1415.glif
+1661268999.1 uni1416.glif
+1661268999.1 uni1417.glif
+1661268999.1 uni1418.glif
+1661268999.1 uni1419.glif
+1661268999.1 uni141A_.glif
+1661268999.1 uni141B_.glif
+1661268999.1 uni141C_.glif
+1661268999.1 uni141D_.glif
+1661268999.1 uni141E_.glif
+1661268999.1 uni141F_.glif
+1661268999.1 uni1420.glif
+1661268999.1 uni1421.glif
+1661268999.1 uni1422.glif
+1661268999.1 uni1423.glif
+1661268999.1 uni1424.glif
+1661268999.1 uni1425.glif
+1661268999.1 uni1426.glif
+1661268999.1 uni1427.glif
+1661268999.1 uni1428.glif
+1661268999.1 uni1429.glif
+1661268999.1 uni142A_.glif
+1661268999.1 uni142B_.glif
+1661268999.1 uni142C_.glif
+1661268999.1 uni142D_.glif
+1661268999.1 uni142E_.glif
+1661268999.1 uni142F_.glif
+1661268999.1 uni1430.glif
+1661268999.1 uni1431.glif
+1661268999.1 uni1432.glif
+1661268999.1 uni1433.glif
+1661268999.1 uni1434.glif
+1661268999.1 uni1435.glif
+1661268999.1 uni1436.glif
+1661268999.1 uni1437.glif
+1661268999.1 uni1438.glif
+1661268999.1 uni1439.glif
+1661268999.1 uni143A_.glif
+1661268999.1 uni143B_.glif
+1661268999.1 uni143C_.glif
+1661268999.1 uni143D_.glif
+1661268999.1 uni143E_.glif
+1661268999.1 uni143F_.glif
+1661268999.1 uni1440.glif
+1661268999.1 uni1441.glif
+1661268999.1 uni1442.glif
+1661268999.1 uni1443.glif
+1661268999.1 uni1444.glif
+1661268999.1 uni1445.glif
+1661268999.1 uni1446.glif
+1661268999.1 uni1447.glif
+1661268999.1 uni1448.glif
+1661268999.1 uni1449.glif
+1661268999.1 uni144A_.glif
+1661268999.1 uni144B_.glif
+1661268999.1 uni144C_.glif
+1661268999.1 uni144D_.glif
+1661268999.1 uni144E_.glif
+1661268999.1 uni144F_.glif
+1661268999.1 uni1450.glif
+1661268999.1 uni1451.glif
+1661268999.1 uni1452.glif
+1661268999.1 uni1453.glif
+1661268999.1 uni1454.glif
+1661268999.1 uni1455.glif
+1661268999.1 uni1456.glif
+1661268999.1 uni1457.glif
+1661268999.1 uni1458.glif
+1661268999.1 uni1459.glif
+1661268999.1 uni145A_.glif
+1661268999.1 uni145B_.glif
+1661268999.1 uni145C_.glif
+1661268999.1 uni145D_.glif
+1661268999.1 uni145E_.glif
+1661268999.1 uni145F_.glif
+1661268999.1 uni1460.glif
+1661268999.1 uni1461.glif
+1661268999.1 uni1462.glif
+1661268999.1 uni1463.glif
+1661268999.1 uni1464.glif
+1661268999.1 uni1465.glif
+1661268999.1 uni1466.glif
+1661268999.1 uni1467.glif
+1661268999.1 uni1468.glif
+1661268999.1 uni1469.glif
+1661268999.1 uni146A_.glif
+1661268999.1 uni146B_.glif
+1661268999.1 uni146C_.glif
+1661268999.1 uni146D_.glif
+1661268999.1 uni146E_.glif
+1661268999.1 uni146F_.glif
+1661268999.1 uni1470.glif
+1661268999.1 uni1471.glif
+1661268999.1 uni1472.glif
+1661268999.1 uni1473.glif
+1661268999.1 uni1474.glif
+1661268999.1 uni1475.glif
+1661268999.1 uni1476.glif
+1661268999.1 uni1477.glif
+1661268999.2 uni1478.glif
+1661268999.2 uni1479.glif
+1661268999.2 uni147A_.glif
+1661268999.2 uni147B_.glif
+1661268999.2 uni147C_.glif
+1661268999.2 uni147D_.glif
+1661268999.2 uni147E_.glif
+1661268999.2 uni147F_.glif
+1661268999.2 uni1480.glif
+1661268999.2 uni1481.glif
+1661268999.2 uni1482.glif
+1661268999.2 uni1483.glif
+1661268999.2 uni1484.glif
+1661268999.2 uni1485.glif
+1661268999.2 uni1486.glif
+1661268999.2 uni1487.glif
+1661268999.2 uni1488.glif
+1661268999.2 uni1489.glif
+1661268999.2 uni148A_.glif
+1661268999.2 uni148B_.glif
+1661268999.2 uni148C_.glif
+1661268999.2 uni148D_.glif
+1661268999.2 uni148E_.glif
+1661268999.2 uni148F_.glif
+1661268999.2 uni1490.glif
+1661268999.2 uni1491.glif
+1661268999.2 uni1492.glif
+1661268999.2 uni1493.glif
+1661268999.2 uni1494.glif
+1661268999.2 uni1495.glif
+1661268999.2 uni1496.glif
+1661268999.2 uni1497.glif
+1661268999.2 uni1498.glif
+1661268999.2 uni1499.glif
+1661268999.2 uni149A_.glif
+1661268999.2 uni149B_.glif
+1661268999.2 uni149C_.glif
+1661268999.2 uni149D_.glif
+1661268999.2 uni149E_.glif
+1661268999.2 uni149F_.glif
+1661268999.2 uni14A_0.glif
+1661268999.2 uni14A_1.glif
+1661268999.2 uni14A_2.glif
+1661268999.2 uni14A_3.glif
+1661268999.2 uni14A_4.glif
+1661268999.2 uni14A_5.glif
+1661268999.2 uni14A_6.glif
+1661268999.2 uni14A_7.glif
+1661268999.2 uni14A_8.glif
+1661268999.2 uni14A_9.glif
+1661268999.2 uni14A_A_.glif
+1661268999.2 uni14A_B_.glif
+1661268999.2 uni14A_C_.glif
+1661268999.2 uni14A_D_.glif
+1661268999.2 uni14A_E_.glif
+1661268999.2 uni14A_F_.glif
+1661268999.2 uni14B_0.glif
+1661268999.2 uni14B_1.glif
+1661268999.2 uni14B_2.glif
+1661268999.2 uni14B_3.glif
+1661268999.2 uni14B_4.glif
+1661268999.2 uni14B_5.glif
+1661268999.2 uni14B_6.glif
+1661268999.2 uni14B_7.glif
+1661268999.2 uni14B_8.glif
+1661268999.2 uni14B_9.glif
+1661268999.2 uni14B_A_.glif
+1661268999.2 uni14B_B_.glif
+1661268999.2 uni14B_C_.glif
+1661268999.2 uni14B_D_.glif
+1661268999.2 uni14B_E_.glif
+1661268999.2 uni14B_F_.glif
+1661268999.2 uni14C_0.glif
+1661268999.2 uni14C_1.glif
+1661268999.2 uni14C_2.glif
+1661268999.2 uni14C_3.glif
+1661268999.2 uni14C_4.glif
+1661268999.2 uni14C_5.glif
+1661268999.2 uni14C_6.glif
+1661268999.2 uni14C_7.glif
+1661268999.2 uni14C_8.glif
+1661268999.2 uni14C_9.glif
+1661268999.2 uni14C_A_.glif
+1661268999.2 uni14C_B_.glif
+1661268999.2 uni14C_C_.glif
+1661268999.2 uni14C_D_.glif
+1661268999.2 uni14C_E_.glif
+1661268999.2 uni14C_F_.glif
+1661268999.2 uni14D_0.glif
+1661268999.2 uni14D_1.glif
+1661268999.2 uni14D_2.glif
+1661268999.2 uni14D_3.glif
+1661268999.2 uni14D_4.glif
+1661268999.2 uni14D_5.glif
+1661268999.2 uni14D_6.glif
+1661268999.2 uni14D_7.glif
+1661268999.2 uni14D_8.glif
+1661268999.2 uni14D_9.glif
+1661268999.2 uni14D_A_.glif
+1661268999.2 uni14D_B_.glif
+1661268999.2 uni14D_C_.glif
+1661268999.2 uni14D_D_.glif
+1661268999.2 uni14D_E_.glif
+1661268999.2 uni14D_F_.glif
+1661268999.2 uni14E_0.glif
+1661268999.2 uni14E_1.glif
+1661268999.2 uni14E_2.glif
+1661268999.2 uni14E_3.glif
+1661268999.2 uni14E_4.glif
+1661268999.2 uni14E_5.glif
+1661268999.2 uni14E_6.glif
+1661268999.2 uni14E_7.glif
+1661268999.2 uni14E_8.glif
+1661268999.2 uni14E_9.glif
+1661268999.2 uni14E_A_.glif
+1661268999.2 uni14E_B_.glif
+1661268999.2 uni14E_C_.glif
+1661268999.2 uni14E_D_.glif
+1661268999.2 uni14E_E_.glif
+1661268999.2 uni14E_F_.glif
+1661268999.2 uni14F_0.glif
+1661268999.2 uni14F_1.glif
+1661268999.2 uni14F_2.glif
+1661268999.2 uni14F_3.glif
+1661268999.2 uni14F_4.glif
+1661268999.2 uni14F_5.glif
+1661268999.2 uni14F_6.glif
+1661268999.2 uni14F_7.glif
+1661268999.2 uni14F_8.glif
+1661268999.2 uni14F_9.glif
+1661268999.2 uni14F_A_.glif
+1661268999.2 uni14F_B_.glif
+1661268999.2 uni14F_C_.glif
+1661268999.2 uni14F_D_.glif
+1661268999.2 uni14F_E_.glif
+1661268999.2 uni14F_F_.glif
+1661268999.2 uni1500.glif
+1661268999.2 uni1501.glif
+1661268999.2 uni1502.glif
+1661268999.2 uni1503.glif
+1661268999.2 uni1504.glif
+1661268999.2 uni1505.glif
+1661268999.2 uni1506.glif
+1661268999.2 uni1507.glif
+1661268999.2 uni1508.glif
+1661268999.2 uni1509.glif
+1661268999.2 uni150A_.glif
+1661268999.2 uni150B_.glif
+1661268999.2 uni150C_.glif
+1661268999.2 uni150D_.glif
+1661268999.2 uni150E_.glif
+1661268999.2 uni150F_.glif
+1661268999.2 uni1510.glif
+1661268999.2 uni1511.glif
+1661268999.2 uni1512.glif
+1661268999.2 uni1513.glif
+1661268999.2 uni1514.glif
+1661268999.2 uni1515.glif
+1661268999.2 uni1516.glif
+1661268999.2 uni1517.glif
+1661268999.2 uni1518.glif
+1661268999.2 uni1519.glif
+1661268999.2 uni151A_.glif
+1661268999.2 uni151B_.glif
+1661268999.2 uni151C_.glif
+1661268999.2 uni151D_.glif
+1661268999.2 uni151E_.glif
+1661268999.2 uni151F_.glif
+1661268999.2 uni1520.glif
+1661268999.2 uni1521.glif
+1661268999.2 uni1522.glif
+1661268999.2 uni1523.glif
+1661268999.2 uni1524.glif
+1661268999.2 uni1525.glif
+1661268999.2 uni1526.glif
+1661268999.2 uni1527.glif
+1661268999.2 uni1528.glif
+1661268999.2 uni1529.glif
+1661268999.2 uni152A_.glif
+1661268999.2 uni152B_.glif
+1661268999.2 uni152C_.glif
+1661268999.2 uni152D_.glif
+1661268999.2 uni152E_.glif
+1661268999.2 uni152F_.glif
+1661268999.2 uni1530.glif
+1661268999.2 uni1531.glif
+1661268999.2 uni1532.glif
+1661268999.2 uni1533.glif
+1661268999.2 uni1534.glif
+1661268999.2 uni1535.glif
+1661268999.2 uni1536.glif
+1661268999.2 uni1537.glif
+1661268999.2 uni1538.glif
+1661268999.2 uni1539.glif
+1661268999.2 uni153A_.glif
+1661268999.2 uni153B_.glif
+1661268999.2 uni153C_.glif
+1661268999.2 uni153D_.glif
+1661268999.2 uni153E_.glif
+1661268999.2 uni153F_.glif
+1661268999.2 uni1540.glif
+1661268999.2 uni1541.glif
+1661268999.2 uni1542.glif
+1661268999.2 uni1543.glif
+1661268999.2 uni1544.glif
+1661268999.2 uni1545.glif
+1661268999.2 uni1546.glif
+1661268999.2 uni1547.glif
+1661268999.2 uni1548.glif
+1661268999.2 uni1549.glif
+1661268999.2 uni154A_.glif
+1661268999.2 uni154B_.glif
+1661268999.2 uni154C_.glif
+1661268999.2 uni154D_.glif
+1661268999.2 uni154E_.glif
+1661268999.2 uni154F_.glif
+1661268999.2 uni1550.glif
+1661268999.2 uni1551.glif
+1661268999.2 uni1552.glif
+1661268999.2 uni1553.glif
+1661268999.2 uni1554.glif
+1661268999.2 uni1555.glif
+1661268999.2 uni1556.glif
+1661268999.2 uni1557.glif
+1661268999.2 uni1558.glif
+1661268999.2 uni1559.glif
+1661268999.2 uni155A_.glif
+1661268999.2 uni155B_.glif
+1661268999.2 uni155C_.glif
+1661268999.2 uni155D_.glif
+1661268999.2 uni155E_.glif
+1661268999.2 uni155F_.glif
+1661268999.2 uni1560.glif
+1661268999.2 uni1561.glif
+1661268999.2 uni1562.glif
+1661268999.2 uni1563.glif
+1661268999.2 uni1564.glif
+1661268999.2 uni1565.glif
+1661268999.2 uni1566.glif
+1661268999.2 uni1567.glif
+1661268999.2 uni1568.glif
+1661268999.2 uni1569.glif
+1661268999.2 uni156A_.glif
+1661268999.2 uni156B_.glif
+1661268999.2 uni156C_.glif
+1661268999.2 uni156D_.glif
+1661268999.2 uni156E_.glif
+1661268999.2 uni156F_.glif
+1661268999.2 uni1570.glif
+1661268999.2 uni1571.glif
+1661268999.3 uni1572.glif
+1661268999.3 uni1573.glif
+1661268999.3 uni1574.glif
+1661268999.3 uni1575.glif
+1661268999.3 uni1576.glif
+1661268999.3 uni1577.glif
+1661268999.3 uni1578.glif
+1661268999.3 uni1579.glif
+1661268999.3 uni157A_.glif
+1661268999.3 uni157B_.glif
+1661268999.3 uni157C_.glif
+1661268999.3 uni157D_.glif
+1661268999.3 uni157E_.glif
+1661268999.3 uni157F_.glif
+1661268999.3 uni1580.glif
+1661268999.3 uni1581.glif
+1661268999.3 uni1582.glif
+1661268999.3 uni1583.glif
+1661268999.3 uni1584.glif
+1661268999.3 uni1585.glif
+1661268999.3 uni1586.glif
+1661268999.3 uni1587.glif
+1661268999.3 uni1588.glif
+1661268999.3 uni1589.glif
+1661268999.3 uni158A_.glif
+1661268999.3 uni158B_.glif
+1661268999.3 uni158C_.glif
+1661268999.3 uni158D_.glif
+1661268999.3 uni158E_.glif
+1661268999.3 uni158F_.glif
+1661268999.3 uni1590.glif
+1661268999.3 uni1591.glif
+1661268999.3 uni1592.glif
+1661268999.3 uni1593.glif
+1661268999.3 uni1594.glif
+1661268999.3 uni1595.glif
+1661268999.3 uni1596.glif
+1661268999.3 uni1597.glif
+1661268999.3 uni1598.glif
+1661268999.3 uni1599.glif
+1661268999.3 uni159A_.glif
+1661268999.3 uni159B_.glif
+1661268999.3 uni159C_.glif
+1661268999.3 uni159D_.glif
+1661268999.3 uni159E_.glif
+1661268999.3 uni159F_.glif
+1661268999.3 uni15A_0.glif
+1661268999.3 uni15A_1.glif
+1661268999.3 uni15A_2.glif
+1661268999.3 uni15A_3.glif
+1661268999.3 uni15A_4.glif
+1661268999.3 uni15A_5.glif
+1661268999.3 uni15A_6.glif
+1661268999.3 uni15A_7.glif
+1661268999.3 uni15A_8.glif
+1661268999.3 uni15A_9.glif
+1661268999.3 uni15A_A_.glif
+1661268999.3 uni15A_B_.glif
+1661268999.3 uni15A_C_.glif
+1661268999.3 uni15A_D_.glif
+1661268999.3 uni15A_E_.glif
+1661268999.3 uni15A_F_.glif
+1661268999.3 uni15B_0.glif
+1661268999.3 uni15B_1.glif
+1661268999.3 uni15B_2.glif
+1661268999.3 uni15B_3.glif
+1661268999.3 uni15B_4.glif
+1661268999.3 uni15B_5.glif
+1661268999.3 uni15B_6.glif
+1661268999.3 uni15B_7.glif
+1661268999.3 uni15B_8.glif
+1661268999.3 uni15B_9.glif
+1661268999.3 uni15B_A_.glif
+1661268999.3 uni15B_B_.glif
+1661268999.3 uni15B_C_.glif
+1661268999.3 uni15B_D_.glif
+1661268999.3 uni15B_E_.glif
+1661268999.3 uni15B_F_.glif
+1661268999.3 uni15C_0.glif
+1661268999.3 uni15C_1.glif
+1661268999.3 uni15C_2.glif
+1661268999.3 uni15C_3.glif
+1661268999.3 uni15C_4.glif
+1661268999.3 uni15C_5.glif
+1661268999.3 uni15C_6.glif
+1661268999.3 uni15C_7.glif
+1661268999.3 uni15C_8.glif
+1661268999.3 uni15C_9.glif
+1661268999.3 uni15C_A_.glif
+1661268999.3 uni15C_B_.glif
+1661268999.3 uni15C_C_.glif
+1661268999.3 uni15C_D_.glif
+1661268999.3 uni15C_E_.glif
+1661268999.3 uni15C_F_.glif
+1661268999.3 uni15D_0.glif
+1661268999.3 uni15D_1.glif
+1661268999.3 uni15D_2.glif
+1661268999.3 uni15D_3.glif
+1661268999.3 uni15D_4.glif
+1661268999.3 uni15D_5.glif
+1661268999.3 uni15D_6.glif
+1661268999.3 uni15D_7.glif
+1661268999.3 uni15D_8.glif
+1661268999.3 uni15D_9.glif
+1661268999.3 uni15D_A_.glif
+1661268999.3 uni15D_B_.glif
+1661268999.3 uni15D_C_.glif
+1661268999.3 uni15D_D_.glif
+1661268999.3 uni15D_E_.glif
+1661268999.3 uni15D_F_.glif
+1661268999.3 uni15E_0.glif
+1661268999.3 uni15E_1.glif
+1661268999.3 uni15E_2.glif
+1661268999.3 uni15E_3.glif
+1661268999.3 uni15E_4.glif
+1661268999.3 uni15E_5.glif
+1661268999.3 uni15E_6.glif
+1661268999.3 uni15E_7.glif
+1661268999.3 uni15E_8.glif
+1661268999.3 uni15E_9.glif
+1661268999.3 uni15E_A_.glif
+1661268999.3 uni15E_B_.glif
+1661268999.3 uni15E_C_.glif
+1661268999.3 uni15E_D_.glif
+1661268999.3 uni15E_E_.glif
+1661268999.3 uni15E_F_.glif
+1661268999.3 uni15F_0.glif
+1661268999.3 uni15F_1.glif
+1661268999.3 uni15F_2.glif
+1661268999.3 uni15F_3.glif
+1661268999.3 uni15F_4.glif
+1661268999.3 uni15F_5.glif
+1661268999.3 uni15F_6.glif
+1661268999.3 uni15F_7.glif
+1661268999.3 uni15F_8.glif
+1661268999.3 uni15F_9.glif
+1661268999.3 uni15F_A_.glif
+1661268999.3 uni15F_B_.glif
+1661268999.3 uni15F_C_.glif
+1661268999.3 uni15F_D_.glif
+1661268999.3 uni15F_E_.glif
+1661268999.3 uni15F_F_.glif
+1661268999.3 uni1600.glif
+1661268999.3 uni1601.glif
+1661268999.3 uni1602.glif
+1661268999.3 uni1603.glif
+1661268999.3 uni1604.glif
+1661268999.3 uni1605.glif
+1661268999.3 uni1606.glif
+1661268999.3 uni1607.glif
+1661268999.3 uni1608.glif
+1661268999.3 uni1609.glif
+1661268999.3 uni160A_.glif
+1661268999.3 uni160B_.glif
+1661268999.3 uni160C_.glif
+1661268999.3 uni160D_.glif
+1661268999.3 uni160E_.glif
+1661268999.3 uni160F_.glif
+1661268999.3 uni1610.glif
+1661268999.3 uni1611.glif
+1661268999.3 uni1612.glif
+1661268999.3 uni1613.glif
+1661268999.3 uni1614.glif
+1661268999.3 uni1615.glif
+1661268999.3 uni1616.glif
+1661268999.3 uni1617.glif
+1661268999.3 uni1618.glif
+1661268999.3 uni1619.glif
+1661268999.3 uni161A_.glif
+1661268999.3 uni161B_.glif
+1661268999.3 uni161C_.glif
+1661268999.3 uni161D_.glif
+1661268999.3 uni161E_.glif
+1661268999.3 uni161F_.glif
+1661268999.3 uni1620.glif
+1661268999.3 uni1621.glif
+1661268999.3 uni1622.glif
+1661268999.3 uni1623.glif
+1661268999.3 uni1624.glif
+1661268999.3 uni1625.glif
+1661268999.3 uni1626.glif
+1661268999.3 uni1627.glif
+1661268999.3 uni1628.glif
+1661268999.3 uni1629.glif
+1661268999.3 uni162A_.glif
+1661268999.3 uni162B_.glif
+1661268999.3 uni162C_.glif
+1661268999.3 uni162D_.glif
+1661268999.3 uni162E_.glif
+1661268999.3 uni162F_.glif
+1661268999.3 uni1630.glif
+1661268999.3 uni1631.glif
+1661268999.3 uni1632.glif
+1661268999.3 uni1633.glif
+1661268999.4 uni1634.glif
+1661268999.4 uni1635.glif
+1661268999.4 uni1636.glif
+1661268999.4 uni1637.glif
+1661268999.4 uni1638.glif
+1661268999.4 uni1639.glif
+1661268999.4 uni163A_.glif
+1661268999.4 uni163B_.glif
+1661268999.4 uni163C_.glif
+1661268999.4 uni163D_.glif
+1661268999.4 uni163E_.glif
+1661268999.4 uni163F_.glif
+1661268999.4 uni1640.glif
+1661268999.4 uni1641.glif
+1661268999.4 uni1642.glif
+1661268999.4 uni1643.glif
+1661268999.4 uni1644.glif
+1661268999.4 uni1645.glif
+1661268999.4 uni1646.glif
+1661268999.4 uni1647.glif
+1661268999.4 uni1648.glif
+1661268999.4 uni1649.glif
+1661268999.4 uni164A_.glif
+1661268999.4 uni164B_.glif
+1661268999.4 uni164C_.glif
+1661268999.4 uni164D_.glif
+1661268999.4 uni164E_.glif
+1661268999.4 uni164F_.glif
+1661268999.4 uni1650.glif
+1661268999.4 uni1651.glif
+1661268999.4 uni1652.glif
+1661268999.4 uni1653.glif
+1661268999.4 uni1654.glif
+1661268999.4 uni1655.glif
+1661268999.4 uni1656.glif
+1661268999.4 uni1657.glif
+1661268999.4 uni1658.glif
+1661268999.4 uni1659.glif
+1661268999.4 uni165A_.glif
+1661268999.4 uni165B_.glif
+1661268999.4 uni165C_.glif
+1661268999.4 uni165D_.glif
+1661268999.4 uni165E_.glif
+1661268999.4 uni165F_.glif
+1661268999.4 uni1660.glif
+1661268999.4 uni1661.glif
+1661268999.4 uni1662.glif
+1661268999.4 uni1663.glif
+1661268999.4 uni1664.glif
+1661268999.4 uni1665.glif
+1661268999.4 uni1666.glif
+1661268999.4 uni1667.glif
+1661268999.4 uni1668.glif
+1661268999.4 uni1669.glif
+1661268999.4 uni166A_.glif
+1661268999.4 uni166B_.glif
+1661268999.4 uni166C_.glif
+1661268999.4 uni166D_.glif
+1661268999.4 uni166E_.glif
+1661268999.4 uni166F_.glif
+1661268999.4 uni1670.glif
+1661268999.4 uni1671.glif
+1661268999.4 uni1672.glif
+1661268999.4 uni1673.glif
+1661268999.4 uni1674.glif
+1661268999.4 uni1675.glif
+1661268999.4 uni1676.glif
+1661268999.4 uni1677.glif
+1661268999.4 uni1678.glif
+1661268999.4 uni1679.glif
+1661268999.4 uni167A_.glif
+1661268999.4 uni167B_.glif
+1661268999.4 uni167C_.glif
+1661268999.4 uni167D_.glif
+1661268999.4 uni167E_.glif
+1661268999.4 uni167F_.glif
+1661268999.4 uni18B_0.glif
+1661268999.4 uni18B_1.glif
+1661268999.4 uni18B_2.glif
+1661268999.4 uni18B_3.glif
+1661268999.4 uni18B_4.glif
+1661268999.4 uni18B_5.glif
+1661268999.4 uni18B_6.glif
+1661268999.4 uni18B_7.glif
+1661268999.4 uni18B_8.glif
+1661268999.4 uni18B_9.glif
+1661268999.4 uni18B_A_.glif
+1661268999.4 uni18B_B_.glif
+1661268999.4 uni18B_C_.glif
+1661268999.4 uni18B_D_.glif
+1661268999.4 uni18B_E_.glif
+1661268999.4 uni18B_F_.glif
+1661268999.4 uni18C_0.glif
+1661268999.4 uni18C_1.glif
+1661268999.4 uni18C_2.glif
+1661268999.4 uni18C_3.glif
+1661268999.4 uni18C_4.glif
+1661268999.4 uni18C_5.glif
+1661268999.4 uni18C_6.glif
+1661268999.4 uni18C_7.glif
+1661268999.4 uni18C_8.glif
+1661268999.4 uni18C_9.glif
+1661268999.4 uni18C_A_.glif
+1661268999.4 uni18C_B_.glif
+1661268999.4 uni18C_C_.glif
+1661268999.4 uni18C_D_.glif
+1661268999.4 uni18C_E_.glif
+1661268999.4 uni18C_F_.glif
+1661268999.4 uni18D_0.glif
+1661268999.4 uni18D_1.glif
+1661268999.4 uni18D_2.glif
+1661268999.4 uni18D_3.glif
+1661268999.4 uni18D_4.glif
+1661268999.4 uni18D_5.glif
+1661268999.4 uni18D_6.glif
+1661268999.4 uni18D_7.glif
+1661268999.4 uni18D_8.glif
+1661268999.4 uni18D_9.glif
+1661268999.4 uni18D_A_.glif
+1661268999.4 uni18D_B_.glif
+1661268999.4 uni18D_C_.glif
+1661268999.4 uni18D_D_.glif
+1661268999.4 uni18D_E_.glif
+1661268999.4 uni18D_F_.glif
+1661268999.4 uni18E_0.glif
+1661268999.4 uni18E_1.glif
+1661268999.4 uni18E_2.glif
+1661268999.4 uni18E_3.glif
+1661268999.4 uni18E_4.glif
+1661268999.4 uni18E_5.glif
+1661268999.4 uni18E_6.glif
+1661268999.4 uni18E_7.glif
+1661268999.4 uni18E_8.glif
+1661268999.4 uni18E_9.glif
+1661268999.4 uni18E_A_.glif
+1661268999.4 uni18E_B_.glif
+1661268999.4 uni18E_C_.glif
+1661268999.4 uni18E_D_.glif
+1661268999.4 uni18E_E_.glif
+1661268999.4 uni18E_F_.glif
+1661268999.4 uni18F_0.glif
+1661268999.4 uni18F_1.glif
+1661268999.4 uni18F_2.glif
+1661268999.4 uni18F_3.glif
+1661268999.4 uni18F_4.glif
+1661268999.4 uni18F_5.glif
+1661265451.8 uni25C_C_.glif";
+};
+noodleExtremesAndInflections = 1;
+noodleRemoveOverlap = 0;
+noodleThickness = "190.0";
+org.unifiedfontobject.normalizer.modTimes = "version: 0.5.4
+1661268999.4 fontinfo.plist
+1661268999.4 layercontents.plist
+1661268999.4 metainfo.plist";
+};
+},
+{
+axesValues = (
+190
+);
+customParameters = (
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = vheaVertAscender;
+value = 500;
+},
+{
+name = vheaVertDescender;
+value = -500;
+},
+{
+name = vheaVertLineGap;
+value = 1000;
+},
+{
+name = vheaVertTypoAscender;
+value = 500;
+},
+{
+name = vheaVertTypoDescender;
+value = -500;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = weightClass;
+value = 400;
+},
+{
+name = widthClass;
+value = 5;
+}
+);
+iconName = Bold;
+id = "3DE82CA6-356F-4113-A2BF-F7F877EAC5C8";
+metricValues = (
+{
+over = 15;
+pos = 1069;
+},
+{
+over = 15;
+pos = 714;
+},
+{
+over = 15;
+pos = 514;
+},
+{
+over = -15;
+},
+{
+over = -15;
+pos = -293;
+},
+{
+}
+);
+name = Bold;
+stemValues = (
+156,
+168,
+244,
+193,
+168,
+244
+);
+userData = {
+GSOffsetHorizontal = 2;
+GSOffsetVertical = 1;
+com.github.googlei18n.ufo2ft.filters = (
+{
+name = eraseOpenCorners;
+namespace = glyphsLib.filters;
+pre = 1;
+}
+);
+com.schriftgestaltung.Glyphs.layerLib.public.default = {
+org.unifiedfontobject.normalizer.imageReferences = {
+};
+org.unifiedfontobject.normalizer.modTimes = "version: 0.5.4
+1661269002.6 C_R_.glif
+1661269002.6 N_U_L_L_.glif
+1661269002.6 _notdef.glif
+1661269002.6 breve.glif
+1661269002.6 caron.glif
+1661269002.6 dotaccent.glif
+1661269002.6 dotlessi.glif
+1661269002.6 g720.glif
+1661269002.6 g721.glif
+1661269002.6 g722.glif
+1661269002.6 g723.glif
+1661269002.6 g724.glif
+1661269002.6 g725.glif
+1661269002.6 g726.glif
+1661269002.6 g727.glif
+1661269002.6 g728.glif
+1661269002.6 g729.glif
+1661269002.6 g730.glif
+1661269002.6 g731.glif
+1661269002.6 g732.glif
+1661269002.6 g733.glif
+1661269002.6 g734.glif
+1661269002.6 g735.glif
+1661269002.6 g736.glif
+1661269002.6 g737.glif
+1661269002.6 g738.glif
+1661269002.6 g739.glif
+1661269002.6 g740.glif
+1661269002.6 g741.glif
+1661269002.6 g742.glif
+1661269002.6 ogonek.glif
+1661269002.6 ring.glif
+1661269002.6 space.glif
+1661269002.6 uni00A_0.glif
+1661269002.6 uni0307.glif
+1661269002.6 uni11A_B_0.glif
+1661269002.6 uni11A_B_1.glif
+1661269002.6 uni11A_B_2.glif
+1661269002.6 uni11A_B_3.glif
+1661269002.6 uni11A_B_4.glif
+1661269002.6 uni11A_B_5.glif
+1661269002.6 uni11A_B_6.glif
+1661269002.6 uni11A_B_7.glif
+1661269002.6 uni11A_B_8.glif
+1661269002.6 uni11A_B_9.glif
+1661269002.6 uni11A_B_A_.glif
+1661269002.6 uni11A_B_B_.glif
+1661269002.6 uni11A_B_C_.glif
+1661269002.6 uni11A_B_D_.glif
+1661269002.6 uni11A_B_E_.glif
+1661269002.6 uni11A_B_F_.glif
+1661269002.6 uni1400.glif
+1661269002.6 uni1401.glif
+1661269002.6 uni1402.glif
+1661269002.6 uni1403.glif
+1661269002.6 uni1404.glif
+1661269002.6 uni1405.glif
+1661269002.6 uni1406.glif
+1661269002.6 uni1407.glif
+1661269002.6 uni1408.glif
+1661269002.6 uni1409.glif
+1661269002.6 uni140A_.glif
+1661269002.6 uni140B_.glif
+1661269002.6 uni140C_.glif
+1661269002.6 uni140D_.glif
+1661269002.6 uni140E_.glif
+1661269002.6 uni140F_.glif
+1661269002.6 uni1410.glif
+1661269002.6 uni1411.glif
+1661269002.6 uni1412.glif
+1661269002.6 uni1413.glif
+1661269002.6 uni1414.glif
+1661269002.6 uni1415.glif
+1661269002.6 uni1416.glif
+1661269002.6 uni1417.glif
+1661269002.6 uni1418.glif
+1661269002.6 uni1419.glif
+1661269002.6 uni141A_.glif
+1661269002.6 uni141B_.glif
+1661269002.6 uni141C_.glif
+1661269002.6 uni141D_.glif
+1661269002.6 uni141E_.glif
+1661269002.6 uni141F_.glif
+1661269002.6 uni1420.glif
+1661269002.6 uni1421.glif
+1661269002.6 uni1422.glif
+1661269002.6 uni1423.glif
+1661269002.6 uni1424.glif
+1661269002.6 uni1425.glif
+1661269002.6 uni1426.glif
+1661269002.6 uni1427.glif
+1661269002.6 uni1428.glif
+1661269002.6 uni1429.glif
+1661269002.6 uni142A_.glif
+1661269002.6 uni142B_.glif
+1661269002.6 uni142C_.glif
+1661269002.6 uni142D_.glif
+1661269002.6 uni142E_.glif
+1661269002.6 uni142F_.glif
+1661269002.6 uni1430.glif
+1661269002.6 uni1431.glif
+1661269002.6 uni1432.glif
+1661269002.6 uni1433.glif
+1661269002.6 uni1434.glif
+1661269002.6 uni1435.glif
+1661269002.6 uni1436.glif
+1661269002.6 uni1437.glif
+1661269002.6 uni1438.glif
+1661269002.6 uni1439.glif
+1661269002.6 uni143A_.glif
+1661269002.6 uni143B_.glif
+1661269002.6 uni143C_.glif
+1661269002.6 uni143D_.glif
+1661269002.6 uni143E_.glif
+1661269002.6 uni143F_.glif
+1661269002.6 uni1440.glif
+1661269002.6 uni1441.glif
+1661269002.6 uni1442.glif
+1661269002.6 uni1443.glif
+1661269002.6 uni1444.glif
+1661269002.6 uni1445.glif
+1661269002.6 uni1446.glif
+1661269002.6 uni1447.glif
+1661269002.6 uni1448.glif
+1661269002.6 uni1449.glif
+1661269002.6 uni144A_.glif
+1661269002.6 uni144B_.glif
+1661269002.6 uni144C_.glif
+1661269002.6 uni144D_.glif
+1661269002.6 uni144E_.glif
+1661269002.6 uni144F_.glif
+1661269002.6 uni1450.glif
+1661269002.6 uni1451.glif
+1661269002.6 uni1452.glif
+1661269002.6 uni1453.glif
+1661269002.6 uni1454.glif
+1661269002.6 uni1455.glif
+1661269002.6 uni1456.glif
+1661269002.6 uni1457.glif
+1661269002.6 uni1458.glif
+1661269002.6 uni1459.glif
+1661269002.6 uni145A_.glif
+1661269002.6 uni145B_.glif
+1661269002.6 uni145C_.glif
+1661269002.6 uni145D_.glif
+1661269002.6 uni145E_.glif
+1661269002.6 uni145F_.glif
+1661269002.6 uni1460.glif
+1661269002.6 uni1461.glif
+1661269002.6 uni1462.glif
+1661269002.6 uni1463.glif
+1661269002.6 uni1464.glif
+1661269002.6 uni1465.glif
+1661269002.6 uni1466.glif
+1661269002.6 uni1467.glif
+1661269002.6 uni1468.glif
+1661269002.6 uni1469.glif
+1661269002.6 uni146A_.glif
+1661269002.6 uni146B_.glif
+1661269002.6 uni146C_.glif
+1661269002.6 uni146D_.glif
+1661269002.6 uni146E_.glif
+1661269002.6 uni146F_.glif
+1661269002.6 uni1470.glif
+1661269002.6 uni1471.glif
+1661269002.6 uni1472.glif
+1661269002.6 uni1473.glif
+1661269002.6 uni1474.glif
+1661269002.6 uni1475.glif
+1661269002.6 uni1476.glif
+1661269002.6 uni1477.glif
+1661269002.6 uni1478.glif
+1661269002.6 uni1479.glif
+1661269002.6 uni147A_.glif
+1661269002.6 uni147B_.glif
+1661269002.6 uni147C_.glif
+1661269002.6 uni147D_.glif
+1661269002.6 uni147E_.glif
+1661269002.6 uni147F_.glif
+1661269002.6 uni1480.glif
+1661269002.6 uni1481.glif
+1661269002.6 uni1482.glif
+1661269002.6 uni1483.glif
+1661269002.6 uni1484.glif
+1661269002.6 uni1485.glif
+1661269002.6 uni1486.glif
+1661269002.6 uni1487.glif
+1661269002.6 uni1488.glif
+1661269002.6 uni1489.glif
+1661269002.6 uni148A_.glif
+1661269002.6 uni148B_.glif
+1661269002.6 uni148C_.glif
+1661269002.6 uni148D_.glif
+1661269002.6 uni148E_.glif
+1661269002.6 uni148F_.glif
+1661269002.6 uni1490.glif
+1661269002.6 uni1491.glif
+1661269002.6 uni1492.glif
+1661269002.6 uni1493.glif
+1661269002.6 uni1494.glif
+1661269002.6 uni1495.glif
+1661269002.6 uni1496.glif
+1661269002.6 uni1497.glif
+1661269002.6 uni1498.glif
+1661269002.6 uni1499.glif
+1661269002.6 uni149A_.glif
+1661269002.6 uni149B_.glif
+1661269002.6 uni149C_.glif
+1661269002.6 uni149D_.glif
+1661269002.6 uni149E_.glif
+1661269002.6 uni149F_.glif
+1661269002.6 uni14A_0.glif
+1661269002.6 uni14A_1.glif
+1661269002.6 uni14A_2.glif
+1661269002.6 uni14A_3.glif
+1661269002.6 uni14A_4.glif
+1661269002.6 uni14A_5.glif
+1661269002.6 uni14A_6.glif
+1661269002.6 uni14A_7.glif
+1661269002.6 uni14A_8.glif
+1661269002.6 uni14A_9.glif
+1661269002.6 uni14A_A_.glif
+1661269002.7 uni14A_B_.glif
+1661269002.7 uni14A_C_.glif
+1661269002.7 uni14A_D_.glif
+1661269002.7 uni14A_E_.glif
+1661269002.7 uni14A_F_.glif
+1661269002.7 uni14B_0.glif
+1661269002.7 uni14B_1.glif
+1661269002.7 uni14B_2.glif
+1661269002.7 uni14B_3.glif
+1661269002.7 uni14B_4.glif
+1661269002.7 uni14B_5.glif
+1661269002.7 uni14B_6.glif
+1661269002.7 uni14B_7.glif
+1661269002.7 uni14B_8.glif
+1661269002.7 uni14B_9.glif
+1661269002.7 uni14B_A_.glif
+1661269002.7 uni14B_B_.glif
+1661269002.7 uni14B_C_.glif
+1661269002.7 uni14B_D_.glif
+1661269002.7 uni14B_E_.glif
+1661269002.7 uni14B_F_.glif
+1661269002.7 uni14C_0.glif
+1661269002.7 uni14C_1.glif
+1661269002.7 uni14C_2.glif
+1661269002.7 uni14C_3.glif
+1661269002.7 uni14C_4.glif
+1661269002.7 uni14C_5.glif
+1661269002.7 uni14C_6.glif
+1661269002.7 uni14C_7.glif
+1661269002.7 uni14C_8.glif
+1661269002.7 uni14C_9.glif
+1661269002.7 uni14C_A_.glif
+1661269002.7 uni14C_B_.glif
+1661269002.7 uni14C_C_.glif
+1661269002.7 uni14C_D_.glif
+1661269002.7 uni14C_E_.glif
+1661269002.7 uni14C_F_.glif
+1661269002.7 uni14D_0.glif
+1661269002.7 uni14D_1.glif
+1661269002.7 uni14D_2.glif
+1661269002.7 uni14D_3.glif
+1661269002.7 uni14D_4.glif
+1661269002.7 uni14D_5.glif
+1661269002.7 uni14D_6.glif
+1661269002.7 uni14D_7.glif
+1661269002.7 uni14D_8.glif
+1661269002.7 uni14D_9.glif
+1661269002.7 uni14D_A_.glif
+1661269002.7 uni14D_B_.glif
+1661269002.7 uni14D_C_.glif
+1661269002.7 uni14D_D_.glif
+1661269002.7 uni14D_E_.glif
+1661269002.7 uni14D_F_.glif
+1661269002.7 uni14E_0.glif
+1661269002.7 uni14E_1.glif
+1661269002.7 uni14E_2.glif
+1661269002.7 uni14E_3.glif
+1661269002.7 uni14E_4.glif
+1661269002.7 uni14E_5.glif
+1661269002.7 uni14E_6.glif
+1661269002.7 uni14E_7.glif
+1661269002.7 uni14E_8.glif
+1661269002.7 uni14E_9.glif
+1661269002.7 uni14E_A_.glif
+1661269002.7 uni14E_B_.glif
+1661269002.7 uni14E_C_.glif
+1661269002.7 uni14E_D_.glif
+1661269002.7 uni14E_E_.glif
+1661269002.7 uni14E_F_.glif
+1661269002.7 uni14F_0.glif
+1661269002.7 uni14F_1.glif
+1661269002.7 uni14F_2.glif
+1661269002.7 uni14F_3.glif
+1661269002.7 uni14F_4.glif
+1661269002.7 uni14F_5.glif
+1661269002.7 uni14F_6.glif
+1661269002.7 uni14F_7.glif
+1661269002.7 uni14F_8.glif
+1661269002.7 uni14F_9.glif
+1661269002.7 uni14F_A_.glif
+1661269002.7 uni14F_B_.glif
+1661269002.7 uni14F_C_.glif
+1661269002.7 uni14F_D_.glif
+1661269002.7 uni14F_E_.glif
+1661269002.7 uni14F_F_.glif
+1661269002.7 uni1500.glif
+1661269002.7 uni1501.glif
+1661269002.7 uni1502.glif
+1661269002.7 uni1503.glif
+1661269002.7 uni1504.glif
+1661269002.7 uni1505.glif
+1661269002.7 uni1506.glif
+1661269002.7 uni1507.glif
+1661269002.7 uni1508.glif
+1661269002.7 uni1509.glif
+1661269002.7 uni150A_.glif
+1661269002.7 uni150B_.glif
+1661269002.7 uni150C_.glif
+1661269002.7 uni150D_.glif
+1661269002.7 uni150E_.glif
+1661269002.7 uni150F_.glif
+1661269002.7 uni1510.glif
+1661269002.7 uni1511.glif
+1661269002.7 uni1512.glif
+1661269002.7 uni1513.glif
+1661269002.7 uni1514.glif
+1661269002.7 uni1515.glif
+1661269002.7 uni1516.glif
+1661269002.7 uni1517.glif
+1661269002.7 uni1518.glif
+1661269002.7 uni1519.glif
+1661269002.7 uni151A_.glif
+1661269002.7 uni151B_.glif
+1661269002.7 uni151C_.glif
+1661269002.7 uni151D_.glif
+1661269002.7 uni151E_.glif
+1661269002.7 uni151F_.glif
+1661269002.7 uni1520.glif
+1661269002.7 uni1521.glif
+1661269002.7 uni1522.glif
+1661269002.7 uni1523.glif
+1661269002.7 uni1524.glif
+1661269002.7 uni1525.glif
+1661269002.7 uni1526.glif
+1661269002.7 uni1527.glif
+1661269002.7 uni1528.glif
+1661269002.7 uni1529.glif
+1661269002.7 uni152A_.glif
+1661269002.7 uni152B_.glif
+1661269002.7 uni152C_.glif
+1661269002.7 uni152D_.glif
+1661269002.7 uni152E_.glif
+1661269002.7 uni152F_.glif
+1661269002.7 uni1530.glif
+1661269002.7 uni1531.glif
+1661269002.7 uni1532.glif
+1661269002.7 uni1533.glif
+1661269002.7 uni1534.glif
+1661269002.7 uni1535.glif
+1661269002.7 uni1536.glif
+1661269002.7 uni1537.glif
+1661269002.7 uni1538.glif
+1661269002.7 uni1539.glif
+1661269002.7 uni153A_.glif
+1661269002.7 uni153B_.glif
+1661269002.7 uni153C_.glif
+1661269002.7 uni153D_.glif
+1661269002.7 uni153E_.glif
+1661269002.7 uni153F_.glif
+1661269002.7 uni1540.glif
+1661269002.7 uni1541.glif
+1661269002.7 uni1542.glif
+1661269002.7 uni1543.glif
+1661269002.7 uni1544.glif
+1661269002.7 uni1545.glif
+1661269002.7 uni1546.glif
+1661269002.7 uni1547.glif
+1661269002.7 uni1548.glif
+1661269002.7 uni1549.glif
+1661269002.7 uni154A_.glif
+1661269002.7 uni154B_.glif
+1661269002.7 uni154C_.glif
+1661269002.7 uni154D_.glif
+1661269002.7 uni154E_.glif
+1661269002.7 uni154F_.glif
+1661269002.7 uni1550.glif
+1661269002.7 uni1551.glif
+1661269002.7 uni1552.glif
+1661269002.7 uni1553.glif
+1661269002.7 uni1554.glif
+1661269002.7 uni1555.glif
+1661269002.7 uni1556.glif
+1661269002.7 uni1557.glif
+1661269002.7 uni1558.glif
+1661269002.7 uni1559.glif
+1661269002.7 uni155A_.glif
+1661269002.7 uni155B_.glif
+1661269002.7 uni155C_.glif
+1661269002.7 uni155D_.glif
+1661269002.7 uni155E_.glif
+1661269002.7 uni155F_.glif
+1661269002.7 uni1560.glif
+1661269002.7 uni1561.glif
+1661269002.7 uni1562.glif
+1661269002.7 uni1563.glif
+1661269002.7 uni1564.glif
+1661269002.7 uni1565.glif
+1661269002.7 uni1566.glif
+1661269002.7 uni1567.glif
+1661269002.7 uni1568.glif
+1661269002.7 uni1569.glif
+1661269002.7 uni156A_.glif
+1661269002.7 uni156B_.glif
+1661269002.7 uni156C_.glif
+1661269002.7 uni156D_.glif
+1661269002.7 uni156E_.glif
+1661269002.7 uni156F_.glif
+1661269002.7 uni1570.glif
+1661269002.7 uni1571.glif
+1661269002.7 uni1572.glif
+1661269002.7 uni1573.glif
+1661269002.7 uni1574.glif
+1661269002.7 uni1575.glif
+1661269002.7 uni1576.glif
+1661269002.7 uni1577.glif
+1661269002.7 uni1578.glif
+1661269002.7 uni1579.glif
+1661269002.7 uni157A_.glif
+1661269002.7 uni157B_.glif
+1661269002.7 uni157C_.glif
+1661269002.7 uni157D_.glif
+1661269002.7 uni157E_.glif
+1661269002.7 uni157F_.glif
+1661269002.7 uni1580.glif
+1661269002.7 uni1581.glif
+1661269002.7 uni1582.glif
+1661269002.7 uni1583.glif
+1661269002.7 uni1584.glif
+1661269002.7 uni1585.glif
+1661269002.7 uni1586.glif
+1661269002.7 uni1587.glif
+1661269002.7 uni1588.glif
+1661269002.7 uni1589.glif
+1661269002.7 uni158A_.glif
+1661269002.7 uni158B_.glif
+1661269002.7 uni158C_.glif
+1661269002.7 uni158D_.glif
+1661269002.7 uni158E_.glif
+1661269002.7 uni158F_.glif
+1661269002.7 uni1590.glif
+1661269002.7 uni1591.glif
+1661269002.7 uni1592.glif
+1661269002.7 uni1593.glif
+1661269002.7 uni1594.glif
+1661269002.7 uni1595.glif
+1661269002.7 uni1596.glif
+1661269002.7 uni1597.glif
+1661269002.7 uni1598.glif
+1661269002.8 uni1599.glif
+1661269002.8 uni159A_.glif
+1661269002.8 uni159B_.glif
+1661269002.8 uni159C_.glif
+1661269002.8 uni159D_.glif
+1661269002.8 uni159E_.glif
+1661269002.8 uni159F_.glif
+1661269002.8 uni15A_0.glif
+1661269002.8 uni15A_1.glif
+1661269002.8 uni15A_2.glif
+1661269002.8 uni15A_3.glif
+1661269002.8 uni15A_4.glif
+1661269002.8 uni15A_5.glif
+1661269002.8 uni15A_6.glif
+1661269002.8 uni15A_7.glif
+1661269002.8 uni15A_8.glif
+1661269002.8 uni15A_9.glif
+1661269002.8 uni15A_A_.glif
+1661269002.8 uni15A_B_.glif
+1661269002.8 uni15A_C_.glif
+1661269002.8 uni15A_D_.glif
+1661269002.8 uni15A_E_.glif
+1661269002.8 uni15A_F_.glif
+1661269002.8 uni15B_0.glif
+1661269002.8 uni15B_1.glif
+1661269002.8 uni15B_2.glif
+1661269002.8 uni15B_3.glif
+1661269002.8 uni15B_4.glif
+1661269002.8 uni15B_5.glif
+1661269002.8 uni15B_6.glif
+1661269002.8 uni15B_7.glif
+1661269002.8 uni15B_8.glif
+1661269002.8 uni15B_9.glif
+1661269002.8 uni15B_A_.glif
+1661269002.8 uni15B_B_.glif
+1661269002.8 uni15B_C_.glif
+1661269002.8 uni15B_D_.glif
+1661269002.8 uni15B_E_.glif
+1661269002.8 uni15B_F_.glif
+1661269002.8 uni15C_0.glif
+1661269002.8 uni15C_1.glif
+1661269002.8 uni15C_2.glif
+1661269002.8 uni15C_3.glif
+1661269002.8 uni15C_4.glif
+1661269002.8 uni15C_5.glif
+1661269002.8 uni15C_6.glif
+1661269002.8 uni15C_7.glif
+1661269002.8 uni15C_8.glif
+1661269002.8 uni15C_9.glif
+1661269002.8 uni15C_A_.glif
+1661269002.8 uni15C_B_.glif
+1661269002.8 uni15C_C_.glif
+1661269002.8 uni15C_D_.glif
+1661269002.8 uni15C_E_.glif
+1661269002.8 uni15C_F_.glif
+1661269002.8 uni15D_0.glif
+1661269002.8 uni15D_1.glif
+1661269002.8 uni15D_2.glif
+1661269002.8 uni15D_3.glif
+1661269002.8 uni15D_4.glif
+1661269002.8 uni15D_5.glif
+1661269002.8 uni15D_6.glif
+1661269002.8 uni15D_7.glif
+1661269002.8 uni15D_8.glif
+1661269002.8 uni15D_9.glif
+1661269002.8 uni15D_A_.glif
+1661269002.8 uni15D_B_.glif
+1661269002.8 uni15D_C_.glif
+1661269002.8 uni15D_D_.glif
+1661269002.8 uni15D_E_.glif
+1661269002.8 uni15D_F_.glif
+1661269002.8 uni15E_0.glif
+1661269002.8 uni15E_1.glif
+1661269002.8 uni15E_2.glif
+1661269002.8 uni15E_3.glif
+1661269002.8 uni15E_4.glif
+1661269002.8 uni15E_5.glif
+1661269002.8 uni15E_6.glif
+1661269002.8 uni15E_7.glif
+1661269002.8 uni15E_8.glif
+1661269002.8 uni15E_9.glif
+1661269002.8 uni15E_A_.glif
+1661269002.8 uni15E_B_.glif
+1661269002.8 uni15E_C_.glif
+1661269002.8 uni15E_D_.glif
+1661269002.8 uni15E_E_.glif
+1661269002.8 uni15E_F_.glif
+1661269002.8 uni15F_0.glif
+1661269002.8 uni15F_1.glif
+1661269002.8 uni15F_2.glif
+1661269002.8 uni15F_3.glif
+1661269002.8 uni15F_4.glif
+1661269002.8 uni15F_5.glif
+1661269002.8 uni15F_6.glif
+1661269002.8 uni15F_7.glif
+1661269002.8 uni15F_8.glif
+1661269002.8 uni15F_9.glif
+1661269002.8 uni15F_A_.glif
+1661269002.8 uni15F_B_.glif
+1661269002.8 uni15F_C_.glif
+1661269002.8 uni15F_D_.glif
+1661269002.8 uni15F_E_.glif
+1661269002.8 uni15F_F_.glif
+1661269002.8 uni1600.glif
+1661269002.8 uni1601.glif
+1661269002.8 uni1602.glif
+1661269002.8 uni1603.glif
+1661269002.8 uni1604.glif
+1661269002.8 uni1605.glif
+1661269002.8 uni1606.glif
+1661269002.8 uni1607.glif
+1661269002.8 uni1608.glif
+1661269002.8 uni1609.glif
+1661269002.8 uni160A_.glif
+1661269002.8 uni160B_.glif
+1661269002.8 uni160C_.glif
+1661269002.8 uni160D_.glif
+1661269002.8 uni160E_.glif
+1661269002.8 uni160F_.glif
+1661269002.8 uni1610.glif
+1661269002.8 uni1611.glif
+1661269002.8 uni1612.glif
+1661269002.8 uni1613.glif
+1661269002.8 uni1614.glif
+1661269002.8 uni1615.glif
+1661269002.8 uni1616.glif
+1661269002.8 uni1617.glif
+1661269002.8 uni1618.glif
+1661269002.8 uni1619.glif
+1661269002.8 uni161A_.glif
+1661269002.8 uni161B_.glif
+1661269002.8 uni161C_.glif
+1661269002.8 uni161D_.glif
+1661269002.8 uni161E_.glif
+1661269002.8 uni161F_.glif
+1661269002.8 uni1620.glif
+1661269002.8 uni1621.glif
+1661269002.8 uni1622.glif
+1661269002.8 uni1623.glif
+1661269002.8 uni1624.glif
+1661269002.8 uni1625.glif
+1661269002.8 uni1626.glif
+1661269002.8 uni1627.glif
+1661269002.8 uni1628.glif
+1661269002.8 uni1629.glif
+1661269002.8 uni162A_.glif
+1661269002.8 uni162B_.glif
+1661269002.8 uni162C_.glif
+1661269002.8 uni162D_.glif
+1661269002.8 uni162E_.glif
+1661269002.8 uni162F_.glif
+1661269002.8 uni1630.glif
+1661269002.8 uni1631.glif
+1661269002.8 uni1632.glif
+1661269002.8 uni1633.glif
+1661269002.8 uni1634.glif
+1661269002.8 uni1635.glif
+1661269002.8 uni1636.glif
+1661269002.8 uni1637.glif
+1661269002.8 uni1638.glif
+1661269002.8 uni1639.glif
+1661269002.8 uni163A_.glif
+1661269002.8 uni163B_.glif
+1661269002.8 uni163C_.glif
+1661269002.8 uni163D_.glif
+1661269002.8 uni163E_.glif
+1661269002.8 uni163F_.glif
+1661269002.8 uni1640.glif
+1661269002.8 uni1641.glif
+1661269002.8 uni1642.glif
+1661269002.8 uni1643.glif
+1661269002.8 uni1644.glif
+1661269002.8 uni1645.glif
+1661269002.8 uni1646.glif
+1661269002.8 uni1647.glif
+1661269002.8 uni1648.glif
+1661269002.8 uni1649.glif
+1661269002.8 uni164A_.glif
+1661269002.8 uni164B_.glif
+1661269002.8 uni164C_.glif
+1661269002.8 uni164D_.glif
+1661269002.8 uni164E_.glif
+1661269002.8 uni164F_.glif
+1661269002.8 uni1650.glif
+1661269002.9 uni1651.glif
+1661269002.9 uni1652.glif
+1661269002.9 uni1653.glif
+1661269002.9 uni1654.glif
+1661269002.9 uni1655.glif
+1661269002.9 uni1656.glif
+1661269002.9 uni1657.glif
+1661269002.9 uni1658.glif
+1661269002.9 uni1659.glif
+1661269002.9 uni165A_.glif
+1661269002.9 uni165B_.glif
+1661269002.9 uni165C_.glif
+1661269002.9 uni165D_.glif
+1661269002.9 uni165E_.glif
+1661269002.9 uni165F_.glif
+1661269002.9 uni1660.glif
+1661269002.9 uni1661.glif
+1661269002.9 uni1662.glif
+1661269002.9 uni1663.glif
+1661269002.9 uni1664.glif
+1661269002.9 uni1665.glif
+1661269002.9 uni1666.glif
+1661269002.9 uni1667.glif
+1661269002.9 uni1668.glif
+1661269002.9 uni1669.glif
+1661269002.9 uni166A_.glif
+1661269002.9 uni166B_.glif
+1661269002.9 uni166C_.glif
+1661269002.9 uni166D_.glif
+1661269002.9 uni166E_.glif
+1661269002.9 uni166F_.glif
+1661269002.9 uni1670.glif
+1661269002.9 uni1671.glif
+1661269002.9 uni1672.glif
+1661269002.9 uni1673.glif
+1661269002.9 uni1674.glif
+1661269002.9 uni1675.glif
+1661269002.9 uni1676.glif
+1661269002.9 uni1677.glif
+1661269002.9 uni1678.glif
+1661269002.9 uni1679.glif
+1661269002.9 uni167A_.glif
+1661269002.9 uni167B_.glif
+1661269002.9 uni167C_.glif
+1661269002.9 uni167D_.glif
+1661269002.9 uni167E_.glif
+1661269002.9 uni167F_.glif
+1661269002.9 uni18B_0.glif
+1661269002.9 uni18B_1.glif
+1661269002.9 uni18B_2.glif
+1661269002.9 uni18B_3.glif
+1661269002.9 uni18B_4.glif
+1661269002.9 uni18B_5.glif
+1661269002.9 uni18B_6.glif
+1661269002.9 uni18B_7.glif
+1661269002.9 uni18B_8.glif
+1661269002.9 uni18B_9.glif
+1661269002.9 uni18B_A_.glif
+1661269002.9 uni18B_B_.glif
+1661269002.9 uni18B_C_.glif
+1661269002.9 uni18B_D_.glif
+1661269002.9 uni18B_E_.glif
+1661269002.9 uni18B_F_.glif
+1661269002.9 uni18C_0.glif
+1661269002.9 uni18C_1.glif
+1661269002.9 uni18C_2.glif
+1661269002.9 uni18C_3.glif
+1661269002.9 uni18C_4.glif
+1661269002.9 uni18C_5.glif
+1661269002.9 uni18C_6.glif
+1661269002.9 uni18C_7.glif
+1661269002.9 uni18C_8.glif
+1661269002.9 uni18C_9.glif
+1661269002.9 uni18C_A_.glif
+1661269002.9 uni18C_B_.glif
+1661269002.9 uni18C_C_.glif
+1661269002.9 uni18C_D_.glif
+1661269002.9 uni18C_E_.glif
+1661269002.9 uni18C_F_.glif
+1661269002.9 uni18D_0.glif
+1661269002.9 uni18D_1.glif
+1661269002.9 uni18D_2.glif
+1661269002.9 uni18D_3.glif
+1661269002.9 uni18D_4.glif
+1661269002.9 uni18D_5.glif
+1661269002.9 uni18D_6.glif
+1661269002.9 uni18D_7.glif
+1661269002.9 uni18D_8.glif
+1661269002.9 uni18D_9.glif
+1661269002.9 uni18D_A_.glif
+1661269002.9 uni18D_B_.glif
+1661269002.9 uni18D_C_.glif
+1661269002.9 uni18D_D_.glif
+1661269002.9 uni18D_E_.glif
+1661269002.9 uni18D_F_.glif
+1661269002.9 uni18E_0.glif
+1661269002.9 uni18E_1.glif
+1661269002.9 uni18E_2.glif
+1661269002.9 uni18E_3.glif
+1661269002.9 uni18E_4.glif
+1661269002.9 uni18E_5.glif
+1661269002.9 uni18E_6.glif
+1661269002.9 uni18E_7.glif
+1661269002.9 uni18E_8.glif
+1661269002.9 uni18E_9.glif
+1661269002.9 uni18E_A_.glif
+1661269002.9 uni18E_B_.glif
+1661269002.9 uni18E_C_.glif
+1661269002.9 uni18E_D_.glif
+1661269002.9 uni18E_E_.glif
+1661269002.9 uni18E_F_.glif
+1661269002.9 uni18F_0.glif
+1661269002.9 uni18F_1.glif
+1661269002.9 uni18F_2.glif
+1661269002.9 uni18F_3.glif
+1661269002.9 uni18F_4.glif
+1661269002.9 uni18F_5.glif";
+};
+noodleExtremesAndInflections = 1;
+noodleRemoveOverlap = 0;
+noodleThickness = "106.0";
+org.unifiedfontobject.normalizer.modTimes = "version: 0.5.4
+1661269002.9 fontinfo.plist
+1661269002.9 layercontents.plist
+1661269002.9 metainfo.plist";
+};
+}
+);
+instances = (
+{
+axesValues = (
+26
+);
+customParameters = (
+{
+name = xHeight;
+value = "536";
+},
+{
+name = panose;
+value = (
+2,
+11,
+2,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "UFO Filename";
+value = "instance_ufos/NotoSansCanadianAboriginal-Thin.ufo";
+}
+);
+instanceInterpolations = {
+master01 = 1;
+};
+linkStyle = Thin;
+name = Thin;
+properties = (
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans CanAborig Th";
+}
+);
+}
+);
+weightClass = 100;
+},
+{
+axesValues = (
+39
+);
+customParameters = (
+{
+name = xHeight;
+value = "536";
+},
+{
+name = panose;
+value = (
+2,
+11,
+3,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "UFO Filename";
+value = "instance_ufos/NotoSansCanadianAboriginal-ExtraLight.ufo";
+}
+);
+instanceInterpolations = {
+"95BBE91D-E142-4583-9333-40F49FDAAF51" = 0.20313;
+master01 = 0.79688;
+};
+linkStyle = ExtraLight;
+name = ExtraLight;
+properties = (
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans CanAborig XLt";
+}
+);
+}
+);
+weightClass = 200;
+},
+{
+axesValues = (
+58
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+4,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "UFO Filename";
+value = "instance_ufos/NotoSansCanadianAboriginal-Light.ufo";
+}
+);
+instanceInterpolations = {
+"95BBE91D-E142-4583-9333-40F49FDAAF51" = 0.5;
+master01 = 0.5;
+};
+linkStyle = Light;
+name = Light;
+properties = (
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans CanAborig Lt";
+}
+);
+}
+);
+weightClass = 300;
+},
+{
+axesValues = (
+90
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "UFO Filename";
+value = "instance_ufos/NotoSansCanadianAboriginal-Regular.ufo";
+}
+);
+instanceInterpolations = {
+"95BBE91D-E142-4583-9333-40F49FDAAF51" = 1;
+};
+name = Regular;
+properties = (
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans CanAborig";
+}
+);
+}
+);
+},
+{
+axesValues = (
+108
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "UFO Filename";
+value = "instance_ufos/NotoSansCanadianAboriginal-Medium.ufo";
+}
+);
+instanceInterpolations = {
+"3DE82CA6-356F-4113-A2BF-F7F877EAC5C8" = 0.18;
+"95BBE91D-E142-4583-9333-40F49FDAAF51" = 0.82;
+};
+linkStyle = Medium;
+name = Medium;
+properties = (
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans CanAborig Md";
+}
+);
+}
+);
+weightClass = 500;
+},
+{
+axesValues = (
+128
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+7,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "UFO Filename";
+value = "instance_ufos/NotoSansCanadianAboriginal-SemiBold.ufo";
+}
+);
+instanceInterpolations = {
+"3DE82CA6-356F-4113-A2BF-F7F877EAC5C8" = 0.38;
+"95BBE91D-E142-4583-9333-40F49FDAAF51" = 0.62;
+};
+linkStyle = SemiBold;
+name = SemiBold;
+properties = (
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans CanAborig SmBd";
+}
+);
+}
+);
+weightClass = 600;
+},
+{
+axesValues = (
+151
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+8,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "UFO Filename";
+value = "instance_ufos/NotoSansCanadianAboriginal-Bold.ufo";
+}
+);
+instanceInterpolations = {
+"3DE82CA6-356F-4113-A2BF-F7F877EAC5C8" = 0.61;
+"95BBE91D-E142-4583-9333-40F49FDAAF51" = 0.39;
+};
+isBold = 1;
+name = Bold;
+properties = (
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans CanAborig";
+}
+);
+}
+);
+weightClass = 700;
+},
+{
+axesValues = (
+169
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+9,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "UFO Filename";
+value = "instance_ufos/NotoSansCanadianAboriginal-ExtraBold.ufo";
+}
+);
+instanceInterpolations = {
+"3DE82CA6-356F-4113-A2BF-F7F877EAC5C8" = 0.79;
+"95BBE91D-E142-4583-9333-40F49FDAAF51" = 0.21;
+};
+linkStyle = ExtraBold;
+name = ExtraBold;
+properties = (
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans CanAborig XBd";
+}
+);
+}
+);
+weightClass = 800;
+},
+{
+axesValues = (
+190
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+10,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "UFO Filename";
+value = "instance_ufos/NotoSansCanadianAboriginal-Black.ufo";
+}
+);
+instanceInterpolations = {
+"3DE82CA6-356F-4113-A2BF-F7F877EAC5C8" = 1;
+};
+linkStyle = Black;
+name = Black;
+properties = (
+{
+key = styleMapFamilyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans CanAborig Bk";
+}
+);
+}
+);
+weightClass = 900;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/canadian-aboriginal)";
+}
+);
+},
+{
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "Designed by Monotype design team, Typotheque's Kevin King.";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Monotype Design Team, Typotheque's Kevin King";
+}
+);
+},
+{
+key = designerURL;
+value = "http://www.monotype.com/studio";
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Monotype Imaging Inc.";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "http://www.google.com/get/noto/";
+},
+{
+key = trademarks;
+values = (
+{
+language = dflt;
+value = "Noto is a trademark of Google Inc.";
+}
+);
+},
+{
+key = vendorID;
+value = GOOG;
+},
+{
+key = versionString;
+value = "Version 2.003";
+}
+);
+settings = {
+disablesAutomaticAlignment = 1;
+};
+stems = (
+{
+horizontal = 1;
+name = hStem0;
+},
+{
+horizontal = 1;
+name = hStem1;
+},
+{
+horizontal = 1;
+name = hStem2;
+},
+{
+name = vStem0;
+},
+{
+name = vStem1;
+},
+{
+name = vStem2;
+}
+);
+unitsPerEm = 1000;
+userData = {
+com.schriftgestaltung.Glyphs.groupsNotInFeature = (
+);
+};
+versionMajor = 2;
+versionMinor = 3;
+}

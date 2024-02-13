@@ -1,0 +1,43 @@
+{
+color = 9;
+glyphname = uni11AB4;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+pos = (591,0);
+ref = uni11AB2;
+scale = (-1,1);
+}
+);
+vertWidth = 0;
+width = 591;
+},
+{
+layerId = "95BBE91D-E142-4583-9333-40F49FDAAF51";
+shapes = (
+{
+pos = (618,0);
+ref = uni11AB2;
+scale = (-1,1);
+}
+);
+vertWidth = 0;
+width = 618;
+},
+{
+layerId = "3DE82CA6-356F-4113-A2BF-F7F877EAC5C8";
+shapes = (
+{
+pos = (678,0);
+ref = uni11AB2;
+scale = (-1,1);
+}
+);
+vertWidth = 0;
+width = 678;
+}
+);
+unicode = 72372;
+}

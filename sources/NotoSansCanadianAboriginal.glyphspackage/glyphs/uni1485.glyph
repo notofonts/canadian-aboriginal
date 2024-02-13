@@ -1,0 +1,51 @@
+{
+glyphname = uni1485;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = uni146B;
+},
+{
+pos = (535,0);
+ref = uni144A;
+}
+);
+vertWidth = 0;
+width = 697;
+},
+{
+layerId = "95BBE91D-E142-4583-9333-40F49FDAAF51";
+shapes = (
+{
+ref = uni146B;
+},
+{
+pos = (534,0);
+ref = uni144A;
+}
+);
+vertWidth = 0;
+width = 727;
+},
+{
+layerId = "3DE82CA6-356F-4113-A2BF-F7F877EAC5C8";
+shapes = (
+{
+ref = uni146B;
+},
+{
+pos = (620,0);
+ref = uni144A;
+}
+);
+vertWidth = 0;
+width = 834;
+}
+);
+metricLeft = "=uni146B";
+metricRight = "=uni146B-10";
+note = uni1485;
+unicode = 5253;
+}

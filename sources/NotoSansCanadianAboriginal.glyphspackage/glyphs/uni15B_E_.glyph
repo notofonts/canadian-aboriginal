@@ -1,0 +1,75 @@
+{
+glyphname = uni15BE;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(109,0,l),
+(347,400,l),
+(582,0,l),
+(612,0,l),
+(356,435,l),
+(338,435,l),
+(105,41,l),
+(105,714,l),
+(79,714,l),
+(79,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 661;
+},
+{
+layerId = "95BBE91D-E142-4583-9333-40F49FDAAF51";
+shapes = (
+{
+closed = 1;
+nodes = (
+(190,0,l),
+(370,312,l),
+(550,0,l),
+(636,0,l),
+(379,435,l),
+(362,435,l),
+(146,71,l),
+(146,714,l),
+(68,714,l),
+(68,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 675;
+},
+{
+layerId = "3DE82CA6-356F-4113-A2BF-F7F877EAC5C8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(295,0,l),
+(418,215,l),
+(540,0,l),
+(728,0,l),
+(446,504,l),
+(390,504,l),
+(250,255,l),
+(250,714,l),
+(59,714,l),
+(59,0,l)
+);
+}
+);
+vertWidth = 0;
+width = 757;
+}
+);
+metricLeft = "=uni15BC";
+metricRight = "=uni15BC";
+note = uni15BE;
+unicode = 5566;
+}

@@ -9,4 +9,4 @@ includeSubsets:
     - start: 0x25cc
       end: 0x25cc
 sources:
-- NotoSansCanadianAboriginal.designspace
+- NotoSansCanadianAboriginal.glyphspackage

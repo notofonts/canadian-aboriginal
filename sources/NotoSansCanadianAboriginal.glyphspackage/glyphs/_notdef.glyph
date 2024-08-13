@@ -77,5 +77,5 @@ vertWidth = 0;
 width = 600;
 }
 );
-note = ".notdef";
+note = .notdef;
 }

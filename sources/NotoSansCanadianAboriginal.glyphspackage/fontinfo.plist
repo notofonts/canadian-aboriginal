@@ -1,5 +1,5 @@
 {
-.appVersion = "3227";
+.appVersion = "3315";
 .formatVersion = 3;
 axes = (
 {
@@ -972,6 +972,24 @@ name = widthClass;
 value = 5;
 }
 );
+guides = (
+{
+angle = 180;
+pos = (382,342);
+},
+{
+angle = 180;
+pos = (382,334);
+},
+{
+angle = 180;
+pos = (382,722);
+},
+{
+angle = 180;
+pos = (382,714);
+}
+);
 iconName = Light;
 id = master01;
 metricValues = (
@@ -1862,6 +1880,24 @@ name = widthClass;
 value = 5;
 }
 );
+guides = (
+{
+angle = 180;
+pos = (382,342);
+},
+{
+angle = 180;
+pos = (382,334);
+},
+{
+angle = 180;
+pos = (382,722);
+},
+{
+angle = 180;
+pos = (382,714);
+}
+);
 id = "95BBE91D-E142-4583-9333-40F49FDAAF51";
 metricValues = (
 {
@@ -2743,6 +2779,24 @@ value = 400;
 {
 name = widthClass;
 value = 5;
+}
+);
+guides = (
+{
+angle = 180;
+pos = (382,317);
+},
+{
+angle = 180;
+pos = (382,305);
+},
+{
+angle = 180;
+pos = (382,726);
+},
+{
+angle = 180;
+pos = (382,714);
 }
 );
 iconName = Bold;

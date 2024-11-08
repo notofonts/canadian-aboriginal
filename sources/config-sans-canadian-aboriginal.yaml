@@ -1,12 +1,13 @@
-familyName: Noto Sans Canadian Aboriginal
 buildVariable: true
+familyName: Noto Sans Canadian Aboriginal
 googleFonts: true
 includeSubsets:
 - from: Noto Sans
   name: GF_Latin_Core
 - from: Noto Sans
   ranges:
-    - start: 0x25cc
-      end: 0x25cc
+  - end: 9676
+    start: 9676
+recipeProvider: noto
 sources:
 - NotoSansCanadianAboriginal.glyphspackage
